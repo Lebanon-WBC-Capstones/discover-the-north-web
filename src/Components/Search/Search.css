@@ -1,0 +1,33 @@
+input[type='text'] {
+  border-color: transparent;
+  background-color: transparent;
+  padding-left: 20px;
+  margin-left: 10px;
+  width: 50%;
+  outline: none;
+}
+button {
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 70px;
+  width: 50px;
+  outline: none;
+}
+.search-btn:hover {
+  box-shadow: 1px 1px 1px 1px #c5c4c4;
+}
+.search-box {
+  background-color: rgb(249, 249, 249, 0.6);
+  padding: 5px;
+  width: 75%;
+  margin: auto;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-inputs {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
