@@ -1,0 +1,69 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+}
+.homeHeader {
+  width: 100%;
+  height: 700px;
+  background: gray;
+}
+.searchBar {
+  margin-top: 250px;
+}
+.searchBar .title {
+  margin-left: 35%;
+}
+
+.hiddenGems h1 {
+  margin: 32px 0 32px 200px;
+  width: 75%;
+}
+.gemCards {
+  margin-bottom: 50px;
+}
+.cities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 0 32px;
+}
+.cityHeader {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.citysCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 33px;
+  max-width: 75%;
+}
+.ant-carousel .slick-dots li {
+  background: black;
+}
+.carousel {
+  margin: 0 10%;
+}
+.carousell {
+  margin: 2%;
+}
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: unset;
+  font-size: unset;
+  color: rgb(12, 12, 12);
+  height: 20px;
+  width: 50px;
+}
+.ant-carousel .slick-next svg,
+.ant-carousel .slick-prev svg {
+  width: 2em;
+  height: 2em;
+}
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: unset;
+}
