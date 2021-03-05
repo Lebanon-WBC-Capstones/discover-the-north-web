@@ -48,27 +48,32 @@ export default function Navbar() {
 
   return (
     <div>
-      <Layout id="headerStyle">
-        <div className="leftRightSides">
+      <Layout id="navbar-header-style">
+        <div className="languages-toggle-lr">
           <img className="logo" alt="discover the north Logo" src={logo}></img>
         </div>
 
-        <Menu className="headerStyleCenter" mode="horizontal">
-          <Menu.Item key="1">
-            <Link to="/activities">{t('navbar.activities')} </Link>
+        <Menu className="navbar-header-style-center" mode="horizontal">
+          <Menu.Item key="0">
+            <Link to="/" className="navbar-item-effect-0">
+              Home {t('navbar.home')}
+            </Link>
           </Menu.Item>
-          <Menu.Item key="2">
+          <Menu.Item key="1" className="navbar-item-effect-1">
+            <Link to="/about-us">{t('navbar.about')} </Link>
+          </Menu.Item>
+          <Menu.Item key="2" className="navbar-item-effect-2">
             <Link to="/cities">{t('navbar.cities')} </Link>
           </Menu.Item>
-          <Menu.Item key="3">
-            <Link to="/tour-guide">{t('navbar.tourGuide')} </Link>
+          <Menu.Item key="3" className="navbar-item-effect-3">
+            <Link to="/activities">{t('navbar.activities')} </Link>
           </Menu.Item>
-          <Menu.Item key="4">
-            <Link to="/about-us">{t('navbar.about')} </Link>
+          <Menu.Item key="4" className="navbar-item-effect-4">
+            <Link to="/tour-guide">{t('navbar.tourGuide')} </Link>
           </Menu.Item>
         </Menu>
 
-        <div className="leftRightSides">
+        <div className="languages-toggle-lr">
           <Dropdown.Button
             id="langButton"
             overlay={menu}

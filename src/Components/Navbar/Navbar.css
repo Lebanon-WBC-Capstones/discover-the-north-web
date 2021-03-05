@@ -2,18 +2,21 @@
   border-radius: 50px;
   width: 50px;
 }
-
 .logo:hover {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
+Link {
+  text-decoration: none;
+}
 
-#headerStyle {
+#navbar-header-style {
   color: #091945;
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 }
 
-.headerStyleCenter {
+.navbar-header-style-center {
   color: #091945;
   font-size: 15px;
   display: flex;
@@ -21,7 +24,7 @@
   width: 70%;
 }
 
-.leftRightSides {
+.languages-toggle-lr {
   display: flex;
   align-items: center;
   justify-content: center;

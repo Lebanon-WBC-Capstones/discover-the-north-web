@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './tourGuideCard.css';
 import Button from '../Button/Button';
 import { Card, Row, Col, Tooltip, Tag, Skeleton } from 'antd';
 import { EllipsisOutlined } from '@ant-design/icons';
+import TourGuideModal from '../TourGuideModal/TourGuideModal';
 
 function TourGuideCard(tourGuide) {
+  const [modal, setModal] = useState(false);
+  const handleCancel = () => setModal(false);
   return (
     <Card
       className="tour-guide-card"
@@ -43,8 +46,21 @@ function TourGuideCard(tourGuide) {
         </Col>
         <Col span={4} className="col-align">
           <Row justify="end">
-            <Tooltip placement="top" title="See more" arrowPointAtCenter>
-              <EllipsisOutlined className="icon-size" />
+            <Tooltip
+              placement="top"
+              title="See more"
+              arrowPointAtCenter
+              onClick={() => null}
+            >
+              <EllipsisOutlined
+                className="icon-size"
+                onClick={() => setModal(true)}
+              />
+              <TourGuideModal
+                visible={modal}
+                guide={tourGuide.guide}
+                handleCancel={handleCancel}
+              />
             </Tooltip>
           </Row>
           <Row justify="end">
