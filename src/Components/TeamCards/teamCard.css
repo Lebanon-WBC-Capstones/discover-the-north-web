@@ -1,14 +1,21 @@
-.cardSize {
+.about-team-card {
   margin: 10px;
 }
 
 .spec {
   color: gray;
 }
+.ant-card-actions {
+  margin-top: -10px;
+}
 
-.centeredItem {
+.ant-card-meta-detail {
+  margin-top: -8px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.ant-card-meta-description {
+  margin-top: -15px;
 }

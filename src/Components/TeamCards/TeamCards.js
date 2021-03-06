@@ -6,13 +6,17 @@ import {
   LinkedinOutlined,
   GithubOutlined,
 } from '@ant-design/icons';
-
+const { Meta } = Card;
+const mbImgStyle = {
+  height: 230,
+};
 const TeamCard = ({ imgsrc, name, specialization, url }) => {
   return (
     <Card
       hoverable
-      className="cardSize"
-      cover={<img src={imgsrc} alt="team member" />}
+      className="about-team-card"
+      style={{ width: 340, height: 369 }}
+      cover={<img src={imgsrc} alt="team member" style={mbImgStyle} />}
       actions={[
         <a href={url.github} target="_blank" rel="noreferrer">
           <GithubOutlined key="github" />
@@ -25,10 +29,7 @@ const TeamCard = ({ imgsrc, name, specialization, url }) => {
         </a>,
       ]}
     >
-      <div className="centeredItem">
-        <h2>{name}</h2>
-        <span className="spec">{specialization}</span>
-      </div>
+      <Meta title={<h2>{name}</h2>} description={specialization} />
     </Card>
   );
 };

@@ -4,13 +4,13 @@ import country from './pagePictures/country.png';
 
 export const section2 = {
   part1: {
-    icon: support,
+    icon: country,
     title: 'Why We Did it',
     text:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   part2: {
-    icon: country,
+    icon: support,
     title: 'Why We Did it',
     text:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -25,8 +25,7 @@ export const section2 = {
 
 export const teamMembers = [
   {
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bugarach.JPG/1200px-Bugarach.JPG',
+    image: 'https://ca.slack-edge.com/T01CVM0D97Z-U01CVR6UHGF-77cc49b3a2b8-512',
     name: 'Osama Abdullah',
     specialization: 'Team Lead',
     url: {
@@ -36,10 +35,9 @@ export const teamMembers = [
     },
   },
   {
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bugarach.JPG/1200px-Bugarach.JPG',
+    image: 'https://ca.slack-edge.com/T01CVM0D97Z-U01D3N99LFQ-1ac3e1c93cec-512',
     name: 'Hiba AbdelKarim',
-    specialization: 'Junior Engineer',
+    specialization: 'Front-End Web Developer',
     url: {
       github: 'https://github.com',
       linkedin: 'https://www.linkedin.com',
@@ -47,10 +45,9 @@ export const teamMembers = [
     },
   },
   {
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bugarach.JPG/1200px-Bugarach.JPG',
+    image: 'https://ca.slack-edge.com/T01CVM0D97Z-U01DP3F03H7-8b4f21a5f72d-512',
     name: 'Bakhos Rachwan',
-    specialization: 'Junior Engineer',
+    specialization: 'Front-End Web Developer',
     url: {
       github: 'https://github.com/bakhosRachwan',
       linkedin: 'https://www.linkedin.com/in/bakhos-rachwan',
@@ -58,10 +55,9 @@ export const teamMembers = [
     },
   },
   {
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bugarach.JPG/1200px-Bugarach.JPG',
+    image: 'https://ca.slack-edge.com/T01CVM0D97Z-U01E09PT4QY-bd164725adfc-512',
     name: 'AbdelRaouf Dannaoui',
-    specialization: 'Junior Engineer',
+    specialization: 'Front-End Web Developer',
     url: {
       github: 'https://github.com',
       linkedin: 'https://www.linkedin.com',
@@ -72,7 +68,7 @@ export const teamMembers = [
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bugarach.JPG/1200px-Bugarach.JPG',
     name: 'Maryam AbdelKarim',
-    specialization: 'Junior Engineer',
+    specialization: 'Front-End Web Developer',
     url: {
       github: 'https://github.com',
       linkedin: 'https://www.linkedin.com',
@@ -80,10 +76,9 @@ export const teamMembers = [
     },
   },
   {
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bugarach.JPG/1200px-Bugarach.JPG',
+    image: 'https://ca.slack-edge.com/T01CVM0D97Z-U01DP3FEQ2V-0ca50193bb2d-512',
     name: 'Charbel Tarrazi',
-    specialization: 'Junior Engineer',
+    specialization: 'Front-End Web Developer',
     url: {
       github: 'https://github.com',
       linkedin: 'https://www.linkedin.com',
