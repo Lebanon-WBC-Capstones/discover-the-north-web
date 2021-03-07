@@ -1,6 +1,7 @@
 .city-card-container {
   display: flex;
   position: relative;
+  margin-bottom: 4%;
 }
 .city-card-container:hover {
   cursor: pointer;
