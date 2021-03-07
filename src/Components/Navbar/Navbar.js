@@ -54,11 +54,11 @@ export default function Navbar() {
         </div>
 
         <Menu className="navbar-header-style-center" mode="horizontal">
-          <Menu.Item key="0">
+          {/* <Menu.Item key="0">
             <Link to="/" className="navbar-items">
               Home {t('navbar.home')}
             </Link>
-          </Menu.Item>
+          </Menu.Item> */}
           <Menu.Item key="1" className="navbar-items">
             <Link to="/about-us">{t('navbar.about')} </Link>
           </Menu.Item>
