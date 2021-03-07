@@ -1,16 +1,17 @@
 .about-why-style {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
 }
 .about-why-style-c {
   justify-self: start;
   align-self: flex-start;
 }
-.icon-size {
+.about-why-icon-size {
   width: 50px;
 }
-.style-align {
-  text-align: start;
-}
+
 .margin-top-parag {
   margin-top: 10px;
 }
@@ -20,8 +21,9 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    text-align: center;
   }
-  .icon-size {
+  .about-why-icon-size {
     width: 40px;
     align-self: center;
   }
