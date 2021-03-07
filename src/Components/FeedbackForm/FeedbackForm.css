@@ -1,3 +1,15 @@
+.feedback-cp-s {
+  background-color: #f0f2f5;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-cp-form-ct {
+  display: grid;
+  grid-template-columns: repeat(2);
+}
 .layoutHeight {
   height: 230px;
 }
@@ -10,7 +22,7 @@
   border: none;
   border-left: 1px solid #dadce0;
   width: 3px;
-  height: 120%;
+  height: 100%;
 }
 
 .firstColumnMargin {

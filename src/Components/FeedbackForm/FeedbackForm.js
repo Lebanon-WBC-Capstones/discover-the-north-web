@@ -36,71 +36,77 @@ function FeedbackFormComponent({
   };
 
   return (
-    <div>
-      <Form form={form} onFinish={handleSubmit} className="feedbackForm">
-        <Layout className="layoutHeight">
-          <Row className="firstRowMargin">
-            <Col span={8} offset={3}>
-              <Title level={2}>Your Opinion Always Matters</Title>
-              <Title level={5}>
-                After visiting our site, you may have some advises. We would
-                like to hear them from you.
-              </Title>
-            </Col>
-            <hr className="hr-vertical" />
-            <Input type="hidden" name="user_name" value={user_name} />
-            <Input type="hidden" name="DTN_email" value={DTN_email} />
-            <Col span={8} offset={-2} className="colMarginTop">
-              <Form.Item
-                name="user_email"
-                rules={[
-                  {
-                    required: true,
-                    message: 'Please input your email!',
-                  },
-                ]}
-              >
-                <Input
-                  type="email"
+    <div className="feedback-cp-s">
+      <div className="feedback-cp-form-ct">
+        <Form form={form} onFinish={handleSubmit}>
+          <Layout className="layoutHeight">
+            <Row className="firstRowMargin">
+              <Col span={8} offset={3}>
+                <Title level={2}>Your Opinion Always Matters</Title>
+                <Title level={5}>
+                  After visiting our site, you may have some advises. We would
+                  like to hear them from you.
+                </Title>
+              </Col>
+              <hr className="hr-vertical" />
+              <Input type="hidden" name="user_name" value={user_name} />
+              <Input type="hidden" name="DTN_email" value={DTN_email} />
+              <Col span={8} offset={-2} className="colMarginTop">
+                <Form.Item
                   name="user_email"
-                  className="input_email"
-                  placeholder="  Your Email..."
-                  prefix={<UserOutlined className="userIcon" />}
-                />
-              </Form.Item>
-            </Col>
-          </Row>
+                  rules={[
+                    {
+                      required: true,
+                      message: 'Please input your email!',
+                    },
+                  ]}
+                >
+                  <Input
+                    type="email"
+                    name="user_email"
+                    className="input_email"
+                    placeholder="  Your Email..."
+                    prefix={<UserOutlined className="userIcon" />}
+                  />
+                </Form.Item>
+              </Col>
+            </Row>
 
-          <Row justify="end">
-            <Col span={8} className="colMargin2">
-              <Form.Item
-                name="message"
-                rules={[
-                  {
-                    required: true,
-                    message: 'Please input your message!',
-                  },
-                ]}
-              >
-                <Input
+            <Row justify="end">
+              <Col span={8} className="colMargin2">
+                <Form.Item
                   name="message"
-                  className="input_message"
-                  placeholder="Express yourself"
-                />
-              </Form.Item>
-            </Col>
-          </Row>
-          <Row>
-            <Col span={6} offset={17}>
-              <Form.Item>
-                <Button type="primary" htmlType="submit" className="sendButton">
-                  Send <SendOutlined />
-                </Button>
-              </Form.Item>
-            </Col>
-          </Row>
-        </Layout>
-      </Form>
+                  rules={[
+                    {
+                      required: true,
+                      message: 'Please input your message!',
+                    },
+                  ]}
+                >
+                  <Input
+                    name="message"
+                    className="input_message"
+                    placeholder="Express yourself"
+                  />
+                </Form.Item>
+              </Col>
+            </Row>
+            <Row>
+              <Col span={6} offset={17}>
+                <Form.Item>
+                  <Button
+                    type="primary"
+                    htmlType="submit"
+                    className="sendButton"
+                  >
+                    Send
+                  </Button>
+                </Form.Item>
+              </Col>
+            </Row>
+          </Layout>
+        </Form>
+      </div>
     </div>
   );
 }
