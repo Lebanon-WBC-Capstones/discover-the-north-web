@@ -36,3 +36,6 @@ Link {
 #langButton {
   margin: 0 15px;
 }
+.navbar-items {
+  font-weight: medium;
+}

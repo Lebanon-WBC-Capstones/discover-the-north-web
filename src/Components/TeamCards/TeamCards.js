@@ -8,14 +8,14 @@ import {
 } from '@ant-design/icons';
 const { Meta } = Card;
 const mbImgStyle = {
-  height: 230,
+  height: 200,
 };
 const TeamCard = ({ imgsrc, name, specialization, url }) => {
   return (
     <Card
       hoverable
       className="about-team-card"
-      style={{ width: 340, height: 369 }}
+      style={{ width: 300, height: 305 }}
       cover={<img src={imgsrc} alt="team member" style={mbImgStyle} />}
       actions={[
         <a href={url.github} target="_blank" rel="noreferrer">
@@ -29,7 +29,10 @@ const TeamCard = ({ imgsrc, name, specialization, url }) => {
         </a>,
       ]}
     >
-      <Meta title={<h2>{name}</h2>} description={specialization} />
+      <Meta
+        title={<h2 className="team-memb-name">{name}</h2>}
+        description={specialization}
+      />
     </Card>
   );
 };

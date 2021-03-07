@@ -1,11 +1,28 @@
+.about-why-style {
+  display: flex;
+}
+.about-why-style-c {
+  justify-self: start;
+  align-self: flex-start;
+}
 .icon-size {
   width: 50px;
 }
-
 .style-align {
   text-align: start;
 }
-
 .margin-top-parag {
   margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .about-why-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .icon-size {
+    width: 40px;
+    align-self: center;
+  }
 }

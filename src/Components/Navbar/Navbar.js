@@ -55,20 +55,20 @@ export default function Navbar() {
 
         <Menu className="navbar-header-style-center" mode="horizontal">
           <Menu.Item key="0">
-            <Link to="/" className="navbar-item-effect-0">
+            <Link to="/" className="navbar-items">
               Home {t('navbar.home')}
             </Link>
           </Menu.Item>
-          <Menu.Item key="1" className="navbar-item-effect-1">
+          <Menu.Item key="1" className="navbar-items">
             <Link to="/about-us">{t('navbar.about')} </Link>
           </Menu.Item>
-          <Menu.Item key="2" className="navbar-item-effect-2">
+          <Menu.Item key="2" className="navbar-items">
             <Link to="/cities">{t('navbar.cities')} </Link>
           </Menu.Item>
-          <Menu.Item key="3" className="navbar-item-effect-3">
+          <Menu.Item key="3" className="navbar-items">
             <Link to="/activities">{t('navbar.activities')} </Link>
           </Menu.Item>
-          <Menu.Item key="4" className="navbar-item-effect-4">
+          <Menu.Item key="4" className="navbar-items">
             <Link to="/tour-guide">{t('navbar.tourGuide')} </Link>
           </Menu.Item>
         </Menu>

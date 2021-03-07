@@ -11,63 +11,50 @@ const { Title, Paragraph } = Typography;
 function AboutUs() {
   return (
     <div className="about-page">
-      <div className="part1-aboutus">
-        <Title level={1}>About Us</Title>
-        <Row justify="center">
-          <Col span={16}>
-            <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </Paragraph>
-          </Col>
-        </Row>
+      <div className="about-us-title-paragraph">
+        <h1 className="about-us-page-titles">About us</h1>
+        <p className="about-us-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
       </div>
+
       <div className="why-we-didit-container-hr">
         <hr className="hr-style" />
-        <div className="why-we-didit-container">
-          <Row justify="center">
-            <Title level={1} className="why-title">
-              Why We Did It
-            </Title>
-          </Row>
-          <Row>
-            <Col span={5} offset={3}>
-              <WhyWeDidIt
-                imgSrc={section2.part1.icon}
-                title={section2.part1.title}
-                text={section2.part1.text}
-              />
-            </Col>
-            <Col span={5} offset={2}>
-              <WhyWeDidIt
-                imgSrc={section2.part2.icon}
-                title={section2.part2.title}
-                text={section2.part2.text}
-              />
-            </Col>
-            <Col span={5} offset={2}>
-              <WhyWeDidIt
-                imgSrc={section2.part3.icon}
-                title={section2.part3.title}
-                text={section2.part3.text}
-              />
-            </Col>
-          </Row>
+        <div className="why-we-didit-container-title">
+          <h1 className="about-us-page-titles">Why we did it</h1>
+          <div className="why-we-didit-container">
+            <WhyWeDidIt
+              imgSrc={section2.part1.icon}
+              title={section2.part1.title}
+              text={section2.part1.text}
+              className="grid-area-1"
+            />
+            <WhyWeDidIt
+              imgSrc={section2.part2.icon}
+              title={section2.part2.title}
+              text={section2.part2.text}
+              className="grid-area-2"
+            />
+            <WhyWeDidIt
+              imgSrc={section2.part3.icon}
+              title={section2.part3.title}
+              text={section2.part3.text}
+              className="grid-area-3"
+            />
+          </div>
         </div>
         <hr className="hr-style" />
       </div>
+
       <div className="meet-team-container">
-        <Row justify="center">
-          <Title level={1} className="meet-the-team-title">
-            Meet The Team
-          </Title>
-        </Row>
-        <div className="part3-team-members-container">
-          <div className="part3-team-members">
+        <h1 className="about-us-page-titles">Meet the team</h1>
+        <div className="about-team-members-container">
+          <div className="about-team-members">
             {teamMembers.map((member) => (
               <TeamCards
                 imgsrc={member.image}

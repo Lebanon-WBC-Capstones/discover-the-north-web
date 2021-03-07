@@ -2,9 +2,17 @@
   display: grid;
   width: max-content;
   margin: 0 auto;
-  grid-template-columns: repeat(3, 1fr 3);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
     'card1 card2 card3'
     'card4 card5 card6'
     'card7 card8 card';
+  gap: 3%;
+}
+@media only screen and (max-width: 800px) {
+  .cityList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
