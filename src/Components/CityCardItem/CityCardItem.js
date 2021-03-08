@@ -4,7 +4,7 @@ import { Card } from 'antd';
 import { DoubleRightOutlined } from '@ant-design/icons';
 
 export default function CityCardItem(city) {
-  const { imgsrc, name, info, activityNumber } = city;
+  const { imgsrc, name, activityNumber } = city;
   const style = {
     borderRadius: '10px',
   };
