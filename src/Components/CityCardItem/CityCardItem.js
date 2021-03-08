@@ -30,6 +30,9 @@ export default function CityCardItem(city) {
               >
                 {name}
               </h1>
+              <span className="city-p-activity-nb">
+                {activityNumber} activity
+              </span>
               <div className="city-card-learn-more">
                 <span>
                   Learn more{' '}

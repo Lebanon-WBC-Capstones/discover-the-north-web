@@ -3,10 +3,7 @@ import './AboutUs.css';
 import WhyWeDidIt from '../../Components/WhyWeDidItSection/WhyWeDidItSection';
 import TeamCards from '../../Components/TeamCards/TeamCards';
 import FeedbackForm from '../../Components/FeedbackForm/FeedbackForm';
-import { Typography, Row, Col } from 'antd';
 import { section2, teamMembers } from './AboutUsData';
-
-const { Title, Paragraph } = Typography;
 
 function AboutUs() {
   return (
@@ -14,12 +11,11 @@ function AboutUs() {
       <div className="about-us-title-paragraph">
         <h1 className="about-us-page-titles">About us</h1>
         <p className="about-us-paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          We are 5 people of north Lebanon youth. Our main goal is it showcase
+          this part of our country and make it accessible for all visitors. So,
+          we located all the interesting activities along with a handful of tour
+          guides in order to make discovering the north of Lebanon a delightful
+          journey.
         </p>
       </div>
 

@@ -1,25 +1,26 @@
 import support from './pagePictures/support.png';
 import pandemic from './pagePictures/pandemic.png';
 import country from './pagePictures/country.png';
+import bakhos from '../../Components/TeamCards/teamMembers/bakhos.png';
 
 export const section2 = {
   part1: {
     icon: country,
-    title: 'Why We Did it',
+    title: 'For Lebanon',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'As part of Lebanon youth community we wanted to walk you through one of the best places in Lebanon, The North. Explore the cities, activities and Enjoy our North!',
   },
   part2: {
     icon: support,
-    title: 'Why We Did it',
+    title: 'We love our North!',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      "Being patriotic people, we like to work for the glory of our country and we're trying to make it powerful and rich. It is our duty and we're aiming to do it in the best possible way",
   },
   part3: {
     icon: pandemic,
     title: 'Why We Did it',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'The almost complete suspension of international travel has been one of the major elements of the quarantines introduced during COVID-19. Our goal is to attract tourists to visit us once the disease ends.',
   },
 };
 
@@ -45,7 +46,7 @@ export const teamMembers = [
     },
   },
   {
-    image: 'https://ca.slack-edge.com/T01CVM0D97Z-U01DP3F03H7-8b4f21a5f72d-512',
+    image: bakhos,
     name: 'Bakhos Rachwan',
     specialization: 'Front-End Web Developer',
     url: {
@@ -76,7 +77,8 @@ export const teamMembers = [
     },
   },
   {
-    image: 'https://ca.slack-edge.com/T01CVM0D97Z-U01DP3FEQ2V-0ca50193bb2d-512',
+    image:
+      'https://files.slack.com/files-pri/T01CVM0D97Z-F01Q8AJ6N9L/img_20210307_145945.jpg',
     name: 'Charbel Tarrazi',
     specialization: 'Front-End Web Developer',
     url: {
