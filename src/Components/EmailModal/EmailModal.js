@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import emailjs from 'emailjs-com';
 import { Modal, Form, Input } from 'antd';
 import './EmailModal.css';
 
-export default function ContactUs({ DTN_email = 'gtour180@gmail.com' }) {
+export default function ContactUs({
+  DTN_email = 'gtour180@gmail.com',
+  isModalVisible,
+  setIsModalVisible,
+}) {
   const [form] = Form.useForm();
   function sendEmail() {
     emailjs
@@ -23,13 +27,8 @@ export default function ContactUs({ DTN_email = 'gtour180@gmail.com' }) {
       );
   }
 
-  const [isModalVisible, setIsModalVisible] = useState(false);
-
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
   const handleCancel = () => {
-    setIsModalVisible(false);
+    setIsModalVisible(!isModalVisible);
     form.resetFields();
   };
   const handleOk = () => {
@@ -55,9 +54,6 @@ export default function ContactUs({ DTN_email = 'gtour180@gmail.com' }) {
 
   return (
     <div>
-      <span onClick={showModal}>
-        <u> Join our tour guide team! </u>
-      </span>
       <Modal
         title={[<div className="title_modal">Welcome!</div>]}
         visible={isModalVisible}

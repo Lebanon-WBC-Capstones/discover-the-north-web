@@ -1,19 +1,29 @@
-.cardSize {
+.activity-item-card {
   height: 200px;
-  width: 600px;
+  width: 90%;
+  border-radius: 10px;
 }
-.heartSize {
-  font-size: 30px;
+.rating-act-size {
+  font-size: 14px;
 }
-.heartOutlined {
-  color: #c4d0b8;
-}
-.heartFilled {
-  color: red;
+.activity-card-image {
+  border-radius: 10px;
 }
 .middle-row-height {
-  height: 70;
+  height: 70px;
 }
-.bdge-color {
-  background-color: #52c41a;
+.cityName {
+  color: gray;
+}
+.learnMore {
+  color: gray;
+  display: flex;
+}
+.learnMore:hover {
+  transition: 0.1s;
+  color: #0091ea;
+}
+.double-ar-right {
+  font-size: small;
+  line-height: -10;
 }

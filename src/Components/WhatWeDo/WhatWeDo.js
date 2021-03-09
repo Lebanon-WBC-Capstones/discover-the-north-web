@@ -30,7 +30,7 @@ export default function WhatWeDo(props) {
           return (
             <div className="part">
               <img src={item.img} className="iconStyle" alt="icon" />
-              <div className="text">
+              <div className="texts">
                 <h2>{item.title}</h2>
                 <p>{item.desc}</p>
               </div>

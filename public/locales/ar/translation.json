@@ -1,14 +1,15 @@
 {
-    "navbar":{
-        "about":"من نحن",
-        "activities":"الانشطه",
-        "cities":"المدن",
-        "tourGuide":"دليل الجولة"
-    },
-    "button":{
-        "text":"تسجيل الدخول"
-    },
-    "tourGuidePage":{
-        "header":"جميع المرشدين السياحيين"
-    }
+  "navbar": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "activities": "الانشطه",
+    "cities": "المدن",
+    "tourGuide": "دليل الجولة"
+  },
+  "button": {
+    "text": "تسجيل الدخول"
+  },
+  "tourGuidePage": {
+    "header": "جميع المرشدين السياحيين"
+  }
 }

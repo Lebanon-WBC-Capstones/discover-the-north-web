@@ -10,7 +10,17 @@
   width: 87%;
   margin: 10px 0 -15px 0;
 }
-
+.join-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.join-us p {
+  color: rgb(0, 153, 255);
+}
+.join-us p:hover {
+  cursor: pointer;
+}
 .tourGuideCardContainer {
   display: flex;
   flex-direction: column;

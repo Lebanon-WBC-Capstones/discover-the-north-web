@@ -15,7 +15,7 @@ const ActivityCard = ({ activity, col }) => {
       cover={
         <img
           alt={activity.name}
-          src={activity.imgSrc}
+          src={activity.image}
           width={activity.width}
           height={imageHeight < 500 ? imageHeight / 1.27 : imageHeight / 1.1}
         />
