@@ -48,27 +48,30 @@ export default function Navbar() {
 
   return (
     <div>
-      <Layout id="navbar-header-style">
-        <div className="languages-toggle-lr">
+      <Layout id="headerStyle">
+        <div className="leftRightSides">
           <img className="logo" alt="discover the north Logo" src={logo}></img>
         </div>
 
-        <Menu className="navbar-header-style-center" mode="horizontal">
-          <Menu.Item key="1" className="navbar-items">
-            <Link to="/about-us">{t('navbar.about')} </Link>
+        <Menu className="headerStyleCenter" mode="horizontal">
+          <Menu.Item key="1">
+            <Link to="/">{t('navbar.home')} </Link>
           </Menu.Item>
-          <Menu.Item key="2" className="navbar-items">
-            <Link to="/cities">{t('navbar.cities')} </Link>
-          </Menu.Item>
-          <Menu.Item key="3" className="navbar-items">
+          <Menu.Item key="2">
             <Link to="/activities">{t('navbar.activities')} </Link>
           </Menu.Item>
-          <Menu.Item key="4" className="navbar-items">
+          <Menu.Item key="3">
+            <Link to="/cities">{t('navbar.cities')} </Link>
+          </Menu.Item>
+          <Menu.Item key="4">
             <Link to="/tour-guide">{t('navbar.tourGuide')} </Link>
+          </Menu.Item>
+          <Menu.Item key="5">
+            <Link to="/about-us">{t('navbar.about')} </Link>
           </Menu.Item>
         </Menu>
 
-        <div className="languages-toggle-lr">
+        <div className="leftRightSides">
           <Dropdown.Button
             id="langButton"
             overlay={menu}
