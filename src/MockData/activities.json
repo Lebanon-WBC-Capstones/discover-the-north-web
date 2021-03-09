@@ -4,10 +4,18 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Outdoor Activity",
-    "genre": ["walking", "biking"],
+    "genre": "walking",
     "name": "lost in tripoli",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNstISUhmPHqoPivlOHqWExHqFIT-vjpjD0DAhi=w408-h243-k-no",
-    "images": ["https://lh3.googleusercontent.com/vgmglfwOcHl_rX4fcic4lT84IMsqA9-0OWaISQm2g_AnyMGF_2QMDfYAYdcHByRiIwh_UjfjcQ9PLKri=w960-h960-n-o-v1","https://instagram.fbey1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/56670216_2235111226803968_8808989789997271822_n.jpg?tp=1&_nc_ht=instagram.fbey1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=ekCvFqmTW34AX8R4TcN&oh=f9671d82eeda3cfaf59789b1d404a785&oe=606B4A4E","https://instagram.fbey1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/91025690_1229233993946424_490515378471995724_n.jpg?tp=1&_nc_ht=instagram.fbey1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=U7p6g7hRvLsAX9FuVoa&oh=25c97bcf8f11b108c757099842622fd5&oe=606E38B3","https://lh3.googleusercontent.com/UVEuiioxQBNJIbVjW6Uch7q5MC9oLcFALUB_cXQTw04dbYacpJ3NnHVOCtuHfqIvA9h_bvEQ6beQc-4a=w960-h960-n-o-v1","https://lh3.googleusercontent.com/hNHEn4cjpRo5V79Ss2X5yqvfpgFl7g5is6yVBz96dX3d8ehklt-PeQN4HgM4xIc6-6owREvsbNXu-F49=w960-h960-n-o-v1","https://payload.cargocollective.com/1/23/748334/13024368/Com_OscarNiemeyer_Tripoli_InternationalFair_20160328-27541_913.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_102352/wandering-in-al-tal-watched-by-the-ottoman-cloc-3-29-2017-10-17-53-am-l.jpg"],
+    "images": [
+      "https://lh3.googleusercontent.com/vgmglfwOcHl_rX4fcic4lT84IMsqA9-0OWaISQm2g_AnyMGF_2QMDfYAYdcHByRiIwh_UjfjcQ9PLKri=w960-h960-n-o-v1",
+      "https://instagram.fbey1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/56670216_2235111226803968_8808989789997271822_n.jpg?tp=1&_nc_ht=instagram.fbey1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=ekCvFqmTW34AX8R4TcN&oh=f9671d82eeda3cfaf59789b1d404a785&oe=606B4A4E",
+      "https://instagram.fbey1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/91025690_1229233993946424_490515378471995724_n.jpg?tp=1&_nc_ht=instagram.fbey1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=U7p6g7hRvLsAX9FuVoa&oh=25c97bcf8f11b108c757099842622fd5&oe=606E38B3",
+      "https://lh3.googleusercontent.com/UVEuiioxQBNJIbVjW6Uch7q5MC9oLcFALUB_cXQTw04dbYacpJ3NnHVOCtuHfqIvA9h_bvEQ6beQc-4a=w960-h960-n-o-v1",
+      "https://lh3.googleusercontent.com/hNHEn4cjpRo5V79Ss2X5yqvfpgFl7g5is6yVBz96dX3d8ehklt-PeQN4HgM4xIc6-6owREvsbNXu-F49=w960-h960-n-o-v1",
+      "https://payload.cargocollective.com/1/23/748334/13024368/Com_OscarNiemeyer_Tripoli_InternationalFair_20160328-27541_913.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_102352/wandering-in-al-tal-watched-by-the-ottoman-cloc-3-29-2017-10-17-53-am-l.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.42103319559394, 35.85085183676758],
     "icon": "",
@@ -22,12 +30,7 @@
         "name": "Wael Haidar",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": [
-          "Tourist Guide",
-          "archaeologist",
-          "cultured",
-          "translator"
-        ]
+        "speciality_tags": ["Tourist Guide","archaeologist","cultured","translator"]
       }
     ]
   },
@@ -36,10 +39,16 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Outdoor Activity",
-    "genre": ["camping"],
+    "genre": "camping",
     "name": "Palm Islands",
     "image": "https://lh5.googleusercontent.com/p/AF1QipM55BmP9ixWdO8yDnb0I62HhNLTKQvIYHbuGCDE=w408-h408-k-no",
-    "images": ["https://images-lebtivity.s3.amazonaws.com/content/versions/69017/640-480-0-0/herri_beach_camping_palm_island_beach_day_with_wild_adventur.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_105593/ending-the-holidays-lebanon-chekka-beach_camp-b-4-17-2017-8-50-23-pm-l.jpg","https://lh3.googleusercontent.com/proxy/UPQ4z2f19t6LMC2VO9LOMtgr0o1w1cTl6_pCC2APzwcHVU1wF7zYhwfwPvG8pRyvTmfSLRQBEzKPuk2-PRc-zy4RAy5jL-Af8FofPk6Qh8ySRqB5BztxNkTNSNPnLuftwHN-0hc5JlJgoOffgxCV0NDnymuorr60pWma7JdkJAoWqLasf4YD8A","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/60/66/05/the-walking-corniche.jpg?w=500&h=300&s=1","https://lh3.googleusercontent.com/proxy/vv7n7shBPZ0p6nWTxJeaos8HAEUQtb5iaDQpU3ZYB8V_-j1WqB9xRt9_UpYH4Q7xERYYZ_C8kvZds8xwkXoz3yse_NV3frhPwsqHXHaKaEKgSX6B0-xh0Is"],
+    "images": [
+      "https://images-lebtivity.s3.amazonaws.com/content/versions/69017/640-480-0-0/herri_beach_camping_palm_island_beach_day_with_wild_adventur.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_105593/ending-the-holidays-lebanon-chekka-beach_camp-b-4-17-2017-8-50-23-pm-l.jpg",
+      "https://lh3.googleusercontent.com/proxy/UPQ4z2f19t6LMC2VO9LOMtgr0o1w1cTl6_pCC2APzwcHVU1wF7zYhwfwPvG8pRyvTmfSLRQBEzKPuk2-PRc-zy4RAy5jL-Af8FofPk6Qh8ySRqB5BztxNkTNSNPnLuftwHN-0hc5JlJgoOffgxCV0NDnymuorr60pWma7JdkJAoWqLasf4YD8A",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/60/66/05/the-walking-corniche.jpg?w=500&h=300&s=1",
+      "https://lh3.googleusercontent.com/proxy/vv7n7shBPZ0p6nWTxJeaos8HAEUQtb5iaDQpU3ZYB8V_-j1WqB9xRt9_UpYH4Q7xERYYZ_C8kvZds8xwkXoz3yse_NV3frhPwsqHXHaKaEKgSX6B0-xh0Is"
+    ],
     "address": "",
     "address_coordinates": [34.49477495027462, 35.77202402551256],
     "icon": "",
@@ -54,12 +63,7 @@
         "name": "Samer Tayba",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": [
-          "Boat Driver",
-          "Life guard",
-          "Swimmer",
-          "Waterboarding"
-        ]
+        "speciality_tags": [ "Boat Driver", "Life guard", "Swimmer", "Waterboarding"]
       }
     ]
   },
@@ -68,10 +72,17 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Historique",
-    "genre": [],
+    "genre": "walking",
     "name": "Citadel Saint Gilles",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNzlMwHF2ZinKW-iI5WaX20pqVuz7V6COiBllSA=w420-h240-k-no",
-    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Citadel_of_Raymond_de_Saint-Gilles_2009.jpg/800px-Citadel_of_Raymond_de_Saint-Gilles_2009.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_190219/the-citadel-of-raymond-de-saint-gilles-tripoli--7-26-2018-5-45-29-pm-l.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/TripoliLebCitadel1.jpg/800px-TripoliLebCitadel1.jpg","https://live.staticflickr.com/65535/48954423138_1dba269d1f_b.jpg","https://media-cdn.tripadvisor.com/media/photo-s/05/0c/9d/b1/citadel-saint-gilles.jpg","https://m.psecn.photoshelter.com/img-get/I0000Hy_EdxQfvL8/s/1200/I0000Hy_EdxQfvL8.jpg"],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Citadel_of_Raymond_de_Saint-Gilles_2009.jpg/800px-Citadel_of_Raymond_de_Saint-Gilles_2009.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_190219/the-citadel-of-raymond-de-saint-gilles-tripoli--7-26-2018-5-45-29-pm-l.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/TripoliLebCitadel1.jpg/800px-TripoliLebCitadel1.jpg",
+      "https://live.staticflickr.com/65535/48954423138_1dba269d1f_b.jpg",
+      "https://media-cdn.tripadvisor.com/media/photo-s/05/0c/9d/b1/citadel-saint-gilles.jpg",
+      "https://m.psecn.photoshelter.com/img-get/I0000Hy_EdxQfvL8/s/1200/I0000Hy_EdxQfvL8.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.433585059650255, 35.84448288215495],
     "icon": "",
@@ -100,10 +111,16 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Beach",
-    "genre": ["fishing"],
+    "genre": "beach",
     "name": "El Mina Port",
     "image": "https://lh5.googleusercontent.com/p/AF1QipMv6l6dUjrXdUyPaZpyOMT7nzCM6_oH-QCrwHqQ=w408-h408-k-no",
-    "images": ["https://www.lebanoninapicture.com/Prv/Images/Pages/Page_82140/fishing-mood-monday-fishing-fish-fisherman-sea--2-10-2017-2-58-44-pm-l.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/AlMinaIsland1.jpg/440px-AlMinaIsland1.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_121594/walking-along-the-beach-palmisland-palmislands--7-7-2017-8-58-59-am-l.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/ff/43/fa/photo0jpg.jpg?w=900&h=-1&s=1","https://live.staticflickr.com/1935/44821457582_c94fd8d527_b.jpg"],
+    "images": [
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_82140/fishing-mood-monday-fishing-fish-fisherman-sea--2-10-2017-2-58-44-pm-l.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/AlMinaIsland1.jpg/440px-AlMinaIsland1.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_121594/walking-along-the-beach-palmisland-palmislands--7-7-2017-8-58-59-am-l.jpg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/ff/43/fa/photo0jpg.jpg?w=900&h=-1&s=1",
+      "https://live.staticflickr.com/1935/44821457582_c94fd8d527_b.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.45197829161598, 35.81087690553403],
     "icon": "",
@@ -118,12 +135,7 @@
         "name": "Rana Assoum",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": [
-          "Swimmer",
-          "Life guard",
-          "Waterboarding",
-          "Translator" 
-        ]
+        "speciality_tags": ["Swimmer","Life guard","Waterboarding","Translator"]
       }
     ]
   },
@@ -132,10 +144,15 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Historical landmark",
-    "genre": [],
+    "genre": "walking",
     "name": "Clocktower",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPfYHXZZAh7bh1oDstkB4ic4IJu5Stk5uSszS5w=w408-h306-k-no",
-    "images": ["https://www.localguidesconnect.com/t5/image/serverpage/image-id/893528i6E230FEECCE39920?v=1.0","https://lh5.googleusercontent.com/p/AF1QipPqYMbYKUwriQZxxFoe-K9ONCbg9LFA3uq06Uhq=w400-h300-k-no","https://lh4.googleusercontent.com/-nDgaCVvWWQc/V7CXH7kwYQI/AAAAAAAADmA/B6-LYffKP7ksexA1b7GQD6BAxlEJHfMqwCJkC/s1600-w400/","https://lh5.googleusercontent.com/-miPalmiDYpk/WPuNWslKsWI/AAAAAAACB0E/PAsRAu1Pmms3qFBWRfsAonY1kiY0xY8vgCLIB/s1600-w400/"],
+    "images": [
+      "https://www.localguidesconnect.com/t5/image/serverpage/image-id/893528i6E230FEECCE39920?v=1.0",
+      "https://lh5.googleusercontent.com/p/AF1QipPqYMbYKUwriQZxxFoe-K9ONCbg9LFA3uq06Uhq=w400-h300-k-no",
+      "https://lh4.googleusercontent.com/-nDgaCVvWWQc/V7CXH7kwYQI/AAAAAAAADmA/B6-LYffKP7ksexA1b7GQD6BAxlEJHfMqwCJkC/s1600-w400/",
+      "https://lh5.googleusercontent.com/-miPalmiDYpk/WPuNWslKsWI/AAAAAAACB0E/PAsRAu1Pmms3qFBWRfsAonY1kiY0xY8vgCLIB/s1600-w400/"
+    ],
     "address": "",
     "address_coordinates": [34.441790698210575, 35.83703730417864],
     "icon": "",
@@ -159,10 +176,15 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Historical landmark",
-    "genre": [],
+    "genre": "walking",
     "name": "Souk Al-Haraj",
     "image": "https://lh5.googleusercontent.com/p/AF1QipP8a8VGiKMx0SZboNi1MJrKwqyBpAqyPTyyAOo6=w408-h306-k-no",
-    "images": ["https://i.pinimg.com/originals/25/d7/a0/25d7a0b73d6cc56d4df0a97200d76b01.jpg","https://i.pinimg.com/originals/89/99/aa/8999aa50d120bc75b9043e300e785740.jpg","https://pbs.twimg.com/media/DTICSJjXUAAj5Ws.jpg","https://www.inspiredbygreece.com/wp-content/uploads/2018/09/pots-ouside.jpg"],
+    "images": [
+      "https://i.pinimg.com/originals/25/d7/a0/25d7a0b73d6cc56d4df0a97200d76b01.jpg",
+      "https://i.pinimg.com/originals/89/99/aa/8999aa50d120bc75b9043e300e785740.jpg",
+      "https://pbs.twimg.com/media/DTICSJjXUAAj5Ws.jpg",
+      "https://www.inspiredbygreece.com/wp-content/uploads/2018/09/pots-ouside.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.43733904315993, 35.84622081099138],
     "icon": "",
@@ -186,10 +208,16 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Public bath",
-    "genre": [],
+    "genre": "historical",
     "name": "Hammam al-Jadid",
     "image": "https://lh5.googleusercontent.com/p/AF1QipOIP9mOpgy7_viXqefooXyDnkclrPknCRFGjXP3=w408-h240-k-no-pi-0-ya243.33041-ro0-fo100",
-    "images": ["https://vid.alarabiya.net/images/2020/10/25/3c116d87-e8a7-4c61-95bb-5103e5f242d7/3c116d87-e8a7-4c61-95bb-5103e5f242d7_16x9_600x338.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRYfl_s7g2l45_kWvnBBN1lH8aX-zj-cIrYA&usqp=CAU","https://vid.alarabiya.net/images/2020/10/25/6fa2cef2-24ce-4fa7-a239-d5519e577a08/6fa2cef2-24ce-4fa7-a239-d5519e577a08.jpg","https://i.pinimg.com/originals/55/25/e4/5525e48a6b28a3553b51d231df5c552e.jpg","https://lebanonuntravelled.com/wp/wp-content/uploads/2017/09/20171107_133533.jpg"],
+    "images": [
+      "https://vid.alarabiya.net/images/2020/10/25/3c116d87-e8a7-4c61-95bb-5103e5f242d7/3c116d87-e8a7-4c61-95bb-5103e5f242d7_16x9_600x338.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRYfl_s7g2l45_kWvnBBN1lH8aX-zj-cIrYA&usqp=CAU",
+      "https://vid.alarabiya.net/images/2020/10/25/6fa2cef2-24ce-4fa7-a239-d5519e577a08/6fa2cef2-24ce-4fa7-a239-d5519e577a08.jpg",
+      "https://i.pinimg.com/originals/55/25/e4/5525e48a6b28a3553b51d231df5c552e.jpg",
+      "https://lebanonuntravelled.com/wp/wp-content/uploads/2017/09/20171107_133533.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.43239886216246, 35.84163791099128],
     "icon": "",
@@ -214,17 +242,24 @@
     "city": "Koura",
     "code": "kou5",
     "type": "Historical landmark",
-    "genre": [],
+    "genre": "historical",
     "name": "Qasr Naous",
     "image": "https://lh5.googleusercontent.com/p/AF1QipONpP2gVvLgSThByI8MLxc27QA9u4xbxPf1pLVT=w408-h306-k-no",
-    "images": ["https://daylily-phlox.eu/wp-content/gallery/lebanon-west/thumbs/thumbs_Qasr-Naous-Roman-Temples.jpg","https://thumbs.dreamstime.com/b/general-view-qasr-naous-roman-temple-ruins-ain-akrine-lebanon-qasr-naous-roman-temple-ruins-ain-akrine-lebanon-200793302.jpg","http://glamroz.com/wp-content/uploads/2015/12/bziza-temple-4.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_186851/qasr-naous-roman-temple-lebanon-naous-liban-nor-6-25-2018-10-15-23-am-l.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_122610/we-were-able-to-roam-the-qasr-naous-roman-templ-7-12-2017-5-32-40-pm-l.jpg","https://naoustemple.files.wordpress.com/2010/12/010.jpg"],
+    "images": [
+      "https://daylily-phlox.eu/wp-content/gallery/lebanon-west/thumbs/thumbs_Qasr-Naous-Roman-Temples.jpg",
+      "https://thumbs.dreamstime.com/b/general-view-qasr-naous-roman-temple-ruins-ain-akrine-lebanon-qasr-naous-roman-temple-ruins-ain-akrine-lebanon-200793302.jpg",
+      "http://glamroz.com/wp-content/uploads/2015/12/bziza-temple-4.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_186851/qasr-naous-roman-temple-lebanon-naous-liban-nor-6-25-2018-10-15-23-am-l.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_122610/we-were-able-to-roam-the-qasr-naous-roman-templ-7-12-2017-5-32-40-pm-l.jpg",
+      "https://naoustemple.files.wordpress.com/2010/12/010.jpg"
+    ],
     "address": "",
     "lat": 34.28961677753156,
     "long": 35.84573198400449,
     "address_coordinates": [34.28961677753156, 35.84573198400449],
     "icon": "",
     "description": "Qasr Naous is the vestige of two Roman Temples situated on a hilltop, some 600 meters above the sea in the village of Ain Aakrine, Koura.The first temple, the one in the east, has survived pretty well.",
-    "related_tags": [],
+    "related_tags": ["history", "temples", "roman", "ancient"],
     "price": "11",
     "rating": 4.5,
     "tour_guides": [
@@ -238,7 +273,8 @@
           "Tour Coordinator",
           "Translator",
           "Archaeologist",
-          "Museum Guide"]
+          "Museum Guide"
+        ]
       }
     ]
   },
@@ -248,21 +284,26 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Cliff",
-    "genre": ["climbing"],
+    "genre": "adventure",
     "name": "Rock Climbing",
     "image": "https://lh5.googleusercontent.com/p/AF1QipMWFAaSL8SBGqVNUc1omsUSpJKVz0BnvVVY7VMp=w408-h306-k-no",
-    "images": ["https://www.living-lebanon.com/images/description/367969_orig.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_194795/start-rock-climbing-now-with-a-friend-and-have--9-12-2018-4-04-44-pm-m.jpg","https://uploads-ssl.webflow.com/58a6036d2fe9e0dc1314a35c/59fed05759f6840001e9de48_7.jpg","https://media-cdn.tripadvisor.com/media/photo-s/0b/c0/3b/55/screenshot-20160626-165837.jpg"],
+    "images": [
+      "https://www.living-lebanon.com/images/description/367969_orig.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_194795/start-rock-climbing-now-with-a-friend-and-have--9-12-2018-4-04-44-pm-m.jpg",
+      "https://uploads-ssl.webflow.com/58a6036d2fe9e0dc1314a35c/59fed05759f6840001e9de48_7.jpg",
+      "https://media-cdn.tripadvisor.com/media/photo-s/0b/c0/3b/55/screenshot-20160626-165837.jpg"
+    ],
     "address": "Horsh Ehden",
     "address_coordinates": [34.30879751001373, 35.98275459749624],
     "icon": "",
     "description": "Rock climbing is a sport in which participants climb up, down or across natural rock formations or artificial rock walls. The goal is to reach the summit of a formation or the endpoint of a usually pre-defined route without falling.",
-    "related_tags": [],
+    "related_tags": ["adventure", "nature", "wildlife", "green lands"],
     "price": "15",
     "rating": 4.5,
     "tour_guides": [
       {
         "id": 121,
-        "image":  "https://www.brisbaneheadshots.com.au/images/galleries/women-corporate/Casual-business-headshots.jpg",
+        "image": "https://www.brisbaneheadshots.com.au/images/galleries/women-corporate/Casual-business-headshots.jpg",
         "name": "Lina Suleiman",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
@@ -280,15 +321,22 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Outdoor Activity",
-    "genre": ["rappelling"],
+    "genre": "adventure",
     "name": "Abseiling",
     "image": "https://lh5.googleusercontent.com/p/AF1QipN_XSnsYGj_LOtWDZAhQqtTK6dm1yC24aDSEvky=w426-h240-k-no",
-    "images": ["https://lh3.googleusercontent.com/proxy/r39ixA61jVty9_YxkelSnEvcRYDA1nuqTBUaMYoMFPH6pwjJ1Gzb4-YL-YigFUNkT7W3uPamJJ1-jVl1A2GfXkeDH5CK_ygyYn-JT5akSjIxGdKR-XYKka3kOqIQIqJejvb1IUF9bNO1YHUxnv9-lo8uI5qEGQpa4w","https://i.pinimg.com/originals/07/b2/4d/07b24d4da29358ffd47d05cfc81402bb.jpg","https://media-cdn.tripadvisor.com/media/photo-s/15/a6/6d/ba/abseiling-and-rock-climbing.jpg","https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/67562368_3098765486807123_2256474653658710016_o.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=H_n8XxlfoBkAX9xjWmp&_nc_ht=scontent.fbey1-1.fna&oh=c8776c3d4b5450f9ce8eef02110ed021&oe=6069DA19","https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/67635739_3098757880141217_4742478329620201472_o.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=R1HL948eqo4AX-zh2rL&_nc_ht=scontent.fbey1-1.fna&oh=a122dd5e2070b0700ef380efe974839a&oe=606AD65F","https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/67622653_3098727930144212_6295204591621373952_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Ax6boQ6VHnoAX-iutCE&_nc_ht=scontent.fbey1-1.fna&oh=e813c9af985fa23b65f75d081a0ba95f&oe=606AB4DD"],
+    "images": [
+      "https://lh3.googleusercontent.com/proxy/r39ixA61jVty9_YxkelSnEvcRYDA1nuqTBUaMYoMFPH6pwjJ1Gzb4-YL-YigFUNkT7W3uPamJJ1-jVl1A2GfXkeDH5CK_ygyYn-JT5akSjIxGdKR-XYKka3kOqIQIqJejvb1IUF9bNO1YHUxnv9-lo8uI5qEGQpa4w",
+      "https://i.pinimg.com/originals/07/b2/4d/07b24d4da29358ffd47d05cfc81402bb.jpg",
+      "https://media-cdn.tripadvisor.com/media/photo-s/15/a6/6d/ba/abseiling-and-rock-climbing.jpg",
+      "https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/67562368_3098765486807123_2256474653658710016_o.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=H_n8XxlfoBkAX9xjWmp&_nc_ht=scontent.fbey1-1.fna&oh=c8776c3d4b5450f9ce8eef02110ed021&oe=6069DA19",
+      "https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/67635739_3098757880141217_4742478329620201472_o.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=R1HL948eqo4AX-zh2rL&_nc_ht=scontent.fbey1-1.fna&oh=a122dd5e2070b0700ef380efe974839a&oe=606AD65F",
+      "https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/67622653_3098727930144212_6295204591621373952_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Ax6boQ6VHnoAX-iutCE&_nc_ht=scontent.fbey1-1.fna&oh=e813c9af985fa23b65f75d081a0ba95f&oe=606AB4DD"
+    ],
     "address": "Ehden",
     "address_coordinates": [34.295525332935014, 35.95901771098702],
     "icon": "",
     "description": "Abseiling, also known as rappelling, is a controlled descent off a vertical drop, such as a rock face, using a rope.",
-    "related_tags": [],
+    "related_tags": ["adventure", "mountain", "team", "sport"],
     "price": "5",
     "rating": 3.9,
     "tour_guides": [
@@ -298,9 +346,7 @@
         "name": "Mousa Eisaa",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": [
-          "Hikin Guide", "Courage", "Zip line trainer"
-        ]
+        "speciality_tags": ["Hikin Guide", "Courage", "Zip line trainer"]
       }
     ]
   },
@@ -309,15 +355,22 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Outdoor Activity",
-    "genre": ["hiking"],
+    "genre": "adventure",
     "name": "Hiking",
     "image": "https://lh5.googleusercontent.com/p/AF1QipOoNanMr94a2-RVsQ-7GRliA3Mvxa_SafQOmh3u=w408-h306-k-no",
-    "images": ["https://www.lebanoninapicture.com/Prv/Images/Pages/Page_201151/hike-with-promax-in-ehden-forest-reserve-this-s-12-6-2018-12-48-17-pm-l.jpg","https://uploads-ssl.webflow.com/58a6036d2fe9e0dc1314a35c/5adcd701d5c31534950ba858__DSC1068.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_185623/explore-i-hiking-ehden-forest-reserve-lebanon-t-6-13-2018-5-02-21-am-l.jpg","https://i.pinimg.com/originals/79/a0/94/79a0945c920f09ec15a50f98c0ac8136.jpg","https://uploads-ssl.webflow.com/58a6036d2fe9e0dc1314a35c/5adcdbdea956fc9dc15b7e9f__DSC1117.jpg","https://cdn-assets.alltrails.com/uploads/photo/image/23668267/extra_large_954641cb6a1479e11d879ea9ecc93d54.jpg"],
+    "images": [
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_201151/hike-with-promax-in-ehden-forest-reserve-this-s-12-6-2018-12-48-17-pm-l.jpg",
+      "https://uploads-ssl.webflow.com/58a6036d2fe9e0dc1314a35c/5adcd701d5c31534950ba858__DSC1068.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_185623/explore-i-hiking-ehden-forest-reserve-lebanon-t-6-13-2018-5-02-21-am-l.jpg",
+      "https://i.pinimg.com/originals/79/a0/94/79a0945c920f09ec15a50f98c0ac8136.jpg",
+      "https://uploads-ssl.webflow.com/58a6036d2fe9e0dc1314a35c/5adcdbdea956fc9dc15b7e9f__DSC1117.jpg",
+      "https://cdn-assets.alltrails.com/uploads/photo/image/23668267/extra_large_954641cb6a1479e11d879ea9ecc93d54.jpg"
+    ],
     "address": "Ehden",
     "address_coordinates": [34.29529454819847, 35.96234361203648],
     "icon": "",
     "description": "Hiking, walking in nature as a recreational activity. Especially among those with sedentary occupations, hiking is a natural exercise that promotes physical fitness, is economical and convenient, and requires no special equipment.",
-    "related_tags": [],
+    "related_tags": ["adventure", "fun", "sport", "good for kids"],
     "price": "FREE",
     "rating": 4.8,
     "tour_guides": [
@@ -336,15 +389,22 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Outdoor Activity",
-    "genre": "offroad",
+    "genre": "adventure",
     "name": "ATV",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPC3fffCBg2TWWVRYiu8yfZFKSJ-6eZ4Vy4TIit=w426-h240-k-no",
-    "images": ["https://lh3.googleusercontent.com/proxy/SvjQwbLC96Fl34m65r3VnfPBypw6IvqKUPmbL-5SwgLah5KrXO4OdgXujlNlEFKkFTzdMWQim2OaFUzga1ZvtCfu0hBiXuMPLYKr4OX9wIqc55-MLvj5AMVcDDf9ayOFfgg_","https://makhsoom.com/lb/storage/32000/28104/ab4af38e6ddb7bdb21a35fe52993200a.jpg","https://lh3.googleusercontent.com/proxy/OMRxZUTOYL8Up8UYQoQoBlA-ZfMwNKlJZtdjAmzHAd4VjTT-IQ2OTQ_IftMbvmEJRAuYgmzqRwdAZB6dsfO-sI7Bunupc-Sz0LiNOIqzNZTPgbwq6_HKI6q0rtfEha5HnP0hFaA0tgEEFH2MnITKm-gM6msb5FyEo5JVosYlDCxD2yy3GAYIg8sC8AlV","https://lh3.googleusercontent.com/proxy/2puykQ3jfVWoOw1FdYKedlR2l_MHwfj37Gc0P-OWwnZW8aqmSzVWjquK7mxgXCtZarnrxiOYG3iHiovM0FgczwNHBOTihNV9GWqKZFkhlUEpybHLE99rk6R-Edf2I1dj0OHREFdZVtfy0dj3LQ-WO_1a5U-DlBx0jfnwPu2y-RB6mWXovg","https://i.ytimg.com/vi/MG7aaY5NbL0/maxresdefault.jpg","https://lebanonhotdeals.com/api/api/imaging/image.php?image=05e2-88.jpg&w=500&h=0"],
+    "images": [
+      "https://lh3.googleusercontent.com/proxy/SvjQwbLC96Fl34m65r3VnfPBypw6IvqKUPmbL-5SwgLah5KrXO4OdgXujlNlEFKkFTzdMWQim2OaFUzga1ZvtCfu0hBiXuMPLYKr4OX9wIqc55-MLvj5AMVcDDf9ayOFfgg_",
+      "https://makhsoom.com/lb/storage/32000/28104/ab4af38e6ddb7bdb21a35fe52993200a.jpg",
+      "https://lh3.googleusercontent.com/proxy/OMRxZUTOYL8Up8UYQoQoBlA-ZfMwNKlJZtdjAmzHAd4VjTT-IQ2OTQ_IftMbvmEJRAuYgmzqRwdAZB6dsfO-sI7Bunupc-Sz0LiNOIqzNZTPgbwq6_HKI6q0rtfEha5HnP0hFaA0tgEEFH2MnITKm-gM6msb5FyEo5JVosYlDCxD2yy3GAYIg8sC8AlV",
+      "https://lh3.googleusercontent.com/proxy/2puykQ3jfVWoOw1FdYKedlR2l_MHwfj37Gc0P-OWwnZW8aqmSzVWjquK7mxgXCtZarnrxiOYG3iHiovM0FgczwNHBOTihNV9GWqKZFkhlUEpybHLE99rk6R-Edf2I1dj0OHREFdZVtfy0dj3LQ-WO_1a5U-DlBx0jfnwPu2y-RB6mWXovg",
+      "https://i.ytimg.com/vi/MG7aaY5NbL0/maxresdefault.jpg",
+      "https://lebanonhotdeals.com/api/api/imaging/image.php?image=05e2-88.jpg&w=500&h=0"
+    ],
     "address": "Ehden ATV",
     "address_coordinates": [34.290232826727234, 35.913585735081476],
     "icon": "",
     "description": "",
-    "related_tags": [],
+    "related_tags": ["riding", "adventure", "fun", "friends"],
     "price": "30",
     "rating": 5.0,
     "tour_guides": [
@@ -363,15 +423,20 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Outdoor Activity",
-    "genre": ["skyjumping","snowhoeing","camping"],
+    "genre": "adventure",
     "name": "Ehden Adventures",
     "image": "https://lh5.googleusercontent.com/p/AF1QipOVhUNQIDimxbsHlpXdTw86UWfzxP2Nn8qymQMF=w408-h306-k-no",
-    "images": ["https://3.bp.blogspot.com/-I43_dSEhXnY/WZbYjyd7RzI/AAAAAAAAJMw/g_AWFBHoZIQk5myvhgai6U9Oq7BxQkrDgCLcBGAs/s1600/Para2.jpg","https://i.prcdn.co/img?regionKey=1sUVi0bWa6voeeKudjSiNQ%3D%3D","https://images-lebtivity.s3.amazonaws.com/content/versions/89867/577-433-0-0/snowshoeing_ehden_nature_reserve_with_wolves_clan.jpg","https://new-hampshire-inn.com/wp-content/uploads/2018/12/bigstock-A-Man-In-Snowshoes-In-The-Moun-264514714.jpg"],
+    "images": [
+      "https://3.bp.blogspot.com/-I43_dSEhXnY/WZbYjyd7RzI/AAAAAAAAJMw/g_AWFBHoZIQk5myvhgai6U9Oq7BxQkrDgCLcBGAs/s1600/Para2.jpg",
+      "https://i.prcdn.co/img?regionKey=1sUVi0bWa6voeeKudjSiNQ%3D%3D",
+      "https://images-lebtivity.s3.amazonaws.com/content/versions/89867/577-433-0-0/snowshoeing_ehden_nature_reserve_with_wolves_clan.jpg",
+      "https://new-hampshire-inn.com/wp-content/uploads/2018/12/bigstock-A-Man-In-Snowshoes-In-The-Moun-264514714.jpg"
+    ],
     "address": "Ehden",
     "address_coordinates": [34.30688563750308, 35.973467542496955],
     "icon": "",
     "description": "Ehden Adventures is an establishment for outdoor activities since 2007. We provide all sort of outdoor activities for all ages and levels.",
-    "related_tags": [],
+    "related_tags": ["nature", "camping", "views", "fun"],
     "price": "50",
     "rating": 5.0,
     "tour_guides": [
@@ -390,7 +455,7 @@
     "city": "El Danniye",
     "code": "dan7",
     "type": "Outdoor Activity",
-    "genre": [],
+    "genre": "adventure",
     "name": "Hiking",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNdqQ5zKeBbwlGLYmEmu3Bd3pCSfLrpJWyGLHxW=w426-h240-k-no",
     "images": [],
@@ -417,10 +482,18 @@
     "city": "Qammoua",
     "code": "qam7",
     "type": "Outdoor Activity",
-    "genre": ["hiking"],
+    "genre": "adventure",
     "name": "Hiking",
     "image": "https://lh5.googleusercontent.com/p/AF1QipO63mr-kAC_T_9MsCG8i4Q_3rg4C3hjfC-_nOI=w408-h272-k-no",
-    "images": ["https://www.lebanontraveler.com/wp-content/uploads/2018/01/2_122030.jpg","https://www.lebanontraveler.com/wp-content/uploads/2020/09/Bekaatat-el-nahr-Baskinta.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_168955/explore-i-lebanon-baskinta-hiking-this-sunday-b-3-1-2018-3-31-16-pm-m.jpg","https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/59301703_614606582376971_217316029393534976_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=973b4a&_nc_ohc=T7uVefbe-8sAX8mymDa&_nc_oc=AQlTsIEuV5fC9trBEnSBXx5aqHCK_txU4Rjt1oquxaZuNi3E1kxniIAnThWjOgrlAoU&_nc_ht=scontent.fbey1-1.fna&oh=4e6ae00b974e1979d0ec9c2ebdb17146&oe=606A5B0F","https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/59536343_614606839043612_392754774736371712_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=AsZl4IbluHEAX9DVenO&_nc_ht=scontent.fbey1-1.fna&oh=b861c749a58097dbc3d8e7d8e083f2a5&oe=6067EF6E","https://www.lebanontraveler.com/wp-content/uploads/2020/09/Bekaatat-el-nahr-Baskinta.jpg","https://s2.wklcdn.com/image_129/3884846/61078918/40683965.jpg"],
+    "images": [
+      "https://www.lebanontraveler.com/wp-content/uploads/2018/01/2_122030.jpg",
+      "https://www.lebanontraveler.com/wp-content/uploads/2020/09/Bekaatat-el-nahr-Baskinta.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_168955/explore-i-lebanon-baskinta-hiking-this-sunday-b-3-1-2018-3-31-16-pm-m.jpg",
+      "https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/59301703_614606582376971_217316029393534976_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=973b4a&_nc_ohc=T7uVefbe-8sAX8mymDa&_nc_oc=AQlTsIEuV5fC9trBEnSBXx5aqHCK_txU4Rjt1oquxaZuNi3E1kxniIAnThWjOgrlAoU&_nc_ht=scontent.fbey1-1.fna&oh=4e6ae00b974e1979d0ec9c2ebdb17146&oe=606A5B0F",
+      "https://scontent.fbey1-1.fna.fbcdn.net/v/t1.0-9/59536343_614606839043612_392754774736371712_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=AsZl4IbluHEAX9DVenO&_nc_ht=scontent.fbey1-1.fna&oh=b861c749a58097dbc3d8e7d8e083f2a5&oe=6067EF6E",
+      "https://www.lebanontraveler.com/wp-content/uploads/2020/09/Bekaatat-el-nahr-Baskinta.jpg",
+      "https://s2.wklcdn.com/image_129/3884846/61078918/40683965.jpg"
+    ],
     "address": "Qammoua",
     "address_coordinates": [34.49053093876484, 36.224740930516674],
     "icon": "",
@@ -444,7 +517,7 @@
     "city": "Qoubaiyat",
     "code": "qou9",
     "type": "Church",
-    "genre": [],
+    "genre": "religious",
     "name": "Notre Dame Chahlo",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPrIq-R9lb9hGl4hW-pGDamgL8-xa4yFO1Z4zic=w426-h240-k-no",
     "images": [],
@@ -462,7 +535,7 @@
         "name": "Yasmine Haddad",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": []
+        "speciality_tags": ["cultured", "Camper"]
       }
     ]
   },
@@ -471,9 +544,15 @@
     "city": "Batroun",
     "type": "Beach",
     "name": "Bonita Bay",
-    "genre": ["beach"],
+    "genre": "beach",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNpxUjUslZGWfG39Zeq1MjJQ8Dw8h8joMt6FD7q=w426-h240-k-no",
-    "images": ["https://www.lebanoninapicture.com/Prv/Images/Pages/Page_119569/batroun-kfarabida-savekfarabida-mediterranean-s-6-27-2017-12-40-13-pm-l.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_101911/love-instagood-photooftheday-top-tags-tbt-cute--3-26-2017-8-46-22-pm-l.jpg","https://i.pinimg.com/originals/cf/b6/de/cfb6deafea3b914d491f8a2e61cc44a9.jpg","https://i.pinimg.com/originals/9c/17/76/9c17764b9c3445bc460c2c08c939e7c2.jpg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_120273/batroun-thoum-whitebeachlebanon-beach-mediterra-6-30-2017-4-28-39-pm-l.jpg"],
+    "images": [
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_119569/batroun-kfarabida-savekfarabida-mediterranean-s-6-27-2017-12-40-13-pm-l.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_101911/love-instagood-photooftheday-top-tags-tbt-cute--3-26-2017-8-46-22-pm-l.jpg",
+      "https://i.pinimg.com/originals/cf/b6/de/cfb6deafea3b914d491f8a2e61cc44a9.jpg",
+      "https://i.pinimg.com/originals/9c/17/76/9c17764b9c3445bc460c2c08c939e7c2.jpg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_120273/batroun-thoum-whitebeachlebanon-beach-mediterra-6-30-2017-4-28-39-pm-l.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.21763520016477, 35.64271412744678],
     "icon": "",
@@ -500,7 +579,13 @@
     "genre": ["biking"],
     "name": "Routes",
     "image": "https://lh5.googleusercontent.com/p/AF1QipMIAYs-MX1YdHj3Qiq_lxnI3LY6TIh6VzQ9Cv6B=w408-h408-k-no",
-    "images": ["https://www.skileb.com/book/images/packages/BIKING_large.jpg","https://blogbaladi.com/wp-content/uploads/2015/04/haig.jpg","https://www.lebanontraveler.com/wp-content/uploads/2018/01/exploring-home-10_124716.jpg","https://img.redbull.com/images/c_crop,x_3,y_0,h_1315,w_1972/c_fill,w_790,h_527/q_auto,f_auto/redbullcom/2020/4/29/qetn08fwzraquverl3kz/kenny-belaey-in-lebanon-mountains","https://desktop.beiruting.com/content/ResizedImages/768/10000/inside/Batroun-Bike-Festival6-180702033459024.JPG"],
+    "images": [
+      "https://www.skileb.com/book/images/packages/BIKING_large.jpg",
+      "https://blogbaladi.com/wp-content/uploads/2015/04/haig.jpg",
+      "https://www.lebanontraveler.com/wp-content/uploads/2018/01/exploring-home-10_124716.jpg",
+      "https://img.redbull.com/images/c_crop,x_3,y_0,h_1315,w_1972/c_fill,w_790,h_527/q_auto,f_auto/redbullcom/2020/4/29/qetn08fwzraquverl3kz/kenny-belaey-in-lebanon-mountains",
+      "https://desktop.beiruting.com/content/ResizedImages/768/10000/inside/Batroun-Bike-Festival6-180702033459024.JPG"
+    ],
     "address": "",
     "address_coordinates": [34.2494411224377, 35.6606257840032],
     "icon": "",
@@ -524,10 +609,16 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Outdoor Activity",
-    "genre": ["hiking"],
+    "genre": "adventure",
     "name": "Bchaaleh Trails",
     "image": "https://lh5.googleusercontent.com/p/AF1QipO3fPSxikF8gQSuUJ009xKK9nak8qLFB5tvmpwI=w426-h240-k-no",
-    "images": ["https://www.lebanontraveler.com/wp-content/uploads/2019/09/Tannourine-Cedar-arz-tannourine-Charbel-Mouannes-2.jpeg","https://www.littlegrounds.com/wp-content/uploads/2020/08/13475166_530291237159576_4568548588981093235_o.jpg","https://hiking-lebanon.com/wp-content/uploads/2017/12/North-Background.jpg","https://desktop.beiruting.com/content/ResizedImages/768/10000/inside/hiking-tannourine-nature-beiruting29-200726102201793.jpg","https://expo-hakel.com/wp-content/uploads/2018/05/activities-1.jpg"],
+    "images": [
+      "https://www.lebanontraveler.com/wp-content/uploads/2019/09/Tannourine-Cedar-arz-tannourine-Charbel-Mouannes-2.jpeg",
+      "https://www.littlegrounds.com/wp-content/uploads/2020/08/13475166_530291237159576_4568548588981093235_o.jpg",
+      "https://hiking-lebanon.com/wp-content/uploads/2017/12/North-Background.jpg",
+      "https://desktop.beiruting.com/content/ResizedImages/768/10000/inside/hiking-tannourine-nature-beiruting29-200726102201793.jpg",
+      "https://expo-hakel.com/wp-content/uploads/2018/05/activities-1.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.215238438761396, 35.824268169748315],
     "icon": "",
@@ -542,7 +633,7 @@
         "name": "Shady Tony",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": ["Hiker","Translator","Runner"]
+        "speciality_tags": ["Hiker", "Translator", "Runner"]
       }
     ]
   },
@@ -551,7 +642,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Outdoor Activity",
-    "genre": "",
+    "genre": "adventure",
     "name": "Bchaaleh Trails",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNmJy-jhKoBe5PHBaEmYeM1d7j-sdQ2vSIBoxec=w408-h544-k-no",
     "images": [],
@@ -569,7 +660,7 @@
         "name": "Tony Eid",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": ["Rock Climber","Runner", "Swimmer"]
+        "speciality_tags": ["Rock Climber", "Runner", "Swimmer"]
       }
     ]
   },
@@ -578,10 +669,16 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Diving",
-    "genre": ["diving"],
+    "genre": "beach",
     "name": "Dive The Med Club",
     "image": "https://lh5.googleusercontent.com/p/AF1QipMz14xmJ1EYGc7wJ8nRfFzUbeUWJ5UIifAoht4f=w408-h272-k-no",
-    "images": ["https://www.lebanoninapicture.com/Prv/Images/Pages/Page_187970/batroun-kfarabida-%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%86_%D8%B3%D9%81%D8%B1%D8%A9-diving-freedive--7-6-2018-3-53-17-pm-l.jpg","https://i.pinimg.com/originals/1b/d6/91/1bd69184cafedd765b2fd3a73db2871e.jpg","https://www.hotelibanais.com/wp-content/uploads/2019/05/hl-site-scubadiving-11-1024x768.jpg","https://www.thenationalnews.com/image/policy:1.756667:1533291782/424101-01-02.jpg?$p=9819d0b&w=1136&$w=ec52ab9","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_219493/batroun-kfarabida-freedive-diving-beach-batroun-8-27-2019-1-08-23-pm-l.jpg"],
+    "images": [
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_187970/batroun-kfarabida-%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%86_%D8%B3%D9%81%D8%B1%D8%A9-diving-freedive--7-6-2018-3-53-17-pm-l.jpg",
+      "https://i.pinimg.com/originals/1b/d6/91/1bd69184cafedd765b2fd3a73db2871e.jpg",
+      "https://www.hotelibanais.com/wp-content/uploads/2019/05/hl-site-scubadiving-11-1024x768.jpg",
+      "https://www.thenationalnews.com/image/policy:1.756667:1533291782/424101-01-02.jpg?$p=9819d0b&w=1136&$w=ec52ab9",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_219493/batroun-kfarabida-freedive-diving-beach-batroun-8-27-2019-1-08-23-pm-l.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.24878129810056, 35.65837291283952],
     "icon": "",
@@ -596,7 +693,7 @@
         "name": "Jamal El Ali",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": ["Swimmer","Waterboarding","Life guard"]
+        "speciality_tags": ["Swimmer", "Waterboarding", "Life guard"]
       }
     ]
   },
@@ -605,7 +702,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Diving",
-    "genre": "",
+    "genre": "beach",
     "name": "Deep Sea Diving Center",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNQpRR2KGE3LP2lYxT0V9meTS8pDRu0F4WSDmr-=w408-h272-k-no",
     "images": [],
@@ -623,7 +720,7 @@
         "name": "Rima El Waleed",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": ["Diver", "Scuba Diver", "Waterboarding","Life guard"]
+        "speciality_tags": ["Diver","Scuba Diver","Waterboarding","Life guard"]
       }
     ]
   },
@@ -632,7 +729,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Beach",
-    "genre": "",
+    "genre": "beach",
     "name": "Joining Beach",
     "image": "https://lh5.googleusercontent.com/p/AF1QipORYIeVe9kCiXRFjv-FLIm9B-5EATZV36bt2kTW=w426-h240-k-no",
     "images": [],
@@ -650,7 +747,7 @@
         "name": "khaled Bilal",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": ["Swimmer","Life guard","Waterboarding"]
+        "speciality_tags": ["Swimmer", "Life guard", "Waterboarding"]
       }
     ]
   },
@@ -659,7 +756,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Diving",
-    "genre": "",
+    "genre": "beach",
     "name": "NORTHCOAST DIVERS",
     "image": "https://lh5.googleusercontent.com/p/AF1QipM_ly3_xSocNc1TG26Cb7zDuO2iALyq6WWhOb-a=w408-h341-k-no",
     "images": [],
@@ -677,7 +774,7 @@
         "name": "Tina Eid",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": ["Scuba Diver","Waterboarding","Life guard"]
+        "speciality_tags": ["Scuba Diver", "Waterboarding", "Life guard"]
       }
     ]
   },
@@ -686,10 +783,17 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Outdoor Activity",
-    "genre": ["hiking","nature discovery"],
+    "genre": "adventure",
     "name": "Qadisha Valley",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPezUrJtYSAyTJBi63xuMCbOoFUluLf2blv1NHo=w408-h306-k-no",
-    "images": ["https://lp-cms-production.imgix.net/features/2018/03/qadisha-valley-lebanon-b1b31d22137d.jpg","https://i.pinimg.com/originals/15/9c/4c/159c4ce48474476275ebec8e7a557768.jpg","https://images-lebtivity.s3.amazonaws.com/content/versions/47175/960-540-0-0/qadisha_valley_exclusive_loop_hike_with_lunch.jpg","https://www.molon.de/galleries/Lebanon/Qadisha/images01/08%20Old%20Mar%20Licha%20monastery.jpg","http://www.romeartlover.it/Cedars13.jpg","https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/80/3a/8c.jpg"],
+    "images": [
+      "https://lp-cms-production.imgix.net/features/2018/03/qadisha-valley-lebanon-b1b31d22137d.jpg",
+      "https://i.pinimg.com/originals/15/9c/4c/159c4ce48474476275ebec8e7a557768.jpg",
+      "https://images-lebtivity.s3.amazonaws.com/content/versions/47175/960-540-0-0/qadisha_valley_exclusive_loop_hike_with_lunch.jpg",
+      "https://www.molon.de/galleries/Lebanon/Qadisha/images01/08%20Old%20Mar%20Licha%20monastery.jpg",
+      "http://www.romeartlover.it/Cedars13.jpg",
+      "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/80/3a/8c.jpg"
+    ],
     "address": "",
     "address_coordinates": [34.25519370760075, 35.955289881508776],
     "icon": "",
@@ -713,7 +817,7 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Outdoor Activity",
-    "genre": "",
+    "genre": "walking",
     "name": "The Lake House",
     "image": "https://lh5.googleusercontent.com/p/AF1QipN9g7TncBLSERZ1Dd2beVWydO-Zy7k_5931iODy=w408-h406-k-no",
     "images": [],
@@ -740,10 +844,17 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Ski",
-    "genre": ["skiing","snowboarding"],
+    "genre": "walking",
     "name": "Cedars Ski Resort",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNZYA0eApuSAxOXt2xrK89wyyPvuaSSwk9ZHCK1=w408-h306-k-no",
-    "images": ["https://i.dailymail.co.uk/i/pix/2013/03/17/article-2294697-18A1C8CF000005DC-282_634x411.jpg","https://explore-share.imgix.net/wp-content/uploads/2017/09/lebanon-ski-tour8-e1523631609561.jpg","https://www.aljazeera.com/wp-content/uploads/2017/03/8697968b54d14ef7bca47aac9502f8fe_8.jpeg","https://www.lebanoninapicture.com/Prv/Images/Pages/Page_101323/good-morning-groupez-skischool-ski-faqra-faraya-3-24-2017-7-39-03-am-l.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Brezovica_Ski_Resort_-_Sharri_Mountains.jpg/1200px-Brezovica_Ski_Resort_-_Sharri_Mountains.jpg","https://resources.matcha-jp.com/original/2016/12/13-11583.jpeg"],
+    "images": [
+      "https://i.dailymail.co.uk/i/pix/2013/03/17/article-2294697-18A1C8CF000005DC-282_634x411.jpg",
+      "https://explore-share.imgix.net/wp-content/uploads/2017/09/lebanon-ski-tour8-e1523631609561.jpg",
+      "https://www.aljazeera.com/wp-content/uploads/2017/03/8697968b54d14ef7bca47aac9502f8fe_8.jpeg",
+      "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_101323/good-morning-groupez-skischool-ski-faqra-faraya-3-24-2017-7-39-03-am-l.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Brezovica_Ski_Resort_-_Sharri_Mountains.jpg/1200px-Brezovica_Ski_Resort_-_Sharri_Mountains.jpg",
+      "https://resources.matcha-jp.com/original/2016/12/13-11583.jpeg"
+    ],
     "address": "Arz",
     "address_coordinates": [34.250551688883384, 36.06788389181477],
     "icon": "",
@@ -767,7 +878,7 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Church",
-    "genre": "",
+    "genre": "religious",
     "name": "The good shepherd",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPUP-d2sSZ9o1l--ByCceui2Rw8xVeJKDmem3CP=w408-h306-k-no",
     "images": [],
@@ -794,10 +905,12 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Outdoor Activity",
-    "genre": ["hiking"],
+    "genre": "walking",
     "name": "Pools of Sahna",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPjhQbITpDq7ba3P8l9lHMJFFPTMNwwifsraJui=w408-h306-k-no",
-    "images": ["https://www.the961.com/wp-content/uploads/2020/06/ef97dbe3add03a80b489b8d7db20af74-1.jpg"],
+    "images": [
+      "https://www.the961.com/wp-content/uploads/2020/06/ef97dbe3add03a80b489b8d7db20af74-1.jpg"
+    ],
     "address": "Hasroun",
     "address_coordinates": [34.219625577040404, 35.969341163373436],
     "icon": "",

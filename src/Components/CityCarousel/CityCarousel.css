@@ -103,10 +103,10 @@ Modal {
 img.demo.small-pic.cursor {
   height: 100%;
 }
-span:hover {
+/* span:hover {
   color: blue;
   cursor: pointer;
-}
+} */
 @media only screen and (max-width: 1000px) {
   .ant-modal-content {
     background-color: transparent;
