@@ -1,4 +1,4 @@
-.card {
+.cards {
   padding: 0;
   width: 75%;
   height: 499px;
@@ -22,7 +22,6 @@
   align-items: flex-start;
 }
 .title {
-  font-size: 48px;
   text-align: left;
 }
 .description {

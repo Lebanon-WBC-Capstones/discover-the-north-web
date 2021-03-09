@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NeedATourGuide.css';
 
 export default function NeedATourGuid() {
@@ -6,7 +7,9 @@ export default function NeedATourGuid() {
     <div className="container">
       <h1>Need a Tour Guide?</h1>
       <div className="buttonContainer">
-        <button className="takeButton">Take me there</button>
+        <Link to="/tour-guide">
+          <button className="takeButton">Take me there</button>
+        </Link>
       </div>
     </div>
   );

@@ -2,5 +2,5 @@
   font-size: 15px;
   height: auto;
   border-radius: 10px;
-  width: var(--width);
+  width: var(--width) px;
 }

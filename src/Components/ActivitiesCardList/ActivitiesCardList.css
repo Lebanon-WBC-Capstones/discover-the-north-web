@@ -1,0 +1,36 @@
+.activity-card-list {
+  display: grid;
+  grid-gap: 20px;
+  margin-bottom: 10%;
+}
+.result-sort {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px 0 -5px 0;
+}
+.results-number {
+  color: gray;
+}
+.only-outdoor {
+  background-color: #e8f0fe;
+  color: #0091ea;
+  padding: 7px 15px;
+  border-radius: 10px;
+  display: flex;
+}
+.only-outdoor:hover {
+  cursor: pointer;
+}
+.loading-spinner-layout {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 90%;
+}
+.act-spinner {
+  justify-self: center;
+  margin: 10px 0;
+  font-size: 20px;
+}

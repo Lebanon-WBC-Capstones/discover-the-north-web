@@ -1,14 +1,15 @@
 {
-    "navbar":{
-        "about":"About Us",
-        "activities":"Activities",
-        "cities":"Cities",
-        "tourGuide":"Tour Guide"
-    },
-    "button":{
-        "text":"Sign In"
-    },
-    "tourGuidePage":{
-        "header":"All tour guides"
-    }
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "activities": "Activities",
+    "cities": "Cities",
+    "tourGuide": "Tour Guide"
+  },
+  "button": {
+    "text": "Sign In"
+  },
+  "tourGuidePage": {
+    "header": "All tour guides"
+  }
 }

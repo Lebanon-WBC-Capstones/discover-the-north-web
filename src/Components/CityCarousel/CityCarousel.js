@@ -3,25 +3,25 @@ import { Modal } from 'antd';
 import './CityCarousel.css';
 import { LeftOutlined, RightOutlined, CloseOutlined } from '@ant-design/icons';
 
-export default function CityCarousel({ picArray }) {
-  const [imgSrc, setImgSrc] = useState(picArray[0].srcImg);
-  const [isModalVisible, setIsModalVisible] = useState(false);
+export default function CityCarousel({
+  picArray,
+  isModalVisible,
+  setIsModalVisible,
+}) {
+  const [imgSrc, setImgSrc] = useState(picArray[0]);
 
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
   function currentSlide(n) {
-    setImgSrc(picArray[n].srcImg);
+    setImgSrc(picArray[n]);
   }
   function plusSlides(n) {
     picArray.forEach((pic, index) => {
-      if (pic.srcImg == imgSrc) {
+      if (pic === imgSrc) {
         if (index + n >= picArray.length) {
-          setImgSrc(picArray[0].srcImg);
+          setImgSrc(picArray[0]);
         } else if (index + n < 0) {
-          setImgSrc(picArray[picArray.length - 1].srcImg);
+          setImgSrc(picArray[picArray.length - 1]);
         } else {
-          setImgSrc(picArray[index + n].srcImg);
+          setImgSrc(picArray[index + n]);
         }
       }
     });
@@ -29,9 +29,6 @@ export default function CityCarousel({ picArray }) {
 
   return (
     <div className="cities-carousel">
-      <span onClick={showModal}>
-        <u>See more!</u>
-      </span>
       <Modal
         visible={isModalVisible}
         footer={[]}
@@ -56,7 +53,7 @@ export default function CityCarousel({ picArray }) {
               <div className="column">
                 <img
                   className="demo cursor small-pic"
-                  src={pic.srcImg}
+                  src={pic}
                   style={{ width: '100%' }}
                   onClick={() => currentSlide(index)}
                   alt="pic"

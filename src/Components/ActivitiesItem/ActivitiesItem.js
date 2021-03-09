@@ -1,77 +1,91 @@
 import React, { useState } from 'react';
 import './activityItem.css';
-import { Card, Image, Row, Col, Typography, Rate, Tooltip, Badge } from 'antd';
-import {
-  HeartOutlined,
-  HeartFilled,
-  DoubleRightOutlined,
-} from '@ant-design/icons';
+import { Card, Row, Col, Typography, Rate, Badge } from 'antd';
+import { Link } from 'react-router-dom';
+import Like from '../Like/Like';
+import { DoubleArrow } from '@material-ui/icons';
 
 const { Title } = Typography;
-
-export default function ActivitiesItem(activity) {
-  const [like, setLike] = useState(false);
-  const toggleLike = () => {
-    setLike(!like);
+export default function ActivitiesItem(props) {
+  const {
+    index,
+    imgsrc,
+    name,
+    cityName,
+    rating,
+    price,
+    tags,
+    handleMouseOver,
+    handleMouseLeave,
+  } = props;
+  const [activeActivityItem, setActiveActivityItem] = useState(null);
+  const activate = () => {
+    setActiveActivityItem(activeActivityItem);
   };
-
   return (
-    <Card className="cardSize" hoverable>
+    <Card
+      className="activity-item-card"
+      hoverable
+      key={index}
+      onMouseOver={(elem) => handleMouseOver(index)}
+      onMouseLeave={(elem) => handleMouseLeave(index)}
+      onClick={activate}
+    >
       <Row>
-        <Col span={10}>
-          <Image src={activity.imgsrc} width={200} height={150} />
+        <Col span={9}>
+          <img
+            className="activity-card-image"
+            src={imgsrc}
+            width={210}
+            height={150}
+            alt="activity"
+          />
         </Col>
-
-        <Col span={14}>
+        <Col span={15}>
           <Row>
             <Col span={21}>
-              <Title level={3}>{activity.name}</Title>
+              <Title level={3}>{name}</Title>
             </Col>
             <Col span={3}>
-              <Tooltip
-                placement="top"
-                title={like ? 'add to favorite' : 'remove from favorite'}
-              >
-                {like ? (
-                  <HeartOutlined
-                    className="heartOutlined heartSize"
-                    onClick={toggleLike}
-                  />
-                ) : (
-                  <HeartFilled
-                    className="heartFilled heartSize"
-                    onClick={toggleLike}
-                  />
-                )}
-              </Tooltip>
+              <Like />
             </Col>
           </Row>
-
           <Row className="middle-row-height">
-            <Col span={19}>
-              {activity.cityName}
+            <Col span={20} className="cityName">
+              {cityName}
               <br />
-              <Rate disabled defaultValue={activity.rating} />
+              <Rate
+                disabled
+                allowHalf
+                defaultValue={rating}
+                className="rating-act-size"
+              />
             </Col>
-            <Col span={5}>
-              <Title level={3}>{activity.price}</Title>
+            <Col span={4}>
+              <Title style={{ textAlign: 'center' }} level={3}>
+                {price === 'FREE' ? price : price + '$'}
+              </Title>
             </Col>
           </Row>
-
-          <hr />
-
-          <Row justify="space-around">
-            {activity.tags.length < 5
-              ? activity.tags.map((tag) => <span>{tag}</span>)
-              : activity.tags.slice(0, 4).map((tag) => <span>{tag}</span>)}{' '}
-            <Badge
-              overflowCount={10}
-              style={{ backgroundColor: '#108ee9' }}
-              count={activity.tags.length - 4}
-            />
-            <span>
-              learn more <DoubleRightOutlined />
-            </span>
+          <hr style={{ borderTop: 'lightgray' }} />
+          <Row justify="space-between">
+            {tags.length < 3
+              ? tags.map((tag) => <span className="tagsFontColor">{tag}</span>)
+              : tags
+                  .slice(0, 2)
+                  .map((tag) => <span className="tagsFontColor">{tag}</span>)}
+            {tags.length > 2 && (
+              <Badge
+                overflowCount={10}
+                style={{ backgroundColor: '#108EE9' }}
+                count={tags.length - 2}
+              />
+            )}
+            <Link to={`/activities/${index}`}>
+              <span className="learnMore">
+                learn more <DoubleArrow className="double-ar-right" />
+              </span>
+            </Link>
           </Row>
         </Col>
       </Row>

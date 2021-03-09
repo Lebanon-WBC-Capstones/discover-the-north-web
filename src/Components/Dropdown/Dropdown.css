@@ -1,7 +1,6 @@
 .itemsContainer {
-  border-radius: 10px;
+  border-radius: 5px;
 }
-
 .items {
   text-align: center;
   font-size: 18px;
@@ -12,8 +11,9 @@
   color: white;
 }
 .dropButton {
-  border: 2px solid #091945;
-  border-radius: 15px;
+  border: 1px solid #cecece;
+  color: #091945;
+  border-radius: 8px;
   font-size: 18px;
   width: 150px;
   display: flex;

@@ -2,14 +2,14 @@ import * as React from 'react';
 import { useContext } from 'react';
 import { Marker } from 'react-map-gl';
 import './Markers.css';
-// import { TooltipColor, ID } from '../../ActivityPage/ActivityPage';
+import { TooltipColor, ID } from '../../../Pages/ActivitiesPage/ActivitiesPage';
 import marker from './marker.png';
 
 function MarkerComponent(props) {
-  const { data, onHover, onMouseLeave, type, key } = props;
+  const { data, onHover, onMouseLeave, type } = props;
 
-  //   const TooltipColorContext = useContext(TooltipColor);
-  //   const IDcontent = useContext(ID);
+  const TooltipColorContext = useContext(TooltipColor);
+  const IDcontent = useContext(ID);
 
   return data.map((item, index) => (
     <Marker
@@ -20,9 +20,9 @@ function MarkerComponent(props) {
       {type === 1 ? (
         <span
           className={
-            // TooltipColorContext && item.id === IDcontent
-            //   ? 'tooltiptext tooltiptextYellow' :
-            'tooltiptext tooltiptextBlue'
+            TooltipColorContext && item.id === IDcontent
+              ? 'tooltiptext tooltiptextYellow'
+              : 'tooltiptext tooltiptextBlue'
           }
           onMouseOver={() => setTimeout(onHover(item), 5000)}
           onMouseLeave={() => onMouseLeave(item)}
@@ -30,7 +30,7 @@ function MarkerComponent(props) {
           {item.price === 'FREE' ? item.price : item.price + '$'}
         </span>
       ) : (
-        <img src={marker} className="cityMarker" />
+        <img src={marker} className="cityMarker" alt="marker" />
       )}
     </Marker>
   ));

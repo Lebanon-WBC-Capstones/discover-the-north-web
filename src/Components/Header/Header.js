@@ -1,12 +1,15 @@
 import './Header.css';
 import Search from '../Search/Search';
-import videos from './headerGiffy.mp4';
+import videomp4 from './headerGiffy.mp4';
 import { gems } from '../../MockData/data';
 
 const Header = () => {
   return (
     <div className="header">
-      <video src={videos} autoPlay />
+      <video autoPlay muted>
+        <source src={videomp4} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div className="titleContainer">
         <h1>Discover North Lebanon</h1>
         <h2>Every City has its own stuff, get to know them more with us</h2>

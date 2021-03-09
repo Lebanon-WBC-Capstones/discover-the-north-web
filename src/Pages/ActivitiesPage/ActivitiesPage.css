@@ -1,0 +1,18 @@
+.act-page {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-areas: 'cards map';
+  margin: 0 3% 0 4%;
+}
+@media screen and (max-width: 600px) {
+  .act-page {
+    grid-template-columns: 100%;
+    grid-template-areas: 'map' 'cards';
+  }
+}
+.act-left-grid-column {
+  grid-area: 'cards';
+}
+.act-right-grid-column {
+  grid-area: 'map';
+}
