@@ -1,3 +1,4 @@
+import img from './a.png';
 export const gems = [
   {
     name: 'Tripoli',
@@ -111,9 +112,8 @@ export const TourGuideData = [
     tour_guides: [
       {
         id: 41,
-        image:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvpuNoI06nScwFAhJgWlCwEDO1tsBTWw_rgt-6ahuXzex6C9OT_bjXV6Gs-IFO1bPRao&usqp=CAU',
-        name: 'Samer Tayba',
+        image: img,
+        name: 'Alia Tayba',
         email: 'discover.north.lebanon@gmail.com',
         summary: '',
         speciality_tags: [

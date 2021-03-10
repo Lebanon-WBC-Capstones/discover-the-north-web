@@ -13,8 +13,8 @@ export default function TourGuidePage() {
   const { t } = useTranslation();
 
   return (
-    <div className="allPage">
-      <div className="tourGuideHeader">
+    <div className="tour-guide-page-container">
+      <div className="tour-guide-page-header">
         <div>
           <h1>{t('tourGuidePage.header')}</h1>
         </div>
@@ -33,6 +33,7 @@ export default function TourGuidePage() {
                 name={guider.name}
                 tags={guider.speciality_tags}
                 description={guider.summary}
+                guide={guider}
               />
             );
           })

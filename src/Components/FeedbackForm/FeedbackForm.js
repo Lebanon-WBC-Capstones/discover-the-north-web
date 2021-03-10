@@ -1,8 +1,8 @@
 import React from 'react';
 import './FeedbackForm.css';
 import emailjs from 'emailjs-com';
-import { SendOutlined, UserOutlined } from '@ant-design/icons';
-import { Layout, Row, Col, Typography, Input, Button, Form } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
+import { Typography, Input, Button, Form } from 'antd';
 
 const { Title } = Typography;
 
@@ -36,70 +36,66 @@ function FeedbackFormComponent({
   };
 
   return (
-    <div>
-      <Form form={form} onFinish={handleSubmit} className="feedbackForm">
-        <Layout className="layoutHeight">
-          <Row className="firstRowMargin">
-            <Col span={8} offset={3}>
-              <Title level={2}>Your Opinion Always Matters</Title>
-              <Title level={5}>
-                After visiting our site, you may have some advises. We would
-                like to hear them from you.
-              </Title>
-            </Col>
-            <hr className="hr-vertical" />
+    <div className="feedback-cp-s">
+      <Form form={form} onFinish={handleSubmit}>
+        <div className="feedback-cp-form-ct">
+          <div className="feedback-form-col-1">
+            <Title level={2}>Your Opinion Always Matters</Title>
+            <Title level={5}>
+              After visiting our site, you may have some advises. We would like
+              to hear them from you.
+            </Title>
+          </div>
+
+          <hr className="hr-vertical" />
+
+          <div className="feedback-form-col-2">
             <Input type="hidden" name="user_name" value={user_name} />
             <Input type="hidden" name="DTN_email" value={DTN_email} />
-            <Col span={8} offset={-2} className="colMarginTop">
-              <Form.Item
+            <Form.Item
+              name="user_email"
+              rules={[
+                {
+                  required: true,
+                  message: 'Please input your email!',
+                },
+              ]}
+            >
+              <Input
+                type="email"
                 name="user_email"
-                rules={[
-                  {
-                    required: true,
-                    message: 'Please input your email!',
-                  },
-                ]}
-              >
-                <Input
-                  type="email"
-                  name="user_email"
-                  className="input_email"
-                  placeholder="  Your Email..."
-                  prefix={<UserOutlined className="userIcon" />}
-                />
-              </Form.Item>
-            </Col>
-          </Row>
+                className="input_email"
+                placeholder="  Your Email..."
+                prefix={<UserOutlined className="userIcon" />}
+              />
+            </Form.Item>
 
-          <Row justify="end">
-            <Col span={8} className="colMargin2">
-              <Form.Item
+            <Form.Item
+              name="message"
+              rules={[
+                {
+                  required: true,
+                  message: 'Please input your message!',
+                },
+              ]}
+            >
+              <Input
                 name="message"
-                rules={[
-                  {
-                    required: true,
-                    message: 'Please input your message!',
-                  },
-                ]}
+                className="input_message"
+                placeholder="Your feedback!"
+              />
+            </Form.Item>
+            <Form.Item>
+              <Button
+                type="primary"
+                htmlType="submit"
+                className="feedback-send-btn"
               >
-                <Input
-                  name="message"
-                  className="input_message"
-                  placeholder="Express yourself"
-                />
-              </Form.Item>
-            </Col>
-          </Row>
-          <Row>
-            <Col span={6} offset={17}>
-              <Form.Item>
-                <Button type="primary" htmlType="submit" className="sendButton">
-                  Send <SendOutlined />
-                </Button>
-              </Form.Item>
-            </Col>
-          </Row>
-        </Layout>
+                Send
+              </Button>
+            </Form.Item>
+          </div>
+        </div>
       </Form>
     </div>
   );

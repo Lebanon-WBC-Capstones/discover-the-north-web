@@ -1,19 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './SingleActivityPage.css';
-import { Divider, Tooltip, PageHeader } from 'antd';
-import { HeartOutlined, HeartFilled } from '@ant-design/icons';
+import { Divider, PageHeader } from 'antd';
 import ActivitiesCarousel from '../../Components/ActivitiesCarousel/ActivitiesCarousel';
 import Button from '../../Components/Button/Button';
 import tourguideimg from '../../Components/WhatWeDo/icons/tourGuide.png';
+import { useParams } from 'react-router';
+import activities from '../../MockData/activities.json';
+import Like from '../../Components/Like/Like';
+import { Link } from 'react-router-dom';
 
 export default function SingleActivityPage(props) {
-  const { activityName, tags, actPicArray, description } = props;
-
-  const [like, setLike] = useState(true);
-  const toggleLike = () => {
-    setLike(!like);
-  };
-  const buttonWidth = '1px';
+  const { id } = useParams();
   return (
     <div className="single-act-container">
       <PageHeader
@@ -22,55 +19,58 @@ export default function SingleActivityPage(props) {
         title="Back"
         className="back-btn"
       />
-      <div className="grid-view">
-        <div className="left-side-grid">
-          <div className="header">
-            <div className="header-child-1">
-              <h1>{activityName}</h1>
-              <Tooltip
-                placement="top"
-                title={like ? 'add to favorite' : 'remove from favorite'}
-              >
-                {like ? (
-                  <HeartOutlined
-                    className="heartOutlined heartSize"
-                    onClick={toggleLike}
-                  />
-                ) : (
-                  <HeartFilled
-                    className="heartFilled heartSize"
-                    onClick={toggleLike}
-                  />
-                )}
-              </Tooltip>
-            </div>
-            <Divider />
-            <div className="header-child-2">
-              {tags && tags.map((tag) => <span>{tag}</span>)}
-            </div>
-          </div>
-          <div className="left-grid-description">{description}</div>
+      {activities
+        .filter((act) => parseInt(id) === act.id)
+        .map((act) => {
+          return (
+            <div className="s-act-p-cont">
+              <div className="grid-view">
+                <div className="left-side-grid">
+                  <div className="single-act-info-header">
+                    <div className="single-act-info-header-child-1">
+                      <h1>{act.name}</h1>
+                      <Like />
+                    </div>
+                    <Divider />
+                    <div className="single-act-info-header-child-2">
+                      {act.related_tags &&
+                        act.related_tags.map((tag) => <span>{tag}</span>)}
+                    </div>
+                  </div>
+                  <div className="left-grid-description">{act.description}</div>
 
-          <div className="left-grid-tour-guide">
-            <div className="hire-box">
-              <h1 className="icon-text">
-                {' '}
-                <img src={tourguideimg} className="iconStyle" alt="icon" />
-                Need A Tour Guide?
-              </h1>
-              <Button
-                buttonWidth={buttonWidth}
-                text="See Available tour guides"
-                type="primary"
-              />
-            </div>
-          </div>
-        </div>
+                  <div className="single-act-left-grid-tour-guide">
+                    <div className="single-act-info-hire-box">
+                      <h1 className="single-act-info-icon-text">
+                        {' '}
+                        <img
+                          src={tourguideimg}
+                          className="single-act-info-icon-style"
+                          alt="icon"
+                        />
+                        Need A Tour Guide?
+                      </h1>
+                      <Link to="/tour-guide">
+                        <Button
+                          buttonWidth={10}
+                          text="See Available tour guides"
+                          type="primary"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
 
-        <div>
-          <ActivitiesCarousel actPicArray={actPicArray} carWidth={'61rem'} />
-        </div>
-      </div>
+                <div>
+                  <ActivitiesCarousel
+                    actPicArray={act.images}
+                    carWidth={'52.5rem'}
+                  />
+                </div>
+              </div>
+            </div>
+          );
+        })}
     </div>
   );
 }

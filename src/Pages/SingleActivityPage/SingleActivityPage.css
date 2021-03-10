@@ -3,19 +3,23 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 5%;
 }
 .back-btn {
   align-self: flex-start;
 }
-.grid-view {
+.s-act-p-cont {
   margin-top: 2ch;
   height: 70ch;
   width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 30px 20px #f1f3f4;
   -webkit-box-shadow: 0 30px 20px #f1f3f4;
   -moz-box-shadow: 0 30px 20px #f1f3f4;
-  box-shadow: 0 30px 20px #f1f3f4;
+}
+.grid-view {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 70ch;
 }
 
 .left-side-grid {
@@ -24,55 +28,44 @@
   padding: 6%;
   justify-content: space-between;
 }
-.header {
+.single-act-info-header {
   display: flex;
   flex-direction: column;
 }
-.header-child-1 {
+.single-act-info-header-child-1 {
   display: flex;
   justify-content: space-between;
   margin-bottom: -20px;
 }
-.header-child-2 {
+.single-act-info-header-child-2 {
   display: flex;
   justify-content: space-between;
   margin-top: -10px;
   color: rgb(177, 176, 176);
   font-size: 15px;
 }
-.heartSize {
-  font-size: 25px;
-}
-.heartOutlined {
-  color: #f1f3f4;
-}
-.heartFilled {
-  color: rgb(248, 4, 4);
-}
+
 .left-grid-description {
   font-size: large;
 }
-.left-grid-tour-guide {
+.single-act-left-grid-tour-guide {
   display: flex;
   flex-direction: column;
   height: 25%;
   align-self: center;
 }
-.iconStyle {
+.single-act-info-icon-style {
   width: 50px;
 }
-.icon-text {
+.single-act-info-icon-text {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.hire-box {
+.single-act-info-hire-box {
   text-align: center;
   border: 1px solid #f1f3f4;
   padding: 25px;
   width: 400px;
   border-radius: 10px;
-}
-.hire-btn {
-  height: 30px;
 }

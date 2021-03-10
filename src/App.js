@@ -5,11 +5,15 @@ import FooterComponent from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import HomePage from './Pages/HomePage/HomePage';
 import AboutUsPage from './Pages/AboutUs/AboutUs';
+import SingleCityPage from './Pages/SingleCityPage/SingleCityPage';
 import CitiesPage from './Pages/CitiesPage/CitiesPage';
 import cities from './MockData/cities.json';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import TourGuidePage from './Pages/TourGuide/TourGuidePage';
+import ActivitiesPage from './Pages/ActivitiesPage/ActivitiesPage';
+import SingleActivityPage from './Pages/SingleActivityPage/SingleActivityPage';
 
+import './App.css';
 function App() {
   return (
     <div className="App">
@@ -21,10 +25,16 @@ function App() {
               <HomePage />
             </Route>
             <Route exact path="/activities">
-              {/* Activities page */}
+              <ActivitiesPage />
+            </Route>
+            <Route exact path="/activities/:id">
+              <SingleActivityPage />
             </Route>
             <Route exact path="/cities">
               <CitiesPage data={cities} />
+            </Route>
+            <Route exact path="/cities/:id">
+              <SingleCityPage />
             </Route>
             <Route exact path="/tour-guide">
               <TourGuidePage />

@@ -3,35 +3,41 @@ import { Modal } from 'antd';
 import './CityCarousel.css';
 import { LeftOutlined, RightOutlined, CloseOutlined } from '@ant-design/icons';
 
-export default function CityCarousel({ picArray }) {
-  const [imgSrc, setImgSrc] = useState(picArray[0].srcImg);
-  const [isModalVisible, setIsModalVisible] = useState(false);
+export default function CityCarousel({
+  picArray,
+  isModalVisible,
+  setIsModalVisible,
+}) {
+  const [imgSrc, setImgSrc] = useState(picArray[0]);
 
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
   function currentSlide(n) {
-    setImgSrc(picArray[n].srcImg);
+    setImgSrc(picArray[n]);
   }
   function plusSlides(n) {
     picArray.forEach((pic, index) => {
-      if (pic.srcImg == imgSrc) {
+      if (pic === imgSrc) {
         if (index + n >= picArray.length) {
-          setImgSrc(picArray[0].srcImg);
+          setImgSrc(picArray[0]);
         } else if (index + n < 0) {
-          setImgSrc(picArray[picArray.length - 1].srcImg);
+          setImgSrc(picArray[picArray.length - 1]);
         } else {
-          setImgSrc(picArray[index + n].srcImg);
+          setImgSrc(picArray[index + n]);
         }
       }
     });
   }
 
+  // const modalStyle = {
+  //   backgroundColor: 'transparent',
+  //   height: '100vh',
+  //   width: '50vw',
+  //   margin: 'auto',
+  //   paddingBottom: '0px',
+  //   padding: '10px',
+  //   borderTop: 'none',
+  // };
   return (
     <div className="cities-carousel">
-      <span onClick={showModal}>
-        <u>See more!</u>
-      </span>
       <Modal
         visible={isModalVisible}
         footer={[]}
@@ -40,10 +46,12 @@ export default function CityCarousel({ picArray }) {
         closeIcon={
           <CloseOutlined style={{ color: 'white' }} className="close-icon" />
         }
+        className="Modal"
+        // style={modalStyle}
       >
         <div className="container">
           <div className="big-pic-row">
-            <img src={imgSrc} className="big-image" alt="pic" />
+            <img src={imgSrc} className="big-image city-car-img" alt="pic" />
           </div>
           <div className="prev" onClick={() => plusSlides(-1)}>
             <LeftOutlined />
@@ -55,8 +63,8 @@ export default function CityCarousel({ picArray }) {
             {picArray.map((pic, index) => (
               <div className="column">
                 <img
-                  className="demo cursor small-pic"
-                  src={pic.srcImg}
+                  className="demo cursor small-pic city-car-img"
+                  src={pic}
                   style={{ width: '100%' }}
                   onClick={() => currentSlide(index)}
                   alt="pic"

@@ -1,0 +1,9 @@
+.like-icn-12:hover {
+  cursor: pointer;
+}
+.heartOutlined {
+  color: #f1f3f4;
+}
+.heartFilled {
+  color: rgb(248, 4, 4);
+}
