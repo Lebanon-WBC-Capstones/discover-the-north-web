@@ -10,6 +10,7 @@ import CitiesPage from './Pages/CitiesPage/CitiesPage';
 import cities from './MockData/cities.json';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import TourGuidePage from './Pages/TourGuide/TourGuidePage';
+import HireTguidePage from './Pages/HireTguidePage/HireTguidePage';
 import ActivitiesPage from './Pages/ActivitiesPage/ActivitiesPage';
 import SingleActivityPage from './Pages/SingleActivityPage/SingleActivityPage';
 
@@ -38,6 +39,9 @@ function App() {
             </Route>
             <Route exact path="/tour-guide">
               <TourGuidePage />
+            </Route>
+            <Route exact path="/hire-me/:name">
+              <HireTguidePage />
             </Route>
             <Route exact path="/user-profile">
               UserProfile page

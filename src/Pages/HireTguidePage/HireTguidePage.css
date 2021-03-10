@@ -1,13 +1,34 @@
-h1 {
+.hire-me-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.site-page-header {
+  align-self: flex-start;
+}
+.hire-me-divs {
+  margin-top: 2ch;
+  height: 70ch;
+  width: 90%;
+  box-shadow: 0 30px 20px #f1f3f4;
+  -webkit-box-shadow: 0 30px 20px #f1f3f4;
+  -moz-box-shadow: 0 30px 20px #f1f3f4;
+}
+.pageHead {
   margin: auto;
   padding-bottom: 50px;
   width: fit-content;
 }
 @media only screen and (max-width: 1020px) {
-  h1 {
+  .pageHead {
     margin: auto;
     padding: 20px;
     font-size: medium;
     width: fit-content;
+  }
+  .hire-me-divs {
+    height: 100%;
   }
 }
