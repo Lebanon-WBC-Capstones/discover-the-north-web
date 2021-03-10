@@ -27,6 +27,15 @@ export default function CityCarousel({
     });
   }
 
+  // const modalStyle = {
+  //   backgroundColor: 'transparent',
+  //   height: '100vh',
+  //   width: '50vw',
+  //   margin: 'auto',
+  //   paddingBottom: '0px',
+  //   padding: '10px',
+  //   borderTop: 'none',
+  // };
   return (
     <div className="cities-carousel">
       <Modal
@@ -37,10 +46,12 @@ export default function CityCarousel({
         closeIcon={
           <CloseOutlined style={{ color: 'white' }} className="close-icon" />
         }
+        className="Modal"
+        // style={modalStyle}
       >
         <div className="container">
           <div className="big-pic-row">
-            <img src={imgSrc} className="big-image" alt="pic" />
+            <img src={imgSrc} className="big-image city-car-img" alt="pic" />
           </div>
           <div className="prev" onClick={() => plusSlides(-1)}>
             <LeftOutlined />
@@ -52,7 +63,7 @@ export default function CityCarousel({
             {picArray.map((pic, index) => (
               <div className="column">
                 <img
-                  className="demo cursor small-pic"
+                  className="demo cursor small-pic city-car-img"
                   src={pic}
                   style={{ width: '100%' }}
                   onClick={() => currentSlide(index)}

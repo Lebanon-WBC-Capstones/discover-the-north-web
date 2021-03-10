@@ -15,7 +15,7 @@ export default function NoFavoriteItem({ onclick }) {
         description={
           <>
             <h1>You have no favorite activity </h1>
-            <span className="description">
+            <span className="nofav-description ">
               When browsing, just hover over a shot and click the{' '}
               <HeartOutlined /> button.
             </span>

@@ -64,7 +64,7 @@ export default function SingleActivityPage(props) {
                 <div>
                   <ActivitiesCarousel
                     actPicArray={act.images}
-                    carWidth={'50rem'}
+                    carWidth={'52.5rem'}
                   />
                 </div>
               </div>

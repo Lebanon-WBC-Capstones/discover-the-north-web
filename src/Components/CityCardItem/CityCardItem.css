@@ -20,7 +20,7 @@
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-.overlay {
+.city-card-component-overlay {
   position: absolute;
   bottom: 0;
   left: -1px;
@@ -36,12 +36,12 @@
   justify-content: center;
   align-items: center;
 }
-.city-card-container:hover .overlay {
+.city-card-container:hover .city-card-component-overlay {
   -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-.text {
+.city-card-component-text {
   color: white;
   position: absolute;
   top: 50%;
@@ -64,4 +64,7 @@
 }
 .city-p-activity-nb {
   border-bottom: 1px solid white;
+}
+.city-card-learn-more-child-1 {
+  display: flex;
 }

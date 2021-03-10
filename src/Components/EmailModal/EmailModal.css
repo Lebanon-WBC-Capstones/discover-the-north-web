@@ -22,7 +22,3 @@
 .input_spec {
   width: 150px;
 }
-span:hover {
-  color: blue;
-  cursor: pointer;
-}

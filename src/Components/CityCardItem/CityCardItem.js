@@ -1,7 +1,7 @@
 import React from 'react';
 import './CityCardItem.css';
 import { Card } from 'antd';
-import { DoubleRightOutlined } from '@ant-design/icons';
+import { DoubleArrow } from '@material-ui/icons';
 
 export default function CityCardItem(city) {
   const { imgsrc, name, activityNumber } = city;
@@ -22,8 +22,8 @@ export default function CityCardItem(city) {
             />
           }
         >
-          <div className="overlay">
-            <div className="text">
+          <div className="city-card-component-overlay">
+            <div className="city-card-component-text">
               <h1
                 style={{ color: 'white', opacity: 1 }}
                 className="city-card-overlay-name"
@@ -34,11 +34,8 @@ export default function CityCardItem(city) {
                 {activityNumber} activity
               </span>
               <div className="city-card-learn-more">
-                <span>
-                  Learn more{' '}
-                  <DoubleRightOutlined
-                    style={{ fontSize: '12px', marginBottom: -5 }}
-                  />{' '}
+                <span className="city-card-learn-more-child-1">
+                  Learn more <DoubleArrow className="double-ar-right" />{' '}
                 </span>
               </div>
             </div>

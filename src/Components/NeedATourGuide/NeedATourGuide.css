@@ -1,11 +1,11 @@
-.container {
+.need-tour-guide-container {
   height: 250px;
   background: url('./pic.png') top;
   background-size: cover;
   padding: 10px;
 }
 
-.container h1 {
+.need-tour-guide-container h1 {
   margin: 0;
   text-align: center;
   font-size: 80px;
