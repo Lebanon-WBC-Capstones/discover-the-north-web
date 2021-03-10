@@ -78,7 +78,9 @@ export default function Navbar() {
             placement="bottomCenter"
             icon={<GlobalOutlined />}
           />
-          <ButtonComponont text={t('button.text')} type="primary" />
+          <Link to="/sign-up">
+            <ButtonComponont text={t('button.text')} type="primary" />
+          </Link>
         </div>
       </Layout>
     </div>
