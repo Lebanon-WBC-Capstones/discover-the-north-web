@@ -1,37 +1,38 @@
 export const gems = [
   {
-    name: 'Tripoli',
+    id: 101,
+    name: 'Horsh Ehden',
     imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
-    id: '1',
+      'https://media-cdn.tripadvisor.com/media/photo-s/0b/c0/3b/55/screenshot-20160626-165837.jpg',
   },
   {
-    name: 'Batroun',
-    imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
-    id: '2',
-  },
-  {
-    name: 'Zgharta',
-    imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
-    id: '3',
-  },
-  {
+    id: 21,
     name: 'Mina',
     imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
-    id: '4',
+      'http://lebanonuntravelled.com/wp/wp-content/uploads/2016/02/20160229_164645-2.jpg',
   },
   {
-    name: 'Tripoli',
+    id: 227,
+    name: 'Hamat',
     imgSrc:
       'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
-    id: '5',
+  },
+  {
+    id: 266,
+    name: 'Hasroun',
+    imgSrc:
+      'https://www.the961.com/wp-content/uploads/2020/06/ef97dbe3add03a80b489b8d7db20af74-1.jpg',
+  },
+  {
+    id: 221,
+    name: 'Msailha',
+    imgSrc:
+      'https://www.lebanoninapicture.com/Prv/Images/Pages/Page_101911/love-instagood-photooftheday-top-tags-tbt-cute--3-26-2017-8-46-22-pm-l.jpg',
   },
 ];
 export const activities = [
   {
+    id: 141,
     name: 'Hiking',
     image:
       'https://www.lebanontraveler.com/lebanontraveler/Library/Images/Uploaded%20Images/2017/LT/Articles/Hikes/005-Bentael-copy.jpg',
@@ -39,6 +40,7 @@ export const activities = [
     height: '654px',
   },
   {
+    id: 264,
     name: 'Skiing',
     image:
       'https://www.aljazeera.com/wp-content/uploads/2017/03/8697968b54d14ef7bca47aac9502f8fe_8.jpeg',
@@ -46,6 +48,7 @@ export const activities = [
     height: '331px',
   },
   {
+    id: 222,
     name: 'Mountain Biking',
     image:
       'https://blogbaladi.com/wp-content/uploads/2016/08/biking2-624x333.jpg',
@@ -53,6 +56,7 @@ export const activities = [
     height: '331px',
   },
   {
+    id: 104,
     name: 'ATV & Buggy',
     image:
       'https://mediaim.expedia.com/localexpert/641081/86491096-e817-4204-97e1-d8014798ef90.jpg?impolicy=resizecrop&rw=350&rh=197',

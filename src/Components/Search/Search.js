@@ -9,7 +9,7 @@ export default function Search({ citiesArray, activitiesArray, handleSearch }) {
   const [cityVal, setCityVal] = useState('Search for a city');
   const [activityVal, setActivityVal] = useState('Search for an activity');
   const { Option } = Select;
-
+  let id = 0;
   function handleChangeCity(value) {
     setCitySearch(value);
     setCityVal(value);
@@ -25,7 +25,14 @@ export default function Search({ citiesArray, activitiesArray, handleSearch }) {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    handleSearch(citySearch, activitySearch);
+    // handleSearch(citySearch, activitySearch);
+    let c = activitiesArray.filter(
+      (act) => act.city === citySearch && act.name === activitySearch
+    );
+    id = c.map((act) => act.id);
+    setTimeout(() => {
+      window.location = `/activities/${id[0]}`;
+    }, 300);
     setCitySearch(undefined);
     setActivitySearch('');
     setCityVal('Search for a city');
