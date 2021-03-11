@@ -51,6 +51,7 @@ export const gems = [
       'https://images-lebtivity.s3.amazonaws.com/content/versions/68819/960-640-0-0/hiking_at_qammouaa_valley_ezer_forest_akkar_district.jpg',
     id: '4',
   },
+  {
     id: 101,
     name: 'Horsh Ehden',
     imgSrc:
