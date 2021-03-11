@@ -1,13 +1,13 @@
 .mapboxgl-popup-content {
   padding: -10px;
   border-radius: 10px;
-  height: 200px;
-  width: 180px;
+  height: auto;
+  width: 185px;
 }
-.container-popup {
+.container-popup-info {
   display: flex;
   flex-direction: column;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 .view-price {
   color: #0091ea;
@@ -24,9 +24,7 @@
 .info-style-popup {
   padding: 0 10px;
 }
-.city-name-popup {
-  margin-bottom: -2px;
-}
+
 .img-padding-popup {
   margin: -10px -10px 0 -10px;
   border-top-left-radius: 10px;
@@ -34,4 +32,13 @@
 }
 .mapboxgl-popup-close-button {
   display: none;
+}
+.city-act-name-popup-cont {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+}
+.city-name-popup-span {
+  color: gray;
+  font-size: small;
 }

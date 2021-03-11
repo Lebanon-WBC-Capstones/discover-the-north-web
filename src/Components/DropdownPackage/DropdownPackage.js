@@ -17,7 +17,7 @@ export default function DropDownsPackage({ handleFilter }) {
   const [cityResult, setCityResult] = React.useState([]);
 
   function handleSelectAct(act) {
-    const result = activities_data.filter((a) => act === a.name);
+    const result = activities_data.filter((a) => act === a.genre);
     setActResult(result);
   }
   function handleSelectCity(city) {

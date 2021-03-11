@@ -1,10 +1,11 @@
-import React from 'react';
-import { Layout, Menu, Dropdown } from 'antd';
+import React, { useState } from 'react';
+import { Layout, Menu, Dropdown, Affix } from 'antd';
 import { GlobalOutlined } from '@ant-design/icons';
 import './Navbar.css';
 import ButtonComponont from '../Button/Button';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import logo from './proj_logo.png';
 
 const LANG_SPECS = [
   {
@@ -18,8 +19,6 @@ const LANG_SPECS = [
 ];
 
 export default function Navbar() {
-  const logo =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bugarach.JPG/1200px-Bugarach.JPG';
   const [t, i18n] = useTranslation();
 
   const menu = (
@@ -45,9 +44,10 @@ export default function Navbar() {
       })}
     </Menu>
   );
-
+  const [top] = useState(0);
   return (
-    <div>
+    <Affix offsetTop={top}>
+     <div>
       <Layout id="navbar-header-style">
         <div className="languages-toggle-lr">
           <img className="logo" alt="discover the north Logo" src={logo}></img>
@@ -80,5 +80,6 @@ export default function Navbar() {
         </div>
       </Layout>
     </div>
+    </Affix>
   );
 }

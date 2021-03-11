@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   margin: 2% 0 5%;
-  width: 100vw;
+  width: 98vw;
 }
 .cityList {
   display: grid;

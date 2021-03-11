@@ -67,7 +67,7 @@ export const teamMembers = [
   },
   {
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bugarach.JPG/1200px-Bugarach.JPG',
+      'https://files.slack.com/files-pri/T01CVM0D97Z-F01QRSRDYKF/img_20210204_123540.jpg',
     name: 'Maryam AbdelKarim',
     specialization: 'Front-End Web Developer',
     url: {

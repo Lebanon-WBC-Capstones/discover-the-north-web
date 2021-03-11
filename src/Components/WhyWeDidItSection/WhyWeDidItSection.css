@@ -4,6 +4,9 @@
   justify-content: flex-start;
   text-align: start;
 }
+.about-why-title-p {
+  color: #001c84;
+}
 .about-why-style-c {
   justify-self: start;
   align-self: flex-start;
@@ -15,6 +18,7 @@
 
 .margin-top-parag {
   margin-top: 10px;
+  color: #001c84;
 }
 @media only screen and (max-width: 600px) {
   .about-why-style {

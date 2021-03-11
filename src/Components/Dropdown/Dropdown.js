@@ -10,7 +10,6 @@ export default function DropdownButton({
   infoType,
 }) {
   const [elementChecked, setElementChecked] = useState(dropdownTitle);
-
   const handleClick = (element) => {
     let value = element.item.props.value;
     setElementChecked(value);
@@ -22,11 +21,11 @@ export default function DropdownButton({
       {elementArray.map((item, index) => (
         <Menu.Item
           className="items"
-          value={item.name}
+          value={infoType === 0 ? item.name : item.genre}
           key={index}
           onClick={(element) => handleClick(element)}
         >
-          {infoType === 0 ? item.name : item.type}
+          {infoType === 0 ? item.name : item.genre}
         </Menu.Item>
       ))}
     </Menu>

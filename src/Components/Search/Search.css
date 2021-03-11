@@ -1,34 +1,43 @@
 .selectBox {
   border-color: transparent;
   background-color: transparent;
-  padding-left: 20px;
-  margin-left: 10px;
-  width: 50%;
+  width: 35%;
   outline: none;
-}
-.ant-select-selector.ant-select-selector.ant-select-selector {
-  border: 1px solid white 0.6;
-  border-radius: 50px;
-  background-color: transparent;
-  color: white;
-}
-.search-btn:hover {
-  box-shadow: 1px 1px 1px 1px rgb(249, 249, 249);
-}
-.search-btn {
-  border-color: transparent;
-  background-color: transparent;
-  border-radius: 70px;
-  width: 50px;
-  outline: none;
+  z-index: 10;
 }
 
+.ant-select-selector.ant-select-selector.ant-select-selector {
+  border: none;
+  background-color: transparent;
+  color: white;
+  height: 65px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.search-btn {
+  border: none;
+  background-color: #001c84;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: none;
+  height: 65px;
+  width: 65px;
+}
+.search-btn:hover {
+  cursor: pointer;
+  background-color: #071549;
+  transition: 0.5s ease-in-out;
+}
 .search-box {
-  background-color: rgb(249, 249, 249, 0.6);
-  padding: 5px;
+  background-color: white;
   width: 75%;
+  height: 65px;
   margin: auto;
-  border-radius: 50px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,4 +46,15 @@
   width: 90%;
   display: flex;
   justify-content: space-around;
+}
+.vertical-hr {
+  transform: rotate(180deg);
+  height: 40px;
+  border: 1px solid rgb(228, 228, 228);
+}
+
+@media (max-width: 600px) {
+  .search-box {
+    display: none;
+  }
 }

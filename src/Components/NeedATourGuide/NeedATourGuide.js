@@ -2,15 +2,20 @@ import React from 'react';
 import { useTranslation } from 'react-i18next/';
 import { Link } from 'react-router-dom';
 import './NeedATourGuide.css';
+import { Typography } from 'antd';
+
+const { Title } = Typography;
 
 export default function NeedATourGuid() {
   const { t } = useTranslation();
   return (
     <div className="need-tour-guide-container">
-      <h1>{t('homePage.needTour')}</h1>
+      <Title level={1}>{t('homePage.needTour')}</Title>
       <div className="buttonContainer">
         <Link to="/tour-guide">
-          <button className="takeButton">{t('homePage.needTourButton')}</button>
+          <button className="takeButton">
+            <span>{t('homePage.needTourButton')}</span>
+          </button>
         </Link>
       </div>
     </div>

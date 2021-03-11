@@ -21,10 +21,26 @@
 
 h2 {
   font-size: 1.5rem;
-  color: #091945;
+  color: #001c84;
 }
 
 p {
   font-size: 0.9rem;
   color: rgba(69, 90, 100, 0.8);
+}
+.responsive-styling {
+  display: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #ececec;
+}
+
+@media (max-width: 600px) {
+  .responsive-styling {
+    display: block;
+  }
+  .iconContainer {
+    display: none;
+  }
 }

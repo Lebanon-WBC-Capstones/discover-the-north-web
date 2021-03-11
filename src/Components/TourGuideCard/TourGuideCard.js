@@ -22,7 +22,7 @@ function TourGuideCard(tourGuide) {
           <div>
             Speciality : &nbsp;
             {tourGuide.tags &&
-              tourGuide.tags.map((tag) => <Tag color="magenta">{tag}</Tag>)}
+              tourGuide.tags.map((tag) => <Tag color="blue">{tag}</Tag>)}
           </div>
 
           <Row justify="center" className="description">
@@ -35,12 +35,12 @@ function TourGuideCard(tourGuide) {
                   className="skeleton-small"
                 />
               </div>
-            ) : tourGuide.description.split(' ').length < 55 ? (
+            ) : tourGuide.description.split(' ').length < 30 ? (
               tourGuide.description
             ) : (
-              <span>
-                {tourGuide.description.split(' ').slice(0, 55).join(' ')}
-                <span className="see-more"> See more ..</span>
+              <span className="tour-guider-desc">
+                {tourGuide.description.split(' ').slice(0, 30).join(' ')}
+                &nbsp;<span className="tour-see-more"> See more ..</span>
               </span>
             )}
           </Row>

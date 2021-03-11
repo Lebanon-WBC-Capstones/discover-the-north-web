@@ -27,19 +27,22 @@ export default function WhatWeDo(props) {
 
   function parts(arrayOfObj) {
     return (
-      <div className="iconContainer">
-        {arrayOfObj.map((item) => {
-          return (
-            <div className="part">
-              <img src={item.img} className="iconStyle" alt="icon" />
-              <div className="texts">
-                <h2>{item.title}</h2>
-                <p>{item.desc}</p>
+      <>
+        <span className="responsive-styling">30+ activities to explore!</span>
+        <div className="iconContainer">
+          {arrayOfObj.map((item) => {
+            return (
+              <div className="part">
+                <img src={item.img} className="iconStyle" alt="icon" />
+                <div className="texts">
+                  <h2>{item.title}</h2>
+                  <p>{item.desc}</p>
+                </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      </>
     );
   }
 

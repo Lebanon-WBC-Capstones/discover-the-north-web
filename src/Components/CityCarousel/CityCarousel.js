@@ -27,29 +27,19 @@ export default function CityCarousel({
     });
   }
 
-  // const modalStyle = {
-  //   backgroundColor: 'transparent',
-  //   height: '100vh',
-  //   width: '50vw',
-  //   margin: 'auto',
-  //   paddingBottom: '0px',
-  //   padding: '10px',
-  //   borderTop: 'none',
-  // };
   return (
     <div className="cities-carousel">
       <Modal
         visible={isModalVisible}
-        footer={[]}
-        width={'1000'}
+        footer={null}
+        width={848}
+        height={700}
         onCancel={() => setIsModalVisible(false)}
         closeIcon={
           <CloseOutlined style={{ color: 'white' }} className="close-icon" />
         }
-        className="Modal"
-        // style={modalStyle}
       >
-        <div className="container">
+        <div className="city-car-container">
           <div className="big-pic-row">
             <img src={imgSrc} className="big-image city-car-img" alt="pic" />
           </div>
@@ -65,7 +55,6 @@ export default function CityCarousel({
                 <img
                   className="demo cursor small-pic city-car-img"
                   src={pic}
-                  style={{ width: '100%' }}
                   onClick={() => currentSlide(index)}
                   alt="pic"
                 />

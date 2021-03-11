@@ -1,5 +1,4 @@
 .logo {
-  border-radius: 50px;
   width: 50px;
 }
 
@@ -7,27 +6,28 @@
   cursor: pointer;
 }
 
-#headerStyle {
-  color: #091945;
+#navbar-header-style {
+  color: #001c84;
   display: flex;
   flex-direction: row;
 }
 
 .headerStyleCenter {
-  color: #091945;
+  color: #001c84;
   font-size: 15px;
   display: flex;
   justify-content: center;
   width: 70%;
 }
 
-.leftRightSides {
+.languages-toggle-lr {
   display: flex;
   align-items: center;
   justify-content: center;
   background: white;
   border-bottom: 1px solid #f0f0f0;
   width: 15%;
+  color: #001c84;
 }
 
 #langButton {

@@ -15,7 +15,7 @@ export default function CitiesPage({ data }) {
                   imgsrc={city.image}
                   name={city.name}
                   info={city.description}
-                  activityNumber={city['activity-number']}
+                  activityNumberPerCity={city.activityNumber}
                 />
               </Link>
             </div>

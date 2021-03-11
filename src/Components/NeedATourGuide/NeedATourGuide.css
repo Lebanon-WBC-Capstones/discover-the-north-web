@@ -1,14 +1,14 @@
 .need-tour-guide-container {
-  height: 250px;
+  height: 40vh;
   background: url('./pic.png') top;
-  background-size: cover;
+  background-size: contain;
   padding: 10px;
 }
 
 .need-tour-guide-container h1 {
   margin: 0;
   text-align: center;
-  font-size: 80px;
+  font-size: 5vw;
   color: white;
 }
 
@@ -18,15 +18,52 @@
 }
 
 .takeButton {
-  width: 200px;
-  height: 60px;
-  font-size: 25px;
-  color: white;
-  background: transparent;
-  border: 2px solid white;
   border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 320px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
 
-.takeButton:hover {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+.takeButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.takeButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.takeButton:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media (max-width: 600px) {
+  .need-tour-guide-container {
+    height: 16vh;
+  }
+  .takeButton {
+    height: 35px;
+    width: 140px;
+    font-size: 16px;
+    padding: 2px;
+  }
 }

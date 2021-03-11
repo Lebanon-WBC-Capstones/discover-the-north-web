@@ -6,10 +6,10 @@ import WhatWeDo from '../../Components/WhatWeDo/WhatWeDo';
 import CityCard from '../../Components/Card/CityCard/CityCard';
 import JoinOurTeam from '../../Components/Card/JoinOurTeam/JoinOurTeam.js';
 import ActivityCard from '../../Components/Card/ActivityCard/ActivityCard';
-import { gems, TourGuideData } from '../../MockData/data';
+import { gems, TourGuideData, responsive_data } from '../../MockData/data';
 import cities from '../../MockData/cities.json';
 import { Carousel } from 'antd';
-import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons';
+import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next/';
 
@@ -22,8 +22,8 @@ const HomePage = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
-    nextArrow: <RightCircleOutlined />,
-    prevArrow: <LeftCircleOutlined />,
+    nextArrow: <RightOutlined />,
+    prevArrow: <LeftOutlined />,
   };
   const { t } = useTranslation();
   return (
@@ -33,12 +33,12 @@ const HomePage = () => {
       <div className="under">
         <WhatWeDo activityNumber={TourGuideData.length} />
 
-        <div className="hiddenGems" style={{ paddingTop: '30px' }}>
-          <h1>{t('homePage.gems')}</h1>
-          <Link to="/activities" className="seemore">
-            {t('homePage.seeMore')}
-          </Link>
-        </div>
+        <h1
+          className="home-header-size hiddenGems"
+          style={{ paddingTop: '30px' }}
+        >
+          {t('homePage.gems')}
+        </h1>
 
         <div className="cityCarousel">
           <Carousel {...settings}>
@@ -58,8 +58,10 @@ const HomePage = () => {
 
         <div className="cities" style={{ paddingTop: '30px' }}>
           <div className="cityHeader">
-            <h1>{t('homePage.city')}</h1>
-            <Link to="/cities">{t('homePage.seeMoreCity')}</Link>
+            <h1 className="home-header-size">{t('homePage.city')}</h1>
+            <Link to="/cities">
+              <span className="seemore">{t('homePage.seeMoreCity')}</span>
+            </Link>
           </div>
           <div className="citysCard">
             {cities.map((city, index) => {
@@ -68,10 +70,15 @@ const HomePage = () => {
               ) : null;
             })}
           </div>
+
+          <div className="citysCard-responsive-600">
+            <ActivityCard activity={responsive_data[2]} />
+            <button className="see-more-btn-resp ">See more</button>
+          </div>
         </div>
 
-        <div className="teamCarousel" style={{ padding: '50px 0' }}>
-          <Carousel autoplay effect="fade" dots={true} infinite>
+        <div className="teamCarousel" style={{ padding: '5% 0 5% 0' }}>
+          <Carousel autoplay effect="fade" dots={false} infinite>
             {TourGuideData.map((item, index) => {
               return index < 6
                 ? item.tour_guides.map((guide) => <JoinOurTeam guide={guide} />)

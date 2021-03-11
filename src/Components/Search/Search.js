@@ -50,7 +50,9 @@ export default function Search({ citiesArray, activitiesArray, handleSearch }) {
           value={cityVal}
           showSearch
           onSearch={onSearch}
-          style={{ width: '50%' }}
+          style={{
+            width: '50%',
+          }}
           allowClear="true"
           onChange={handleChangeCity}
         >
@@ -62,6 +64,8 @@ export default function Search({ citiesArray, activitiesArray, handleSearch }) {
             );
           })}
         </Select>
+
+        <hr className="vertical-hr" />
         <Select
           className="selectBox"
           value={activityVal}
@@ -90,7 +94,7 @@ export default function Search({ citiesArray, activitiesArray, handleSearch }) {
         </Select>
         <button className="search-btn">
           <SearchOutlined
-            style={{ fontSize: '20px', color: 'white' }}
+            style={{ fontSize: '18px', color: 'white' }}
             rotate="90"
           />
         </button>

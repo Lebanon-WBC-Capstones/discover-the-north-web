@@ -1,6 +1,6 @@
 import './ActivitiesNorthLebanon.css';
 import ActivityCard from '../Card/ActivityCard/ActivityCard';
-import { activities } from '../../MockData/data';
+import { activities, responsive_data } from '../../MockData/data';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next/';
 
@@ -21,6 +21,18 @@ const ActivitiesNorthLebanon = () => {
             spec={activity.id}
           />
         ))}
+      </div>
+
+      <div className="responsive-mobile-600-style">
+        <div className="responsive-mobile-600-style-flex-cont">
+          <div className="responsive-mobile-600-act">
+            <ActivityCard activity={responsive_data[0]} />
+            <ActivityCard activity={responsive_data[1]} />
+          </div>
+          <Link to="/activities">
+            <button className="see-more-btn-resp">See more</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

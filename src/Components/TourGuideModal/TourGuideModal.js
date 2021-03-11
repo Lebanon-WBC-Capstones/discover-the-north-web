@@ -1,21 +1,28 @@
 import './TourGuideModal.css';
 import { Modal } from 'antd';
-
+const imgStyle = {
+  height: '500px',
+  width: '400px',
+  objectFit: 'cover',
+};
+const overrideStyle = {
+  display: 'flex',
+};
 const TourGuideModal = ({ guide, visible, handleCancel }) => {
   return (
     <Modal
       className="tour-guider-modal"
-      bodyStyle={{ padding: '0' }}
-      width={470}
+      width={800}
       visible={visible}
       onCancel={handleCancel}
       destroyOnClose={true}
       okText="Hire Me!"
+      bodyStyle={overrideStyle}
     >
-      <img alt={guide.name} src={guide.image} />
+      <img alt={guide.name} src={guide.image} style={imgStyle} />
       <div className="tour-guider-modal-body">
         <h2>{guide.name}</h2>
-        <p>{guide.desc}</p>
+        <p>{guide.summary}</p>
       </div>
     </Modal>
   );
