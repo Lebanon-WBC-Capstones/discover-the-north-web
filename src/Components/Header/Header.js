@@ -3,8 +3,10 @@ import Search from '../Search/Search';
 import videomp4 from './headerGiffy.mp4';
 import activities from '../../MockData/activities.json';
 import cities from '../../MockData/cities.json';
+import { useTranslation } from 'react-i18next/';
 
 const Header = () => {
+  const { t } = useTranslation();
   return (
     <div className="header">
       <video autoPlay muted>
@@ -12,8 +14,8 @@ const Header = () => {
         Your browser does not support the video tag.
       </video>
       <div className="titleContainer">
-        <h1>Discover North Lebanon</h1>
-        <h2>Every City has its own stuff, get to know them more with us</h2>
+        <h1>{t('homePage.title')}</h1>
+        <h2>{t('homePage.titleDesc')}</h2>
       </div>
       <Search citiesArray={cities} activitiesArray={activities} />
     </div>

@@ -11,6 +11,7 @@ import cities from '../../MockData/cities.json';
 import { Carousel } from 'antd';
 import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next/';
 
 const HomePage = () => {
   const settings = {
@@ -24,7 +25,7 @@ const HomePage = () => {
     nextArrow: <RightCircleOutlined />,
     prevArrow: <LeftCircleOutlined />,
   };
-
+  const { t } = useTranslation();
   return (
     <div className="homePage">
       <Header />
@@ -33,9 +34,9 @@ const HomePage = () => {
         <WhatWeDo activityNumber={TourGuideData.length} />
 
         <div className="hiddenGems" style={{ paddingTop: '30px' }}>
-          <h1>Hidden Gems in North Lebanon</h1>
+          <h1>{t('homePage.gems')}</h1>
           <Link to="/activities" className="seemore">
-            See More
+            {t('homePage.seeMore')}
           </Link>
         </div>
 
@@ -57,8 +58,8 @@ const HomePage = () => {
 
         <div className="cities" style={{ paddingTop: '30px' }}>
           <div className="cityHeader">
-            <h1>Cities in North Lebanon</h1>
-            <Link to="/cities">See more cities</Link>
+            <h1>{t('homePage.city')}</h1>
+            <Link to="/cities">{t('homePage.seeMoreCity')}</Link>
           </div>
           <div className="citysCard">
             {cities.map((city, index) => {

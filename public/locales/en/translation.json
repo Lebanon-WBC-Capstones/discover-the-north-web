@@ -4,12 +4,70 @@
     "about": "About Us",
     "activities": "Activities",
     "cities": "Cities",
-    "tourGuide": "Tour Guide"
+    "tourGuide": "Tour Guide",
+    "signInButton": "Sign In"
   },
-  "button": {
-    "text": "Sign In"
+  "homePage": {
+    "title": "Discover North Lebanon",
+    "titleDesc": "Each city has its own stuff, and get to know them more with us",
+    "searchCity":"Search for a city",
+    "searchAct":"Search for an activity",
+    
+    "headerTitle1": "Activities",
+    "subHeader1": "Enjoy a variety of activities throughout the North!",
+    
+    "headerTitle2": "Explore Cities",
+    "subHeader2": "Each city has its own stuff, and get to know them more with us",
+
+    "headerTitle3":"Get a tour guide",
+    "subHeader3":"First time in the north? Don't worry you can have a tour guide",
+   
+    "gems":"Hidden Gems in Northern Lebanon",
+    "seeMore":"See more",
+
+    "activity":"Activities in Northern Lebanon",
+    "seeMoreAct":"See more activities",
+
+    "needTour":"Need a tour guide?",
+    "needTourButton":"Take me there",
+
+    "city":"City in Northern Lebanon",
+    "seeMoreCity":"See more Cities"
   },
   "tourGuidePage": {
-    "header": "All tour guides"
+    "header": "All tour guides",
+    "join":"join our team",
+    "modal": {
+      "welcome":"Welcome!",
+      "send":"Send",
+      "cancel":"Cancel",
+      "name": "Full Name",
+      "email": "Email",
+      "specialization": "Specialization",
+      "city": "City",
+      "message": "Message"
+    }
+  },
+  "aboutUsPage": {
+    "header": "About Us",
+    "headerDesc": "We are 5 people of north Lebanon youth. Our main goal is it showcase this part of our country and make it accessible for all visitors. So, we located all the interesting activities along with a handful of tour guides in order to make discovering the north of Lebanon a delightful journey.",
+    "header2": {
+      "header2Title": "Why We Did It",
+
+      "subTitle1": "For Lebanon",
+      "subText1": "As part of Lebanon youth community we wanted to walk you through one of the best places in Lebanon, The North. Explore the cities, activities and Enjoy our North!",
+
+      "subTitle2": "We love our North!",
+      "subText2": "Being patriotic people, we like to work for the progress and glory of our country and we're trying to make it powerful and rich. It is our duty and we're aiming to do it in the best possible way.",
+
+      "subTitle3": "Post-pandemic",
+      "subText3": "The almost complete suspension of international travel has been one of the major elements of the quarantines introduced during the coronavirus disease (COVID-19) pandemic. Our goal is to attract tourists to visit Lebanon once the disease ends."
+    },
+    "header3": "Meet The Team",
+    "footerTitle": "Your Opinion Always Matters",
+    "footerDesc": "After visiting our site, you may have some advises. We would like to hear them from you.",
+    "footerButton": "Send",
+    "footerEmail": "Your email...",
+    "footerExpress": "Express yourself..."
   }
 }

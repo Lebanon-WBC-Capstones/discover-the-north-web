@@ -3,6 +3,7 @@ import './FeedbackForm.css';
 import emailjs from 'emailjs-com';
 import { UserOutlined } from '@ant-design/icons';
 import { Typography, Input, Button, Form } from 'antd';
+import { useTranslation } from 'react-i18next/';
 
 const { Title } = Typography;
 
@@ -34,17 +35,14 @@ function FeedbackFormComponent({
   const handleSubmit = () => {
     sendEmail();
   };
-
+  const { t } = useTranslation();
   return (
     <div className="feedback-cp-s">
       <Form form={form} onFinish={handleSubmit}>
         <div className="feedback-cp-form-ct">
           <div className="feedback-form-col-1">
-            <Title level={2}>Your Opinion Always Matters</Title>
-            <Title level={5}>
-              After visiting our site, you may have some advises. We would like
-              to hear them from you.
-            </Title>
+            <Title level={2}>{t('aboutUsPage.footerTitle')}</Title>
+            <Title level={5}>{t('aboutUsPage.footerDesc')}</Title>
           </div>
 
           <hr className="hr-vertical" />
@@ -65,7 +63,7 @@ function FeedbackFormComponent({
                 type="email"
                 name="user_email"
                 className="input_email"
-                placeholder="  Your Email..."
+                placeholder={t('aboutUsPage.footerEmail')}
                 prefix={<UserOutlined className="userIcon" />}
               />
             </Form.Item>
@@ -82,7 +80,7 @@ function FeedbackFormComponent({
               <Input
                 name="message"
                 className="input_message"
-                placeholder="Your feedback!"
+                placeholder={t('aboutUsPage.footerExpress')}
               />
             </Form.Item>
             <Form.Item>
@@ -91,7 +89,7 @@ function FeedbackFormComponent({
                 htmlType="submit"
                 className="feedback-send-btn"
               >
-                Send
+                {t('aboutUsPage.footerButton')}
               </Button>
             </Form.Item>
           </div>

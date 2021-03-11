@@ -19,7 +19,7 @@ export default function TourGuidePage() {
           <h1>{t('tourGuidePage.header')}</h1>
         </div>
         <div className="join-us">
-          <p onClick={handleClick}>join our team</p>
+          <p onClick={handleClick}>{t('tourGuidePage.join')}</p>
           <EmailModal isModalVisible={visible} setIsModalVisible={setVisible} />
         </div>
       </div>

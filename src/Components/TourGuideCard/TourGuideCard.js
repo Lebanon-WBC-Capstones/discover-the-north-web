@@ -5,7 +5,6 @@ import { Card, Row, Col, Tooltip, Tag, Skeleton } from 'antd';
 import { EllipsisOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import TourGuideModal from '../TourGuideModal/TourGuideModal';
-import { Link } from 'react-router-dom';
 
 function TourGuideCard(tourGuide) {
   const [modal, setModal] = useState(false);
