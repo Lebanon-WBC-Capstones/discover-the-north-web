@@ -1,13 +1,23 @@
 import './ActivityCard.css';
 import { Card } from 'antd';
-const { Meta } = Card;
 
 const ActivityCard = ({ activity, col }) => {
   const imageHeight = parseInt(activity.height);
+  const style = {
+    objectFit: 'cover',
+  };
+  const bodyStyleColor = {
+    fontSize: '18px',
+    color: '#001c84',
+    textAlign: 'center',
+    marginTop: '-12px',
+  };
   return (
     <Card
+      bodyStyle={bodyStyleColor}
       className={`activityCard col${col}`}
       hoverable
+      bordered
       style={{
         width: activity.width,
         height: activity.height,
@@ -17,11 +27,12 @@ const ActivityCard = ({ activity, col }) => {
           alt={activity.name}
           src={activity.image}
           width={activity.width}
-          height={imageHeight < 500 ? imageHeight / 1.27 : imageHeight / 1.1}
+          style={style}
+          height={imageHeight < 500 ? imageHeight / 1.2 : imageHeight / 1.1}
         />
       }
     >
-      <Meta className="card-body" title={activity.name} />
+      {activity.name}
     </Card>
   );
 };

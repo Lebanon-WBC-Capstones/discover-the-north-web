@@ -7,16 +7,10 @@
   background: #fff;
 }
 .hiddenGems {
-  display: flex;
-  justify-content: space-between;
-  margin: 32px 0 32px 12%;
-  width: 75%;
+  width: 76%;
+  margin: 5% auto 1%;
 }
-.seemore {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 .gemCards {
   margin-bottom: 50px;
 }
@@ -33,7 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 30px 0;
+  margin-top: 50px;
 }
 .citysCard {
   display: flex;
@@ -42,7 +36,7 @@
   width: 76%;
 }
 .ant-carousel .slick-dots li {
-  background: black;
+  background: #001c84;
 }
 .cityCarousel {
   margin: 0 10%;
@@ -50,22 +44,44 @@
 .teamCarousel {
   margin: 2% 0;
 }
-.ant-carousel .slick-prev,
-.ant-carousel .slick-next {
-  color: unset;
-  font-size: unset;
-  color: rgb(12, 12, 12);
-  height: 20px;
-  width: 50px;
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  height: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: white;
 }
-.ant-carousel .slick-next svg,
-.ant-carousel .slick-prev svg {
-  width: 2em;
-  height: 2em;
+.home-header-size {
+  color: #001c84;
 }
-.ant-carousel .slick-prev:hover,
-.ant-carousel .slick-next:hover,
-.ant-carousel .slick-prev:focus,
-.ant-carousel .slick-next:focus {
-  color: unset;
+
+.citysCard-responsive-600 {
+  display: none;
+  width: 80vw;
+}
+@media (max-width: 600px) {
+  .home-header-size {
+    font-size: 18px;
+  }
+  .seemore {
+    display: none;
+  }
+  .citysCard-responsive-600 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .citysCard {
+    display: none;
+  }
 }

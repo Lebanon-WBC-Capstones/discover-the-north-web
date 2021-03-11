@@ -3,21 +3,25 @@ import { Rate } from 'antd';
 import './PopupInfo.css';
 
 function PopUpInfo(props) {
-  const { info, onclick } = props;
-  const displayName = `${info.name}`;
+  const { info } = props;
+  const displayName = `${info.name} `;
 
   return (
-    <div onClick={onclick}>
+    <div>
       <img
-        width={180}
+        width={185}
         height={130}
         src={info.image}
         className="img-padding-popup"
         alt="popup"
       />
-      <div className="container-popup">
+      <div className="container-popup-info">
         <div className="popup-info-style">
-          <h3 className="city-name-popup">{displayName} </h3>
+          <div className="city-act-name-popup-cont">
+            <h3 className="city-name-popup">{displayName}</h3>
+            <span className="city-name-popup-span">{info.city}</span>
+          </div>
+
           <span>
             {info.rating}{' '}
             <Rate

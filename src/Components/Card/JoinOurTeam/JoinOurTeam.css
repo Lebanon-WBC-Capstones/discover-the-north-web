@@ -1,4 +1,4 @@
-.cards {
+.join-team-cards {
   padding: 0;
   width: 75%;
   height: 499px;
@@ -6,11 +6,14 @@
   border: none;
 }
 .cardbody img {
-  width: 43%;
-  height: 498px;
+  width: 100%;
+  height: 80vh;
+  grid-area: guider;
 }
 .cardbody {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'guider info';
 }
 .info {
   margin-top: 0;
@@ -20,6 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  grid-area: info;
 }
 .title {
   text-align: left;
@@ -32,4 +36,32 @@
 .cardfooter {
   margin-top: 16px;
   font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .cardbody {
+    grid-template-areas:
+      'guider'
+      'info';
+  }
+  .cardbody img {
+    height: 30vh;
+    width: 70vw;
+  }
+  .info {
+    align-items: center;
+    margin-left: 0;
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+    font-size: 14px;
+  }
+  .description {
+    text-align: center;
+    font-size: 14px;
+  }
+  .cardfooter {
+    font-size: 14px;
+  }
 }

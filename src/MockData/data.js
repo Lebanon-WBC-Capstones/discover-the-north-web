@@ -1,64 +1,86 @@
 import img from './a.png';
+export const responsive_data = [
+  {
+    type: 'activity',
+    name: 'Hiking',
+    image:
+      'https://www.lebanontraveler.com/lebanontraveler/Library/Images/Uploaded%20Images/2018/Lebanon%20Traveler/Whats%20Trending/HikersFavorites/ghada-el-khelly.jpg',
+    width: '45%',
+    height: '200px',
+  },
+  {
+    type: 'activity',
+    name: 'Biking',
+    image:
+      'https://img.redbull.com/images/c_crop,x_0,y_0,h_3840,w_4800/c_fill,w_650,h_520/q_auto,f_auto/redbullcom/2020/4/29/ereaaopn5xjdzt3nsgdr/kenny-belaey-discovers-the-lebanon-mountain-trail-from-border-to-border',
+    width: '45%',
+    height: '200px',
+  },
+  {
+    type: 'city',
+    name: 'Tripoli',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4RJiZWVAsA4YkYFlxCyft5uI_pfDnW-41zg&usqp=CAU',
+    width: '95%',
+    height: '250px',
+  },
+];
+
 export const gems = [
   {
-    name: 'Tripoli',
+    name: 'Tripoli - Old Souks',
     imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
+      'https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2019/05/17/1586651-2067772589.jpg?itok=lYkxwC8F',
     id: '1',
   },
   {
-    name: 'Batroun',
+    name: 'Danniye - Bridge',
     imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
+      'https://blogbaladi.com/wp-content/uploads/2019/07/donnieh1-973x1200.jpg',
     id: '2',
   },
   {
-    name: 'Zgharta',
+    name: 'Batroun - Nabu Museum',
     imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCaR3f1pqBRs_61t3ePZnzSyzYrEdlfk1NlGtbP-gUkrrV60S_NDHMSz8o_d47ghSEzo&usqp=CAU',
     id: '3',
   },
   {
-    name: 'Mina',
+    name: 'Qammouaa - Ezer Forest',
     imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
+      'https://images-lebtivity.s3.amazonaws.com/content/versions/68819/960-640-0-0/hiking_at_qammouaa_valley_ezer_forest_akkar_district.jpg',
     id: '4',
   },
-  {
-    name: 'Tripoli',
-    imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
-    id: '5',
-  },
 ];
+
 export const activities = [
   {
     name: 'Hiking',
     image:
-      'https://www.lebanontraveler.com/lebanontraveler/Library/Images/Uploaded%20Images/2017/LT/Articles/Hikes/005-Bentael-copy.jpg',
+      'https://www.lebanontraveler.com/lebanontraveler/Library/Images/Uploaded%20Images/2018/Lebanon%20Traveler/Whats%20Trending/HikersFavorites/ghada-el-khelly.jpg',
     width: '100%',
-    height: '654px',
-  },
-  {
-    name: 'Skiing',
-    image:
-      'https://www.aljazeera.com/wp-content/uploads/2017/03/8697968b54d14ef7bca47aac9502f8fe_8.jpeg',
-    width: '100%',
-    height: '331px',
+    height: '500px',
   },
   {
     name: 'Mountain Biking',
     image:
-      'https://blogbaladi.com/wp-content/uploads/2016/08/biking2-624x333.jpg',
+      'https://img.redbull.com/images/c_crop,x_0,y_0,h_3840,w_4800/c_fill,w_650,h_520/q_auto,f_auto/redbullcom/2020/4/29/ereaaopn5xjdzt3nsgdr/kenny-belaey-discovers-the-lebanon-mountain-trail-from-border-to-border',
     width: '100%',
-    height: '331px',
+    height: '280px',
   },
   {
-    name: 'ATV & Buggy',
+    name: 'Skiing',
     image:
-      'https://mediaim.expedia.com/localexpert/641081/86491096-e817-4204-97e1-d8014798ef90.jpg?impolicy=resizecrop&rw=350&rh=197',
+      'https://img.freepik.com/free-photo/cedar-forest-mountains-lebanon_134785-1958.jpg?size=626&ext=jpg',
     width: '100%',
-    height: '290px',
+    height: '280px',
+  },
+  {
+    name: 'Swimming',
+    image:
+      'https://www.lebanoninapicture.com/Prv/Images/Pages/Page_121594/walking-along-the-beach-palmisland-palmislands--7-7-2017-8-58-59-am-l.jpg',
+    width: '100%',
+    height: '200px',
   },
 ];
 export const TourGuideData = [

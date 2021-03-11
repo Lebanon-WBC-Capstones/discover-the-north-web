@@ -10,10 +10,18 @@ const JoinOurTeam = ({ guide }) => {
   const handleClick = () => {
     setIsModalVisible(!isModalVisible);
   };
+  const imgstyle = {
+    objectFit: 'cover',
+  };
   return (
-    <Card className="cards" bodyStyle={{ padding: '0' }}>
+    <Card className="join-team-cards" bodyStyle={{ padding: '0' }}>
       <div className="cardbody">
-        <img alt={guide.name} src={guide.image} />
+        <img
+          alt={guide.name}
+          src={guide.image}
+          style={imgstyle}
+          className="home-guider-card"
+        />
         <div className="info">
           <h1 className="title">
             {guide.name} our {guide.speciality_tags[0]}

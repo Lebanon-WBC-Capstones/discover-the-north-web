@@ -4,7 +4,7 @@ import { Card } from 'antd';
 import { DoubleArrow } from '@material-ui/icons';
 
 export default function CityCardItem(city) {
-  const { imgsrc, name, activityNumber } = city;
+  const { imgsrc, name, activityNumberPerCity } = city;
   const style = {
     borderRadius: '10px',
   };
@@ -31,7 +31,7 @@ export default function CityCardItem(city) {
                 {name}
               </h1>
               <span className="city-p-activity-nb">
-                {activityNumber} activity
+                {activityNumberPerCity} activity
               </span>
               <div className="city-card-learn-more">
                 <span className="city-card-learn-more-child-1">

@@ -4,6 +4,7 @@ import { Marker } from 'react-map-gl';
 import './Markers.css';
 import { TooltipColor, ID } from '../../../Pages/ActivitiesPage/ActivitiesPage';
 import marker from './marker.png';
+import { Link } from 'react-router-dom';
 
 function MarkerComponent(props) {
   const { data, onHover, onMouseLeave, type } = props;
@@ -18,17 +19,19 @@ function MarkerComponent(props) {
       longitude={item.address_coordinates[1]}
     >
       {type === 1 ? (
-        <span
-          className={
-            TooltipColorContext && item.id === IDcontent
-              ? 'tooltiptext tooltiptextYellow'
-              : 'tooltiptext tooltiptextBlue'
-          }
-          onMouseOver={() => setTimeout(onHover(item), 5000)}
-          onMouseLeave={() => onMouseLeave(item)}
-        >
-          {item.price === 'FREE' ? item.price : item.price + '$'}
-        </span>
+        <Link to={`/activities/${item.id}`}>
+          <span
+            className={
+              TooltipColorContext && item.id === IDcontent
+                ? 'tooltiptext tooltiptextYellow'
+                : 'tooltiptext tooltiptextBlue'
+            }
+            onMouseOver={() => setTimeout(onHover(item), 5000)}
+            onMouseLeave={() => onMouseLeave(item)}
+          >
+            {item.price === 'FREE' ? item.price : item.price + '$'}
+          </span>
+        </Link>
       ) : (
         <img src={marker} className="cityMarker" alt="marker" />
       )}

@@ -39,3 +39,15 @@
   margin-top: 5px;
   width: 100%;
 }
+.tour-see-more {
+  color: gray;
+  text-decoration: underline;
+  font-size: small;
+}
+.tour-see-more:hover {
+  cursor: pointer;
+}
+.tour-guider-desc {
+  margin-top: 4px;
+  font-size: 19px;
+}

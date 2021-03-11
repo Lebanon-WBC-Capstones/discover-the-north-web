@@ -1,13 +1,10 @@
-.cityCard {
+.home-city-card {
   width: 85%;
-  height: 417px;
+  height: 300px;
   margin: auto;
   border-radius: 5px;
 }
-.cityCard img {
-  height: 351px;
-}
-.meta {
-  text-align: center;
-  font-size: 18px;
+.home-city-card img {
+  height: 250px;
+  object-fit: cover;
 }

@@ -6,10 +6,10 @@ import WhatWeDo from '../../Components/WhatWeDo/WhatWeDo';
 import CityCard from '../../Components/Card/CityCard/CityCard';
 import JoinOurTeam from '../../Components/Card/JoinOurTeam/JoinOurTeam.js';
 import ActivityCard from '../../Components/Card/ActivityCard/ActivityCard';
-import { gems, TourGuideData } from '../../MockData/data';
+import { gems, TourGuideData, responsive_data } from '../../MockData/data';
 import cities from '../../MockData/cities.json';
 import { Carousel } from 'antd';
-import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons';
+import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 
 const HomePage = () => {
@@ -21,8 +21,8 @@ const HomePage = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
-    nextArrow: <RightCircleOutlined />,
-    prevArrow: <LeftCircleOutlined />,
+    nextArrow: <RightOutlined />,
+    prevArrow: <LeftOutlined />,
   };
 
   return (
@@ -32,13 +32,12 @@ const HomePage = () => {
       <div className="under">
         <WhatWeDo activityNumber={TourGuideData.length} />
 
-        <div className="hiddenGems" style={{ paddingTop: '30px' }}>
-          <h1>Hidden Gems in North Lebanon</h1>
-          <Link to="/activities" className="seemore">
-            See More
-          </Link>
-        </div>
-
+        <h1
+          className="home-header-size hiddenGems"
+          style={{ paddingTop: '30px' }}
+        >
+          Hidden Gems in North Lebanon
+        </h1>
         <div className="cityCarousel">
           <Carousel {...settings}>
             {gems.map((gem) => (
@@ -57,18 +56,25 @@ const HomePage = () => {
 
         <div className="cities" style={{ paddingTop: '30px' }}>
           <div className="cityHeader">
-            <h1>Cities in North Lebanon</h1>
-            <Link to="/cities">See more cities</Link>
+            <h1 className="home-header-size">Cities in North Lebanon</h1>
+            <Link to="/cities">
+              <span className="seemore">See more cities</span>
+            </Link>
           </div>
           <div className="citysCard">
             {cities.map((city, index) => {
               return index < 4 ? <ActivityCard activity={city} /> : null;
             })}
           </div>
+
+          <div className="citysCard-responsive-600">
+            <ActivityCard activity={responsive_data[2]} />
+            <button className="see-more-btn-resp ">See more</button>
+          </div>
         </div>
 
-        <div className="teamCarousel" style={{ padding: '50px 0' }}>
-          <Carousel autoplay effect="fade" dots={true} infinite>
+        <div className="teamCarousel" style={{ padding: '5% 0 5% 0' }}>
+          <Carousel autoplay effect="fade" dots={false} infinite>
             {TourGuideData.map((item, index) => {
               return index < 6
                 ? item.tour_guides.map((guide) => <JoinOurTeam guide={guide} />)

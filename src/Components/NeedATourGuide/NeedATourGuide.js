@@ -1,14 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './NeedATourGuide.css';
+import { Typography } from 'antd';
+
+const { Title } = Typography;
 
 export default function NeedATourGuid() {
   return (
     <div className="need-tour-guide-container">
-      <h1>Need a Tour Guide?</h1>
+      <Title level={1}>Need a Tour Guide?</Title>
       <div className="buttonContainer">
         <Link to="/tour-guide">
-          <button className="takeButton">Take me there</button>
+          <button className="takeButton">
+            <span>Go there</span>
+          </button>
         </Link>
       </div>
     </div>
