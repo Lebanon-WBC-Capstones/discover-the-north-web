@@ -33,7 +33,10 @@ const ActivityCard = ({ activity, col, paths, spec }) => {
         />
       }
     >
-      <Link to={`/${paths}/${spec}`}>{activity.name}</Link>
+      <Link to={`/${paths}/${spec}`}>
+        {' '}
+        <span className="card-font-c">{activity.name}</span>
+      </Link>
     </Card>
   );
 };

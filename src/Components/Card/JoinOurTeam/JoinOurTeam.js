@@ -23,7 +23,7 @@ const JoinOurTeam = ({ guide }) => {
           className="home-guider-card"
         />
         <div className="info">
-          <h1 className="title">
+          <h1 className=" home-header-size title">
             {guide.name} our {guide.speciality_tags[0]}
           </h1>
           <p className="description">

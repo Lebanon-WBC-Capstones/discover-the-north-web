@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Spin, Skeleton } from 'antd';
-import { LoadingOutlined } from '@ant-design/icons';
+import { Skeleton } from 'antd';
 import { Close } from '@material-ui/icons';
 
 import './ActivitiesCardList.css';
@@ -14,7 +13,6 @@ export default function ActivitiesCardList(props) {
   const [filteredOutdoor, setFilteredOutdoor] = useState(false);
   const [loading, setLoading] = useState(false);
   const [show, setShow] = useState(false);
-  const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
   const filterOutdoor = () => {
     setShow(!show);
     setLoading(true);
@@ -40,12 +38,16 @@ export default function ActivitiesCardList(props) {
 
       {loading ? (
         <div className="loading-spinner-layout">
-          <Spin className="act-spinner" indicator={antIcon} />
           {[1, 2, 3].map((e) => (
             <>
               {' '}
               <Skeleton.Input
-                style={{ width: '90%', height: '200px' }}
+                style={{
+                  width: '100%',
+                  height: '200px',
+                  borderRadius: '10px',
+                  marginLeft: '-76px',
+                }}
                 active
               />{' '}
               <br />

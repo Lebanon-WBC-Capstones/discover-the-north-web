@@ -10,7 +10,13 @@
   width: 76%;
   margin: 5% auto 1%;
 }
-
+.seemore {
+  color: rgb(184, 184, 184);
+  text-decoration: underline;
+}
+.seemore:hover {
+  color: #0091ea;
+}
 .gemCards {
   margin-bottom: 50px;
 }

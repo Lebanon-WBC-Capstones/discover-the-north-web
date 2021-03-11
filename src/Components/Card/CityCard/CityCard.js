@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const CityCard = ({ city }) => {
   const bodyStyleColor = {
     fontSize: '18px',
-    color: '#001c84',
     textAlign: 'center',
     marginTop: '-12px',
   };
@@ -16,7 +15,9 @@ const CityCard = ({ city }) => {
       cover={<img alt={city.name} src={city.imgSrc} />}
       bodyStyle={bodyStyleColor}
     >
-      <Link to={`/activities/${city.id}`}>{city.name}</Link>
+      <Link to={`/activities/${city.id}`}>
+        <span className="card-font-c">{city.name}</span>
+      </Link>
     </Card>
   );
 };

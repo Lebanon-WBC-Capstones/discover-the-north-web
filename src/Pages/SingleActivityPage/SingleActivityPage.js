@@ -18,6 +18,7 @@ export default function SingleActivityPage(props) {
         onBack={() => window.history.back()}
         title="Back"
         className="back-btn"
+        style={{ color: '#001c84' }}
       />
       {activities
         .filter((act) => parseInt(id) === act.id)
@@ -28,7 +29,7 @@ export default function SingleActivityPage(props) {
                 <div className="left-side-grid">
                   <div className="single-act-info-header">
                     <div className="single-act-info-header-child-1">
-                      <h1>{act.name}</h1>
+                      <h1 className="home-header-size">{act.name}</h1>
                       <Like />
                     </div>
                     <Divider />
@@ -41,7 +42,7 @@ export default function SingleActivityPage(props) {
 
                   <div className="single-act-left-grid-tour-guide">
                     <div className="single-act-info-hire-box">
-                      <h1 className="single-act-info-icon-text">
+                      <h1 className="single-act-info-icon-text home-header-size">
                         {' '}
                         <img
                           src={tourguideimg}
