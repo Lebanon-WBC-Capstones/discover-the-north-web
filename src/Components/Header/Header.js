@@ -1,7 +1,8 @@
 import './Header.css';
 import Search from '../Search/Search';
 import videomp4 from './headerGiffy.mp4';
-import { gems } from '../../MockData/data';
+import activities from '../../MockData/activities.json';
+import cities from '../../MockData/cities.json';
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
         <h1>Discover North Lebanon</h1>
         <h2>Every City has its own stuff, get to know them more with us</h2>
       </div>
-      <Search citiesArray={gems} activitiesArray={gems} />
+      <Search citiesArray={cities} activitiesArray={activities} />
     </div>
   );
 };

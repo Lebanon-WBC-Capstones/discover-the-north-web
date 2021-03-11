@@ -1,5 +1,7 @@
 import './CityCard.css';
 import { Card } from 'antd';
+import { Link } from 'react-router-dom';
+const { Meta } = Card;
 
 const CityCard = ({ city }) => {
   const bodyStyleColor = {
@@ -15,7 +17,9 @@ const CityCard = ({ city }) => {
       cover={<img alt={city.name} src={city.imgSrc} />}
       bodyStyle={bodyStyleColor}
     >
-      {city.name}
+      <Link to={`/activities/${city.id}`}>
+        <Meta className="meta" title={city.name} />
+      </Link>
     </Card>
   );
 };

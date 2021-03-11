@@ -14,7 +14,12 @@ const ActivitiesNorthLebanon = () => {
       </div>
       <div className="grid">
         {activities.map((activity, index) => (
-          <ActivityCard activity={activity} col={index} />
+          <ActivityCard
+            activity={activity}
+            col={index}
+            paths="activities"
+            spec={activity.id}
+          />
         ))}
       </div>
 

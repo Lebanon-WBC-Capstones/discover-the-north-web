@@ -74,7 +74,7 @@ export default function ContactUs({
               />
             </Form.Item>
           </div>
-          <div>
+          <div className="form-div">
             <Input type="hidden" name="Tguide_email" value={Tguide_email} />
             <Input type="hidden" name="Tguide_name" value={Tguide_name} />
 
@@ -113,8 +113,13 @@ export default function ContactUs({
                 required
               >
                 {citiesArray.map((item, index) => (
-                  <Option key={index} value={item.city} name="city">
-                    {item.city}
+                  <Option
+                    className="cityOption"
+                    key={index}
+                    value={item.name}
+                    name="city"
+                  >
+                    {item.name}
                   </Option>
                 ))}
               </Select>
