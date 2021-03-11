@@ -4,42 +4,41 @@ import WhyWeDidIt from '../../Components/WhyWeDidItSection/WhyWeDidItSection';
 import TeamCards from '../../Components/TeamCards/TeamCards';
 import FeedbackForm from '../../Components/FeedbackForm/FeedbackForm';
 import { section2, teamMembers } from './AboutUsData';
+import { useTranslation } from 'react-i18next';
 
 function AboutUs() {
+  const { t } = useTranslation();
+
   return (
     <div className="about-page">
       <div className="about-us-title-paragraph">
-        <h1 className="about-us-page-titles">About us</h1>
-        <p className="about-us-paragraph">
-          We are 5 people of north Lebanon youth. Our main goal is it showcase
-          this part of our country and make it accessible for all visitors. So,
-          we located all the interesting activities along with a handful of tour
-          guides in order to make discovering the north of Lebanon a delightful
-          journey.
-        </p>
+        <h1 className="about-us-page-titles">{t('aboutUsPage.header')}</h1>
+        <p className="about-us-paragraph">{t('aboutUsPage.headerDesc')}</p>
       </div>
 
       <div className="why-we-didit-container-hr">
         <hr className="hr-style" />
         <div className="why-we-didit-container-title">
-          <h1 className="about-us-page-titles">Why we did it</h1>
+          <h1 className="about-us-page-titles">
+            {t('aboutUsPage.header2.header2Title')}
+          </h1>
           <div className="why-we-didit-container">
             <WhyWeDidIt
               imgSrc={section2.part1.icon}
-              title={section2.part1.title}
-              text={section2.part1.text}
+              title={t('aboutUsPage.header2.subTitle1')}
+              text={t('aboutUsPage.header2.subText1')}
               className="grid-area-1"
             />
             <WhyWeDidIt
               imgSrc={section2.part2.icon}
-              title={section2.part2.title}
-              text={section2.part2.text}
+              title={t('aboutUsPage.header2.subTitle2')}
+              text={t('aboutUsPage.header2.subText2')}
               className="grid-area-2"
             />
             <WhyWeDidIt
               imgSrc={section2.part3.icon}
-              title={section2.part3.title}
-              text={section2.part3.text}
+              title={t('aboutUsPage.header2.subTitle3')}
+              text={t('aboutUsPage.header2.subText3')}
               className="grid-area-3"
             />
           </div>
@@ -48,7 +47,7 @@ function AboutUs() {
       </div>
 
       <div className="meet-team-container">
-        <h1 className="about-us-page-titles">Meet the team</h1>
+        <h1 className="about-us-page-titles">{t('aboutUsPage.header3')}</h1>
         <div className="about-team-members-container">
           <div className="about-team-members">
             {teamMembers.map((member) => (

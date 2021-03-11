@@ -3,22 +3,24 @@ import './WhatWeDo.css';
 import activity from './icons/activity.png';
 import cities from './icons/cities.png';
 import tourGuide from './icons/tourGuide.png';
+import { useTranslation } from 'react-i18next/';
 
 export default function WhatWeDo(props) {
+  const { t } = useTranslation();
   const information = [
     {
-      title: `${props.activityNumber}+ activities`,
-      desc: 'Enjoy a variety of activities throughout the north!',
+      title: `${props.activityNumber}+${t('homePage.headerTitle1')}`,
+      desc: `${t('homePage.subHeader1')}`,
       img: activity,
     },
     {
-      title: 'Explore Cities',
-      desc: 'Every City has its own stuff, get to know them more with us',
+      title: `${t('homePage.headerTitle2')}`,
+      desc: `${t('homePage.subHeader2')}`,
       img: cities,
     },
     {
-      title: 'Have tour guide',
-      desc: 'First time in North? don’t worry you can have a tour guide',
+      title: `${t('homePage.headerTitle3')}`,
+      desc: `${t('homePage.subHeader3')}`,
       img: tourGuide,
     },
   ];

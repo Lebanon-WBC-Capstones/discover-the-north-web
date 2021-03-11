@@ -16,7 +16,7 @@ const CityCard = ({ city }) => {
       cover={<img alt={city.name} src={city.imgSrc} />}
       bodyStyle={bodyStyleColor}
     >
-      {city.name}
+      <Link to={`/activities/${city.id}`}>{city.name}</Link>
     </Card>
   );
 };

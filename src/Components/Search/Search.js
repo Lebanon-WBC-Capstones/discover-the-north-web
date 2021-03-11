@@ -2,14 +2,16 @@ import React, { useState } from 'react';
 import { SearchOutlined } from '@ant-design/icons';
 import { Select } from 'antd';
 import './Search.css';
+import { useTranslation } from 'react-i18next/';
 
 export default function Search({ citiesArray, activitiesArray, handleSearch }) {
+  const { t } = useTranslation();
   const [citySearch, setCitySearch] = useState(undefined);
   const [activitySearch, setActivitySearch] = useState('');
-  const [cityVal, setCityVal] = useState('Search for a city');
-  const [activityVal, setActivityVal] = useState('Search for an activity');
+  const [cityVal, setCityVal] = useState(`${t('homePage.searchCity')}`);
+  const [activityVal, setActivityVal] = useState(`${t('homePage.searchAct')}`);
   const { Option } = Select;
-
+  let id = 0;
   function handleChangeCity(value) {
     setCitySearch(value);
     setCityVal(value);
@@ -25,11 +27,18 @@ export default function Search({ citiesArray, activitiesArray, handleSearch }) {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    handleSearch(citySearch, activitySearch);
+    // handleSearch(citySearch, activitySearch);
+    let c = activitiesArray.filter(
+      (act) => act.city === citySearch && act.name === activitySearch
+    );
+    id = c.map((act) => act.id);
+    setTimeout(() => {
+      window.location = `/activities/${id[0]}`;
+    }, 300);
     setCitySearch(undefined);
     setActivitySearch('');
-    setCityVal('Search for a city');
-    setActivityVal('Search for an activity');
+    setCityVal(`${t('homePage.searchCity')}`);
+    setActivityVal(`${t('homePage.searchAct')}`);
     e.target.reset();
   }
 

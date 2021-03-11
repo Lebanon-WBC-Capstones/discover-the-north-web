@@ -11,6 +11,7 @@ import cities from '../../MockData/cities.json';
 import { Carousel } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next/';
 
 const HomePage = () => {
   const settings = {
@@ -24,7 +25,7 @@ const HomePage = () => {
     nextArrow: <RightOutlined />,
     prevArrow: <LeftOutlined />,
   };
-
+  const { t } = useTranslation();
   return (
     <div className="homePage">
       <Header />
@@ -36,8 +37,9 @@ const HomePage = () => {
           className="home-header-size hiddenGems"
           style={{ paddingTop: '30px' }}
         >
-          Hidden Gems in North Lebanon
+          {t('homePage.gems')}
         </h1>
+
         <div className="cityCarousel">
           <Carousel {...settings}>
             {gems.map((gem) => (
@@ -56,14 +58,16 @@ const HomePage = () => {
 
         <div className="cities" style={{ paddingTop: '30px' }}>
           <div className="cityHeader">
-            <h1 className="home-header-size">Cities in North Lebanon</h1>
+            <h1 className="home-header-size">{t('homePage.city')}</h1>
             <Link to="/cities">
-              <span className="seemore">See more cities</span>
+              <span className="seemore">{t('homePage.seeMoreCity')}</span>
             </Link>
           </div>
           <div className="citysCard">
             {cities.map((city, index) => {
-              return index < 4 ? <ActivityCard activity={city} /> : null;
+              return index < 4 ? (
+                <ActivityCard activity={city} paths="cities" spec={city.id} />
+              ) : null;
             })}
           </div>
 

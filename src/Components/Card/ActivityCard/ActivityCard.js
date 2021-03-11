@@ -1,7 +1,8 @@
 import './ActivityCard.css';
 import { Card } from 'antd';
+import { Link } from 'react-router-dom';
 
-const ActivityCard = ({ activity, col }) => {
+const ActivityCard = ({ activity, col, paths, spec }) => {
   const imageHeight = parseInt(activity.height);
   const style = {
     objectFit: 'cover',
@@ -32,7 +33,7 @@ const ActivityCard = ({ activity, col }) => {
         />
       }
     >
-      {activity.name}
+      <Link to={`/${paths}/${spec}`}>{activity.name}</Link>
     </Card>
   );
 };

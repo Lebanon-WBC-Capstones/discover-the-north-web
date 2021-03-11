@@ -1,28 +1,16 @@
-.ant-form-item-control {
-  margin: auto;
-}
 .hiremeform {
   padding: 20px;
-  width: 70%;
+  width: 100%;
   margin: auto;
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-gap: 0px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 .hireMe-div {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 30% 30%;
   grid-gap: 50px;
+  width: 100%;
   justify-content: center;
-}
-.ant-row .ant-form-item .site-config-provider-calendar-wrapper {
-  width: 200px;
-}
-.ant-btn {
-  margin: auto;
-  position: absolute;
-  left: 50%;
 }
 .site-config-provider-calendar-wrapper {
   border: solid 1px whitesmoke;
@@ -31,9 +19,6 @@
 
 .ant-picker-panel {
   width: 100%;
-}
-.ant-col .ant-col-14 .ant-form-item-control {
-  margin: auto;
 }
 .ant-picker-calendar .ant-picker-calendar-mini {
   margin: auto;
@@ -44,13 +29,18 @@
   width: 0px;
 }
 .cities_select {
-  width: 100% !important;
+  color: black;
+  width: 70% !important;
+}
+.ant-select-selection-item {
+  color: black;
 }
 .ant-form-item-required,
 .ant-form-item-label > label {
   width: 110px !important;
 }
 .send-btn {
+  align-self: center;
   margin: 0px;
   padding: 0px;
   font-size: 15px;

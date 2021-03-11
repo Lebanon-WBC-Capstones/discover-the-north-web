@@ -37,6 +37,12 @@
   margin-top: 16px;
   font-size: 18px;
 }
+.join-us-btn {
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+}
 
 @media (max-width: 600px) {
   .cardbody {
@@ -64,10 +70,4 @@
   .cardfooter {
     font-size: 12px;
   }
-}
-.join-us-btn {
-  border-radius: 10px;
-  height: 50px;
-  width: 200px;
-  font-size: 20px;
 }

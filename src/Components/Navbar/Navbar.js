@@ -58,19 +58,29 @@ export default function Navbar() {
           </div>
           <Menu className="headerStyleCenter" mode="horizontal">
             <Menu.Item key="1">
-              <Link to="/">{t('navbar.home')} </Link>
+              <Link to="/">
+                <span className="navbar-items">{t('navbar.home')}</span>{' '}
+              </Link>
             </Menu.Item>
             <Menu.Item key="2">
-              <Link to="/activities">{t('navbar.activities')} </Link>
+              <Link to="/activities">
+                <span className="navbar-items">{t('navbar.activities')}</span>{' '}
+              </Link>
             </Menu.Item>
             <Menu.Item key="3">
-              <Link to="/cities">{t('navbar.cities')} </Link>
+              <Link to="/cities">
+                <span className="navbar-items">{t('navbar.cities')} </span>
+              </Link>
             </Menu.Item>
             <Menu.Item key="4">
-              <Link to="/tour-guide">{t('navbar.tourGuide')} </Link>
+              <Link to="/tour-guide">
+                <span className="navbar-items">{t('navbar.tourGuide')} </span>
+              </Link>
             </Menu.Item>
             <Menu.Item key="5">
-              <Link to="/about-us">{t('navbar.about')} </Link>
+              <Link to="/about-us">
+                <span className="navbar-items">{t('navbar.about')} </span>
+              </Link>
             </Menu.Item>
           </Menu>
           <div className="languages-toggle-lr">
@@ -80,7 +90,7 @@ export default function Navbar() {
               placement="bottomCenter"
               icon={<GlobalOutlined />}
             />
-            <ButtonComponont text={t('button.text')} type="primary" />
+            <ButtonComponont text={t('navbar.signInButton')} type="primary" />
           </div>
         </Layout>
       </div>

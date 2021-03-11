@@ -52,10 +52,41 @@ export const gems = [
       'https://images-lebtivity.s3.amazonaws.com/content/versions/68819/960-640-0-0/hiking_at_qammouaa_valley_ezer_forest_akkar_district.jpg',
     id: '4',
   },
+  {
+    id: 101,
+    name: 'Horsh Ehden',
+    imgSrc:
+      'https://media-cdn.tripadvisor.com/media/photo-s/0b/c0/3b/55/screenshot-20160626-165837.jpg',
+  },
+  {
+    id: 21,
+    name: 'Mina',
+    imgSrc:
+      'http://lebanonuntravelled.com/wp/wp-content/uploads/2016/02/20160229_164645-2.jpg',
+  },
+  {
+    id: 227,
+    name: 'Hamat',
+    imgSrc:
+      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
+  },
+  {
+    id: 266,
+    name: 'Hasroun',
+    imgSrc:
+      'https://www.the961.com/wp-content/uploads/2020/06/ef97dbe3add03a80b489b8d7db20af74-1.jpg',
+  },
+  {
+    id: 221,
+    name: 'Msailha',
+    imgSrc:
+      'https://www.lebanoninapicture.com/Prv/Images/Pages/Page_101911/love-instagood-photooftheday-top-tags-tbt-cute--3-26-2017-8-46-22-pm-l.jpg',
+  },
 ];
 
 export const activities = [
   {
+    id: 141,
     name: 'Hiking',
     image:
       'https://www.lebanontraveler.com/lebanontraveler/Library/Images/Uploaded%20Images/2018/Lebanon%20Traveler/Whats%20Trending/HikersFavorites/ghada-el-khelly.jpg',
@@ -63,13 +94,15 @@ export const activities = [
     height: '500px',
   },
   {
-    name: 'Mountain Biking',
+    id: 264,
+    name: 'Biking',
     image:
       'https://img.redbull.com/images/c_crop,x_0,y_0,h_3840,w_4800/c_fill,w_650,h_520/q_auto,f_auto/redbullcom/2020/4/29/ereaaopn5xjdzt3nsgdr/kenny-belaey-discovers-the-lebanon-mountain-trail-from-border-to-border',
     width: '100%',
     height: '280px',
   },
   {
+    id: 222,
     name: 'Skiing',
     image:
       'https://img.freepik.com/free-photo/cedar-forest-mountains-lebanon_134785-1958.jpg?size=626&ext=jpg',
@@ -77,6 +110,7 @@ export const activities = [
     height: '280px',
   },
   {
+    id: 104,
     name: 'Swimming',
     image:
       'https://www.lebanoninapicture.com/Prv/Images/Pages/Page_121594/walking-along-the-beach-palmisland-palmislands--7-7-2017-8-58-59-am-l.jpg',

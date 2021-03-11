@@ -13,13 +13,14 @@
 }
 
 .headerStyleCenter {
-  color: #001c84;
   font-size: 15px;
   display: flex;
   justify-content: center;
   width: 70%;
 }
-
+.headerStyleCenter .navbar-items {
+  color: #001c84;
+}
 .languages-toggle-lr {
   display: flex;
   align-items: center;

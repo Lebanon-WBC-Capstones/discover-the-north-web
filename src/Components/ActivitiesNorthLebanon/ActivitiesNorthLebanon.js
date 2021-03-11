@@ -2,19 +2,24 @@ import './ActivitiesNorthLebanon.css';
 import ActivityCard from '../Card/ActivityCard/ActivityCard';
 import { activities, responsive_data } from '../../MockData/data';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next/';
 
 const ActivitiesNorthLebanon = () => {
+  const { t } = useTranslation();
   return (
     <div className="containers">
       <div className="act-north-leb-headers">
-        <h1 className="home-header-size">Activites in North Lebanon</h1>
-        <Link to="/activities">
-          <span className="seemore">See more activities</span>
-        </Link>
+        <h1>{t('homePage.activity')}</h1>
+        <Link to="activities">{t('homePage.seeMoreAct')}</Link>
       </div>
       <div className="grid">
         {activities.map((activity, index) => (
-          <ActivityCard activity={activity} col={index} />
+          <ActivityCard
+            activity={activity}
+            col={index}
+            paths="activities"
+            spec={activity.id}
+          />
         ))}
       </div>
 

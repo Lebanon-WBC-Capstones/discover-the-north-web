@@ -3,6 +3,7 @@ import './tourGuideCard.css';
 import Button from '../Button/Button';
 import { Card, Row, Col, Tooltip, Tag, Skeleton } from 'antd';
 import { EllipsisOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 import TourGuideModal from '../TourGuideModal/TourGuideModal';
 
 function TourGuideCard(tourGuide) {
@@ -64,9 +65,11 @@ function TourGuideCard(tourGuide) {
             </Tooltip>
           </Row>
           <Row justify="end">
-            <Button text="Hire me" type="primary">
-              Hire me
-            </Button>
+            <Link to={`/hire-me/${tourGuide.name}`}>
+              <Button text="Hire me" type="primary">
+                Hire me
+              </Button>
+            </Link>
           </Row>
         </Col>
       </Row>

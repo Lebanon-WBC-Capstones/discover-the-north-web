@@ -16,6 +16,9 @@ export default function DropdownButton({
     handleSelect(value);
   };
 
+  const genres = [];
+  elementArray.map((item) => genres.push(item.genre));
+
   const menu = (
     <Menu className="itemsContainer">
       {elementArray.map((item, index) => (
@@ -25,7 +28,9 @@ export default function DropdownButton({
           key={index}
           onClick={(element) => handleClick(element)}
         >
-          {infoType === 0 ? item.name : item.genre}
+          {infoType === 0
+            ? item.name
+            : genres.filter((v, i, a) => a.indexOf(v) === i).map((i) => i)}
         </Menu.Item>
       ))}
     </Menu>

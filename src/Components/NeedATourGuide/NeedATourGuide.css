@@ -1,7 +1,7 @@
 .need-tour-guide-container {
   height: 40vh;
   background: url('./pic.png') top;
-  background-size: cover;
+  background-size: contain;
   padding: 10px;
   display: flex;
   flex-direction: column;
