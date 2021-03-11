@@ -6,8 +6,8 @@ const { Title, Paragraph } = Typography;
 
 function WhyWeDidItSection({ imgSrc, title, text }) {
   return (
-    <div className="style-align">
-      <img src={imgSrc} alt="icon" className="icon-size" />
+    <div className="about-why-style">
+      <img src={imgSrc} alt="icon" className="about-why-icon-size" />
       <Title level={3} className="margin-top-parag">
         {title}
       </Title>

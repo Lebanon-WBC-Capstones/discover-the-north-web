@@ -1,12 +1,31 @@
-.icon-size {
-  width: 100px;
-  height: 100px;
-}
-
-.style-align {
+.about-why-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   text-align: start;
+}
+.about-why-style-c {
+  justify-self: start;
+  align-self: flex-start;
+}
+.about-why-icon-size {
+  width: 50px;
+  height: 50px;
 }
 
 .margin-top-parag {
   margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .about-why-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .about-why-icon-size {
+    width: 40px;
+    align-self: center;
+  }
 }

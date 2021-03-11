@@ -48,11 +48,10 @@ export default function Navbar() {
 
   return (
     <div>
-      <Layout id="headerStyle">
-        <div className="leftRightSides">
+      <Layout id="navbar-header-style">
+        <div className="languages-toggle-lr">
           <img className="logo" alt="discover the north Logo" src={logo}></img>
         </div>
-
         <Menu className="headerStyleCenter" mode="horizontal">
           <Menu.Item key="1">
             <Link to="/">{t('navbar.home')} </Link>
@@ -70,8 +69,7 @@ export default function Navbar() {
             <Link to="/about-us">{t('navbar.about')} </Link>
           </Menu.Item>
         </Menu>
-
-        <div className="leftRightSides">
+        <div className="languages-toggle-lr">
           <Dropdown.Button
             id="langButton"
             overlay={menu}

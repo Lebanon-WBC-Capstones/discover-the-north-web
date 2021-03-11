@@ -3,72 +3,63 @@ import './AboutUs.css';
 import WhyWeDidIt from '../../Components/WhyWeDidItSection/WhyWeDidItSection';
 import TeamCards from '../../Components/TeamCards/TeamCards';
 import FeedbackForm from '../../Components/FeedbackForm/FeedbackForm';
-import { Typography, Row, Col } from 'antd';
 import { section2, teamMembers } from './AboutUsData';
-
-const { Title, Paragraph } = Typography;
 
 function AboutUs() {
   return (
-    <div>
-      <div className="part1-aboutus">
-        <Title level={2}>About Us</Title>
-        <Row justify="center">
-          <Col span={16}>
-            <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </Paragraph>
-          </Col>
-        </Row>
+    <div className="about-page">
+      <div className="about-us-title-paragraph">
+        <h1 className="about-us-page-titles">About us</h1>
+        <p className="about-us-paragraph">
+          We are 5 people of north Lebanon youth. Our main goal is it showcase
+          this part of our country and make it accessible for all visitors. So,
+          we located all the interesting activities along with a handful of tour
+          guides in order to make discovering the north of Lebanon a delightful
+          journey.
+        </p>
       </div>
-      <hr className="hr-style" />
-      <div>
-        <Row justify="center">
-          <Title level={2}>Why We Did It</Title>
-        </Row>
-        <Row>
-          <Col span={5} offset={3}>
+
+      <div className="why-we-didit-container-hr">
+        <hr className="hr-style" />
+        <div className="why-we-didit-container-title">
+          <h1 className="about-us-page-titles">Why we did it</h1>
+          <div className="why-we-didit-container">
             <WhyWeDidIt
               imgSrc={section2.part1.icon}
               title={section2.part1.title}
               text={section2.part1.text}
+              className="grid-area-1"
             />
-          </Col>
-          <Col span={5} offset={2}>
             <WhyWeDidIt
               imgSrc={section2.part2.icon}
               title={section2.part2.title}
               text={section2.part2.text}
+              className="grid-area-2"
             />
-          </Col>
-          <Col span={5} offset={2}>
             <WhyWeDidIt
               imgSrc={section2.part3.icon}
               title={section2.part3.title}
               text={section2.part3.text}
+              className="grid-area-3"
             />
-          </Col>
-        </Row>
+          </div>
+        </div>
+        <hr className="hr-style" />
       </div>
-      <hr className="hr-style" />
-      <div>
-        <Row justify="center">
-          <Title level={2}>Meet The Team</Title>
-        </Row>
-        <div className="part3-team-members">
-          {teamMembers.map((member) => (
-            <TeamCards
-              imgsrc={member.image}
-              name={member.name}
-              specialization={member.specialization}
-              url={member.url}
-            />
-          ))}
+
+      <div className="meet-team-container">
+        <h1 className="about-us-page-titles">Meet the team</h1>
+        <div className="about-team-members-container">
+          <div className="about-team-members">
+            {teamMembers.map((member) => (
+              <TeamCards
+                imgsrc={member.image}
+                name={member.name}
+                specialization={member.specialization}
+                url={member.url}
+              />
+            ))}
+          </div>
         </div>
       </div>
       <div className="part4-feedback">

@@ -1,47 +1,43 @@
 import React from 'react';
 import './CityCardItem.css';
 import { Card } from 'antd';
-import { DoubleRightOutlined } from '@ant-design/icons';
-import { Typography } from 'antd';
-
-const { Title } = Typography;
+import { DoubleArrow } from '@material-ui/icons';
 
 export default function CityCardItem(city) {
-  const { imgsrc, name, info, activityNumber } = city;
+  const { imgsrc, name, activityNumber } = city;
   const style = {
-    borderTopLeftRadius: '10px',
-    borderTopRightRadius: '10px',
+    borderRadius: '10px',
   };
   return (
-    <div className="card">
+    <div className="city-card-component">
       <div class="city-card-container">
         <Card
-          style={{ width: 310, height: 310, borderRadius: 10 }}
+          style={{ width: 280, height: 250, borderRadius: 10 }}
           cover={
             <img
               style={style}
-              className="img-size"
+              className="city-card-img-size"
               alt="example"
               src={imgsrc}
             />
           }
         >
-          <div className="meta-card-content">
-            <div className="meta-card-title">
-              <Title level={4}> {name} </Title>
-              <span className="act-numb">{activityNumber} activities</span>
-            </div>
-
-            <span>{info && info.split(' ').slice(0, 6).join(' ')} ..</span>
-          </div>
-          <div className="overlay">
-            <div className="text">
-              <span className="learn-more">
-                Learn more &nbsp;
-                <DoubleRightOutlined
-                  style={{ fontSize: '12px', marginBottom: -5 }}
-                />
+          <div className="city-card-component-overlay">
+            <div className="city-card-component-text">
+              <h1
+                style={{ color: 'white', opacity: 1 }}
+                className="city-card-overlay-name"
+              >
+                {name}
+              </h1>
+              <span className="city-p-activity-nb">
+                {activityNumber} activity
               </span>
+              <div className="city-card-learn-more">
+                <span className="city-card-learn-more-child-1">
+                  Learn more <DoubleArrow className="double-ar-right" />{' '}
+                </span>
+              </div>
             </div>
           </div>
         </Card>

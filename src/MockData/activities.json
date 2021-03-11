@@ -4,7 +4,7 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Outdoor Activity",
-    "genre": ["walking", "biking"],
+    "genre": "walking",
     "name": "lost in tripoli",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNstISUhmPHqoPivlOHqWExHqFIT-vjpjD0DAhi=w408-h243-k-no",
     "images": [
@@ -26,16 +26,11 @@
     "tour_guides": [
       {
         "id": 40,
-        "image": "https://www.headshotsprague.com/wp-content/uploads/2019/07/Headshots_Prague-emotional-portrait-of-a-smiling-entrepreneur-1.jpg",
+        "image": "https://instagram.fkye4-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/149467330_741869360036776_1363538397098420458_n.jpg?_nc_ht=instagram.fkye4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=atCqFYtO31MAX92mGxQ&tp=1&oh=b4b74ad60bca5dcbf0482693bfded35b&oe=605D3906",
         "name": "Wael Haidar",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": [
-          "Tourist Guide",
-          "archaeologist",
-          "cultured",
-          "translator"
-        ]
+        "speciality_tags": ["Tourist Guide","archaeologist","cultured","translator"]
       }
     ]
   },
@@ -44,7 +39,7 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Outdoor Activity",
-    "genre": ["camping"],
+    "genre": "camping",
     "name": "Palm Islands",
     "image": "https://lh5.googleusercontent.com/p/AF1QipM55BmP9ixWdO8yDnb0I62HhNLTKQvIYHbuGCDE=w408-h408-k-no",
     "images": [
@@ -64,16 +59,12 @@
     "tour_guides": [
       {
         "id": 41,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvpuNoI06nScwFAhJgWlCwEDO1tsBTWw_rgt-6ahuXzex6C9OT_bjXV6Gs-IFO1bPRao&usqp=CAU",
+
+        "image": "https://instagram.fkye4-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.57.852.852a/s640x640/120542566_822517685181364_9148559761055863699_n.jpg?_nc_ht=instagram.fkye4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=UP2vy6C0MkMAX86XViD&tp=1&oh=97bf1c1d4fb3032449269eec864fc489&oe=605FA2A0",
         "name": "Samer Tayba",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": [
-          "Boat Driver",
-          "Life guard",
-          "Swimmer",
-          "Waterboarding"
-        ]
+        "speciality_tags": [ "Boat Driver", "Life guard", "Swimmer", "Waterboarding"]
       }
     ]
   },
@@ -82,7 +73,7 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Historique",
-    "genre": [],
+    "genre": "walking",
     "name": "Citadel Saint Gilles",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNzlMwHF2ZinKW-iI5WaX20pqVuz7V6COiBllSA=w420-h240-k-no",
     "images": [
@@ -121,7 +112,7 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Beach",
-    "genre": ["fishing"],
+    "genre": "beach",
     "name": "El Mina Port",
     "image": "https://lh5.googleusercontent.com/p/AF1QipMv6l6dUjrXdUyPaZpyOMT7nzCM6_oH-QCrwHqQ=w408-h408-k-no",
     "images": [
@@ -145,12 +136,7 @@
         "name": "Rana Assoum",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": [
-          "Swimmer",
-          "Life guard",
-          "Waterboarding",
-          "Translator"
-        ]
+        "speciality_tags": ["Swimmer","Life guard","Waterboarding","Translator"]
       }
     ]
   },
@@ -159,7 +145,7 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Historical landmark",
-    "genre": [],
+    "genre": "walking",
     "name": "Clocktower",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPfYHXZZAh7bh1oDstkB4ic4IJu5Stk5uSszS5w=w408-h306-k-no",
     "images": [
@@ -191,7 +177,7 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Historical landmark",
-    "genre": [],
+    "genre": "walking",
     "name": "Souk Al-Haraj",
     "image": "https://lh5.googleusercontent.com/p/AF1QipP8a8VGiKMx0SZboNi1MJrKwqyBpAqyPTyyAOo6=w408-h306-k-no",
     "images": [
@@ -223,7 +209,7 @@
     "city": "Tripoli",
     "code": "tri7",
     "type": "Public bath",
-    "genre": [],
+    "genre": "historical",
     "name": "Hammam al-Jadid",
     "image": "https://lh5.googleusercontent.com/p/AF1QipOIP9mOpgy7_viXqefooXyDnkclrPknCRFGjXP3=w408-h240-k-no-pi-0-ya243.33041-ro0-fo100",
     "images": [
@@ -257,7 +243,7 @@
     "city": "Koura",
     "code": "kou5",
     "type": "Historical landmark",
-    "genre": [],
+    "genre": "historical",
     "name": "Qasr Naous",
     "image": "https://lh5.googleusercontent.com/p/AF1QipONpP2gVvLgSThByI8MLxc27QA9u4xbxPf1pLVT=w408-h306-k-no",
     "images": [
@@ -274,7 +260,7 @@
     "address_coordinates": [34.28961677753156, 35.84573198400449],
     "icon": "",
     "description": "Qasr Naous is the vestige of two Roman Temples situated on a hilltop, some 600 meters above the sea in the village of Ain Aakrine, Koura.The first temple, the one in the east, has survived pretty well.",
-    "related_tags": [],
+    "related_tags": ["history", "temples", "roman", "ancient"],
     "price": "11",
     "rating": 4.5,
     "tour_guides": [
@@ -299,7 +285,7 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Cliff",
-    "genre": ["climbing"],
+    "genre": "adventure",
     "name": "Rock Climbing",
     "image": "https://lh5.googleusercontent.com/p/AF1QipMWFAaSL8SBGqVNUc1omsUSpJKVz0BnvVVY7VMp=w408-h306-k-no",
     "images": [
@@ -312,7 +298,7 @@
     "address_coordinates": [34.30879751001373, 35.98275459749624],
     "icon": "",
     "description": "Rock climbing is a sport in which participants climb up, down or across natural rock formations or artificial rock walls. The goal is to reach the summit of a formation or the endpoint of a usually pre-defined route without falling.",
-    "related_tags": [],
+    "related_tags": ["adventure", "nature", "wildlife", "green lands"],
     "price": "15",
     "rating": 4.5,
     "tour_guides": [
@@ -336,7 +322,7 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Outdoor Activity",
-    "genre": ["rappelling"],
+    "genre": "adventure",
     "name": "Abseiling",
     "image": "https://lh5.googleusercontent.com/p/AF1QipN_XSnsYGj_LOtWDZAhQqtTK6dm1yC24aDSEvky=w426-h240-k-no",
     "images": [
@@ -351,7 +337,7 @@
     "address_coordinates": [34.295525332935014, 35.95901771098702],
     "icon": "",
     "description": "Abseiling, also known as rappelling, is a controlled descent off a vertical drop, such as a rock face, using a rope.",
-    "related_tags": [],
+    "related_tags": ["adventure", "mountain", "team", "sport"],
     "price": "5",
     "rating": 3.9,
     "tour_guides": [
@@ -370,7 +356,7 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Outdoor Activity",
-    "genre": ["hiking"],
+    "genre": "adventure",
     "name": "Hiking",
     "image": "https://lh5.googleusercontent.com/p/AF1QipOoNanMr94a2-RVsQ-7GRliA3Mvxa_SafQOmh3u=w408-h306-k-no",
     "images": [
@@ -385,7 +371,7 @@
     "address_coordinates": [34.29529454819847, 35.96234361203648],
     "icon": "",
     "description": "Hiking, walking in nature as a recreational activity. Especially among those with sedentary occupations, hiking is a natural exercise that promotes physical fitness, is economical and convenient, and requires no special equipment.",
-    "related_tags": [],
+    "related_tags": ["adventure", "fun", "sport", "good for kids"],
     "price": "FREE",
     "rating": 4.8,
     "tour_guides": [
@@ -404,7 +390,7 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Outdoor Activity",
-    "genre": "offroad",
+    "genre": "adventure",
     "name": "ATV",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPC3fffCBg2TWWVRYiu8yfZFKSJ-6eZ4Vy4TIit=w426-h240-k-no",
     "images": [
@@ -419,7 +405,7 @@
     "address_coordinates": [34.290232826727234, 35.913585735081476],
     "icon": "",
     "description": "",
-    "related_tags": [],
+    "related_tags": ["riding", "adventure", "fun", "friends"],
     "price": "30",
     "rating": 5.0,
     "tour_guides": [
@@ -438,7 +424,7 @@
     "city": "Zgharta",
     "code": "zgh7",
     "type": "Outdoor Activity",
-    "genre": ["skyjumping", "snowhoeing", "camping"],
+    "genre": "adventure",
     "name": "Ehden Adventures",
     "image": "https://lh5.googleusercontent.com/p/AF1QipOVhUNQIDimxbsHlpXdTw86UWfzxP2Nn8qymQMF=w408-h306-k-no",
     "images": [
@@ -451,7 +437,7 @@
     "address_coordinates": [34.30688563750308, 35.973467542496955],
     "icon": "",
     "description": "Ehden Adventures is an establishment for outdoor activities since 2007. We provide all sort of outdoor activities for all ages and levels.",
-    "related_tags": [],
+    "related_tags": ["nature", "camping", "views", "fun"],
     "price": "50",
     "rating": 5.0,
     "tour_guides": [
@@ -470,7 +456,7 @@
     "city": "El Danniye",
     "code": "dan7",
     "type": "Outdoor Activity",
-    "genre": [],
+    "genre": "adventure",
     "name": "Hiking",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNdqQ5zKeBbwlGLYmEmu3Bd3pCSfLrpJWyGLHxW=w426-h240-k-no",
     "images": [],
@@ -497,7 +483,7 @@
     "city": "Qammoua",
     "code": "qam7",
     "type": "Outdoor Activity",
-    "genre": ["hiking"],
+    "genre": "adventure",
     "name": "Hiking",
     "image": "https://lh5.googleusercontent.com/p/AF1QipO63mr-kAC_T_9MsCG8i4Q_3rg4C3hjfC-_nOI=w408-h272-k-no",
     "images": [
@@ -532,7 +518,7 @@
     "city": "Qoubaiyat",
     "code": "qou9",
     "type": "Church",
-    "genre": [],
+    "genre": "religious",
     "name": "Notre Dame Chahlo",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPrIq-R9lb9hGl4hW-pGDamgL8-xa4yFO1Z4zic=w426-h240-k-no",
     "images": [],
@@ -550,7 +536,7 @@
         "name": "Yasmine Haddad",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": []
+        "speciality_tags": ["cultured", "Camper"]
       }
     ]
   },
@@ -559,8 +545,8 @@
     "city": "Batroun",
     "type": "Beach",
     "name": "Bonita Bay",
-    "genre": ["beach"],
-    "image": "http://lebanonuntravelled.com/wp/wp-content/uploads/2016/02/20160229_164645-2.jpg",
+    "genre": "beach",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNpxUjUslZGWfG39Zeq1MjJQ8Dw8h8joMt6FD7q=w426-h240-k-no",
     "images": [
       "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_119569/batroun-kfarabida-savekfarabida-mediterranean-s-6-27-2017-12-40-13-pm-l.jpg",
       "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_101911/love-instagood-photooftheday-top-tags-tbt-cute--3-26-2017-8-46-22-pm-l.jpg",
@@ -624,7 +610,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Outdoor Activity",
-    "genre": ["hiking"],
+    "genre": "adventure",
     "name": "Bchaaleh Trails",
     "image": "https://lh5.googleusercontent.com/p/AF1QipO3fPSxikF8gQSuUJ009xKK9nak8qLFB5tvmpwI=w426-h240-k-no",
     "images": [
@@ -657,7 +643,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Outdoor Activity",
-    "genre": "",
+    "genre": "adventure",
     "name": "Bchaaleh Trails",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNmJy-jhKoBe5PHBaEmYeM1d7j-sdQ2vSIBoxec=w408-h544-k-no",
     "images": [],
@@ -684,7 +670,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Diving",
-    "genre": ["diving"],
+    "genre": "beach",
     "name": "Dive The Med Club",
     "image": "https://lh5.googleusercontent.com/p/AF1QipMz14xmJ1EYGc7wJ8nRfFzUbeUWJ5UIifAoht4f=w408-h272-k-no",
     "images": [
@@ -717,7 +703,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Diving",
-    "genre": "",
+    "genre": "beach",
     "name": "Deep Sea Diving Center",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNQpRR2KGE3LP2lYxT0V9meTS8pDRu0F4WSDmr-=w408-h272-k-no",
     "images": [],
@@ -735,12 +721,7 @@
         "name": "Rima El Waleed",
         "email": "discover.north.lebanon@gmail.com",
         "summary": "",
-        "speciality_tags": [
-          "Diver",
-          "Scuba Diver",
-          "Waterboarding",
-          "Life guard"
-        ]
+        "speciality_tags": ["Diver","Scuba Diver","Waterboarding","Life guard"]
       }
     ]
   },
@@ -749,7 +730,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Beach",
-    "genre": "",
+    "genre": "beach",
     "name": "Joining Beach",
     "image": "https://lh5.googleusercontent.com/p/AF1QipORYIeVe9kCiXRFjv-FLIm9B-5EATZV36bt2kTW=w426-h240-k-no",
     "images": [],
@@ -776,7 +757,7 @@
     "city": "Batroun",
     "code": "bat7",
     "type": "Diving",
-    "genre": "",
+    "genre": "beach",
     "name": "NORTHCOAST DIVERS",
     "image": "https://lh5.googleusercontent.com/p/AF1QipM_ly3_xSocNc1TG26Cb7zDuO2iALyq6WWhOb-a=w408-h341-k-no",
     "images": [],
@@ -803,7 +784,7 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Outdoor Activity",
-    "genre": ["hiking", "nature discovery"],
+    "genre": "adventure",
     "name": "Qadisha Valley",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPezUrJtYSAyTJBi63xuMCbOoFUluLf2blv1NHo=w408-h306-k-no",
     "images": [
@@ -837,7 +818,7 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Outdoor Activity",
-    "genre": "",
+    "genre": "walking",
     "name": "The Lake House",
     "image": "https://lh5.googleusercontent.com/p/AF1QipN9g7TncBLSERZ1Dd2beVWydO-Zy7k_5931iODy=w408-h406-k-no",
     "images": [],
@@ -864,7 +845,7 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Ski",
-    "genre": ["skiing", "snowboarding"],
+    "genre": "walking",
     "name": "Cedars Ski Resort",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNZYA0eApuSAxOXt2xrK89wyyPvuaSSwk9ZHCK1=w408-h306-k-no",
     "images": [
@@ -898,7 +879,7 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Church",
-    "genre": "",
+    "genre": "religious",
     "name": "The good shepherd",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPUP-d2sSZ9o1l--ByCceui2Rw8xVeJKDmem3CP=w408-h306-k-no",
     "images": [],
@@ -925,7 +906,7 @@
     "city": "Bcharre",
     "code": "bch7",
     "type": "Outdoor Activity",
-    "genre": ["hiking"],
+    "genre": "walking",
     "name": "Pools of Sahna",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPjhQbITpDq7ba3P8l9lHMJFFPTMNwwifsraJui=w408-h306-k-no",
     "images": [

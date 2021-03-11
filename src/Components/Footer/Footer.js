@@ -17,9 +17,6 @@ export default function FooterComponent() {
                 <Text className="textColor">About Us</Text>
               </Title>
               <Title level={5}>
-                <Text className="textColor">About</Text>
-              </Title>
-              <Title level={5}>
                 <Text className="textColor">Privacy Policy</Text>
               </Title>
             </Col>
