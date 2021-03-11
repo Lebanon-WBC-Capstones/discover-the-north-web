@@ -12,6 +12,7 @@ import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import TourGuidePage from './Pages/TourGuide/TourGuidePage';
 import ActivitiesPage from './Pages/ActivitiesPage/ActivitiesPage';
 import SingleActivityPage from './Pages/SingleActivityPage/SingleActivityPage';
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 
 import './App.css';
 function App() {
@@ -23,6 +24,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <HomePage />
+            </Route>
+            <Route exact path="/privacy_policy">
+              <PrivacyPolicy />
             </Route>
             <Route exact path="/activities">
               <ActivitiesPage />

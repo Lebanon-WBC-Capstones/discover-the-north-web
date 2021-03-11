@@ -1,15 +1,10 @@
 .background {
   background: #0091ea;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .textColor {
-  color: #fff0f0;
-}
-
-.alignmentRow1 {
-  text-align: left;
-}
-
-.alignmentRow2 {
-  text-align: center;
+  color: white;
 }

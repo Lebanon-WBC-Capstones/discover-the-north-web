@@ -23,6 +23,7 @@ export const responsive_data = [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4RJiZWVAsA4YkYFlxCyft5uI_pfDnW-41zg&usqp=CAU',
     width: '95%',
     height: '250px',
+    id: 0,
   },
 ];
 
@@ -31,7 +32,7 @@ export const gems = [
     name: 'Tripoli - Old Souks',
     imgSrc:
       'https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2019/05/17/1586651-2067772589.jpg?itok=lYkxwC8F',
-    id: '1',
+    id: '0',
   },
   {
     name: 'Danniye - Bridge',

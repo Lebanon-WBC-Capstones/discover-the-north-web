@@ -1,5 +1,6 @@
 import './CityCard.css';
 import { Card } from 'antd';
+import { Link } from 'react-router-dom';
 
 const CityCard = ({ city }) => {
   const bodyStyleColor = {
