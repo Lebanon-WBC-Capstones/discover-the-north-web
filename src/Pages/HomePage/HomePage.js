@@ -62,7 +62,9 @@ const HomePage = () => {
           </div>
           <div className="citysCard">
             {cities.map((city, index) => {
-              return index < 4 ? <ActivityCard activity={city} /> : null;
+              return index < 4 ? (
+                <ActivityCard activity={city} paths="cities" spec={city.id} />
+              ) : null;
             })}
           </div>
         </div>
