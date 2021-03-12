@@ -13,8 +13,12 @@ import TourGuidePage from './Pages/TourGuide/TourGuidePage';
 import HireTguidePage from './Pages/HireTguidePage/HireTguidePage';
 import ActivitiesPage from './Pages/ActivitiesPage/ActivitiesPage';
 import SingleActivityPage from './Pages/SingleActivityPage/SingleActivityPage';
-
 import './App.css';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 function App() {
   return (
     <div className="App">

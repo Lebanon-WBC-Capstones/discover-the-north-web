@@ -23,21 +23,22 @@ export default function TourGuidePage() {
           <EmailModal isModalVisible={visible} setIsModalVisible={setVisible} />
         </div>
       </div>
-
-      <div className="tourGuideCardContainer">
-        {activities.map((activity) =>
-          activity.tour_guides.map((guider) => {
-            return (
-              <TourGuideCard
-                imgsrc={guider.image}
-                name={guider.name}
-                tags={guider.speciality_tags}
-                description={guider.summary}
-                guide={guider}
-              />
-            );
-          })
-        )}
+      <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
+        <div className="tourGuideCardContainer">
+          {activities.map((activity) =>
+            activity.tour_guides.map((guider) => {
+              return (
+                <TourGuideCard
+                  imgsrc={guider.image}
+                  name={guider.name}
+                  tags={guider.speciality_tags}
+                  description={guider.summary}
+                  guide={guider}
+                />
+              );
+            })
+          )}
+        </div>
       </div>
     </div>
   );

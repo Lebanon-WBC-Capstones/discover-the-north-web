@@ -15,9 +15,9 @@ function AboutUs() {
         <h1 className="about-us-page-titles">{t('aboutUsPage.header')}</h1>
         <p className="about-us-paragraph">{t('aboutUsPage.headerDesc')}</p>
       </div>
-
       <div className="why-we-didit-container-hr">
         <hr className="hr-style" />
+
         <div className="why-we-didit-container-title">
           <h1 className="about-us-page-titles">
             {t('aboutUsPage.header2.header2Title')}
@@ -42,10 +42,9 @@ function AboutUs() {
               className="grid-area-3"
             />
           </div>
+          <hr className="hr-style" />
         </div>
-        <hr className="hr-style" />
       </div>
-
       <div className="meet-team-container">
         <h1 className="about-us-page-titles">{t('aboutUsPage.header3')}</h1>
         <div className="about-team-members-container">

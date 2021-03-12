@@ -114,19 +114,25 @@ export default function ActivitiesPage() {
           <div className="act-left-grid-column">
             <DropDownsPackage handleFilter={handleFilter} />
             <Divider />
-            {checked.length === 0 ? (
-              <ActivitiesCardList
-                activityData={activities_data}
-                handleMouseOver={handleMouseOver}
-                handleMouseLeave={handleMouseLeave}
-              />
-            ) : (
-              <ActivitiesCardList
-                activityData={checked}
-                handleMouseOver={handleMouseOver}
-                handleMouseLeave={handleMouseLeave}
-              />
-            )}
+            <div
+              data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
+              {checked.length === 0 ? (
+                <ActivitiesCardList
+                  activityData={activities_data}
+                  handleMouseOver={handleMouseOver}
+                  handleMouseLeave={handleMouseLeave}
+                />
+              ) : (
+                <ActivitiesCardList
+                  activityData={checked}
+                  handleMouseOver={handleMouseOver}
+                  handleMouseLeave={handleMouseLeave}
+                />
+              )}
+            </div>
           </div>
           <div className="act-right-grid-column">
             <Affix offsetTop={top}>
