@@ -21,21 +21,30 @@ export default function DropdownButton({
 
   const menu = (
     <Menu className="itemsContainer">
-      {elementArray.map((item, index) => (
-        <Menu.Item
-          className="items"
-          value={infoType === 0 ? item.name : item.genre}
-          key={index}
-          onClick={(element) => handleClick(element)}
-        >
-          {infoType === 0
-            ? item.name
-            : genres.filter((v, i, a) => a.indexOf(v) === i).map((i) => i)}
-        </Menu.Item>
-      ))}
+      {infoType === 0
+        ? elementArray.map((item, index) => (
+            <Menu.Item
+              className="items"
+              value={infoType === 0 ? item.name : item.genre}
+              key={index}
+              onClick={(element) => handleClick(element)}
+            >
+              {item.name}
+            </Menu.Item>
+          ))
+        : genres &&
+          [...new Set(genres)].map((item, index) => (
+            <Menu.Item
+              className="items"
+              value={infoType === 0 ? item.name : item.genre}
+              key={index}
+              onClick={(element) => handleClick(element)}
+            >
+              {item}
+            </Menu.Item>
+          ))}
     </Menu>
   );
-
   return (
     <div>
       <Dropdown overlay={menu}>
