@@ -37,7 +37,8 @@
 }
 .gallery__img:hover {
   box-shadow: 0 4px 8px 0 rgba(196, 165, 165, 0.1),
-    0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    0 6px 20px 0 rgba(105, 105, 105, 0.09);
+  transition: 1s ease;
   cursor: pointer;
 }
 .gallery__item--1 {
