@@ -16,29 +16,43 @@ const JoinOurTeam = ({ guide }) => {
   return (
     <Card className="join-team-cards" bodyStyle={{ padding: '0' }}>
       <div className="cardbody">
-        <img
-          alt={guide.name}
-          src={guide.image}
-          style={imgstyle}
-          className="home-guider-card"
-        />
-        <div className="info">
-          <h1 className="title">
-            {guide.name} our {guide.speciality_tags[0]}
-          </h1>
-          <p className="description">{guide.summary}</p>
-          <ButtonComponont
-            type="primary"
-            text="Join Our Team"
-            onClick={handleClick}
+        <div
+          data-aos="fade-right"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
+          <img
+            alt={guide.name}
+            src={guide.image}
+            style={imgstyle}
+            className="home-guider-card"
           />
-          <EmailModal
-            isModalVisible={isModalVisible}
-            setIsModalVisible={setIsModalVisible}
-          />
-          <p className="cardfooter">
-            Check the rest of the team <Link to="/tour-guide">Go Here</Link>
-          </p>
+        </div>
+
+        <div
+          data-aos="fade-left"
+          className="info"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
+          <div className="info">
+            <h1 className="title">
+              {guide.name} our {guide.speciality_tags[0]}
+            </h1>
+            <p className="description">{guide.summary}</p>
+            <ButtonComponont
+              type="primary"
+              text="Join Our Team"
+              onClick={handleClick}
+            />
+            <EmailModal
+              isModalVisible={isModalVisible}
+              setIsModalVisible={setIsModalVisible}
+            />
+            <p className="cardfooter">
+              Check the rest of the team <Link to="/tour-guide">Go Here</Link>
+            </p>
+          </div>
         </div>
       </div>
     </Card>
