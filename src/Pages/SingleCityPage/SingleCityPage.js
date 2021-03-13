@@ -4,7 +4,8 @@ import Map from '../../Components/Map/Map.js';
 import { Card, Button } from 'antd';
 import CityCarousel from '../../Components/CityCarousel/CityCarousel';
 import cities from '../../MockData/cities.json';
-import { PageHeader } from 'antd';
+import activities from '../../MockData/activities.json';
+import { PageHeader, Tag } from 'antd';
 import tourGuide from './tourGuide.jpg';
 import { useParams, Link, useHistory } from 'react-router-dom';
 
@@ -90,38 +91,77 @@ export default function SingleCityPage() {
                   style={{ height: 400, borderRadius: 10 }}
                   className="card-item"
                 >
-                  <span>
-                    <h3>
-                      {' '}
-                      <b> Activities </b>{' '}
-                    </h3>
-                    <b>Activities Number : </b>
-                  </span>
-                  {city.activityNumber}
-                  {city.activity &&
-                    city.activity.map((act) => <li>{act.type}</li>)}
-                </Card>
-              </div>
-              <div className="card-col">
-                <Card
-                  style={{ height: 400, borderRadius: 10 }}
-                  className="card-item"
-                >
-                  <div>
-                    <h3>
+                  <div
+                    style={{ display: 'flex', justifyContent: 'space-between' }}
+                  >
+                    <h3 className="color">
                       {' '}
                       <b>Description </b>{' '}
                     </h3>
+                    <span>
+                      {' '}
+                      <a
+                        className="card-p-link"
+                        target="_new"
+                        href={`http://en.wikipedia.org/w/index.php?title=Special:Search&search=${
+                          city.name + ', ' + city.country
+                        }`}
+                      >
+                        See in wikipedia{' '}
+                      </a>
+                    </span>
                   </div>
-                  {city.description}
+                  <span className="text-color">{city.description}</span>
+
+                  <h3 className="color">
+                    <b>Activities Number :</b>
+                  </h3>
+                  {city.activityNumber}
                 </Card>
               </div>
+
               <div className="card-col">
                 <Card
                   style={{ height: 400, borderRadius: 10 }}
                   className="card-item"
                 >
-                  <h3>
+                  <span
+                    style={{ display: 'flex', justifyContent: 'space-between' }}
+                  >
+                    <h3 className="color" style={{ paddingBottom: '10px' }}>
+                      {' '}
+                      <b> Things to do in {city.name} </b>{' '}
+                    </h3>
+
+                    <Link to="/activities">
+                      {' '}
+                      <span className="card-p-link">Go to activity page</span>
+                    </Link>
+                  </span>
+
+                  {activities &&
+                    activities.map(
+                      (act, i) =>
+                        act.code === city.code && (
+                          <Link to={`/activities/${act.id}`}>
+                            <Tag
+                              style={{ margin: '5px', padding: '2px 6px' }}
+                              color={i % 2 === 0 ? 'green' : 'geekblue'}
+                            >
+                              {act.name}
+                            </Tag>
+                          </Link>
+                        )
+                    )}
+                </Card>
+              </div>
+
+              <div className="card-col">
+                <Card
+                  style={{ height: 400, borderRadius: 10 }}
+                  className="card-item"
+                >
+                  <h3 className="color">
                     {' '}
                     <b>Location</b>{' '}
                   </h3>
@@ -140,9 +180,9 @@ export default function SingleCityPage() {
             <div className="hire-box">
               <div className="hire-box-text">
                 <h1 className="icon-text">
-                  Don't got it alone!
+                  Don't want to go there alone?
                   <br />
-                  Hire an expert to craft your trip.
+                  Hire an expert to craft your trip!
                 </h1>
                 <Link to="/tour-guide">
                   <Button type="primary" className="seemore-btn">

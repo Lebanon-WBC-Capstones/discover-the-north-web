@@ -88,8 +88,7 @@ function FeedbackFormComponent({ DTN_email = 'gtour180@gmail.com' }) {
                 htmlType="submit"
                 className="feedback-send-btn"
               >
-                hi
-                {/* {t('aboutUsPage.footerButton')} */}
+                {t('aboutUsPage.footerButton')}
               </Button>
             </Form.Item>
           </div>

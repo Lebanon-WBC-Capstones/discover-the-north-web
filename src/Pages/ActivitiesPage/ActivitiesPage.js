@@ -112,13 +112,14 @@ export default function ActivitiesPage() {
       <ID.Provider value={id}>
         <div className="act-page">
           <div className="act-left-grid-column">
-            <DropDownsPackage handleFilter={handleFilter} />
-            <Divider />
             <div
               data-aos="fade-right"
               data-aos-offset="500"
               data-aos-duration="500"
             >
+              <DropDownsPackage handleFilter={handleFilter} />
+              <Divider />
+
               {checked.length === 0 ? (
                 <ActivitiesCardList
                   activityData={activities_data}
@@ -136,7 +137,13 @@ export default function ActivitiesPage() {
           </div>
           <div className="act-right-grid-column">
             <Affix offsetTop={top}>
-              <ActivitiesMap />
+              <div
+                data-aos="fade-left"
+                data-aos-offset="500"
+                data-aos-duration="500"
+              >
+                <ActivitiesMap />
+              </div>
             </Affix>
           </div>
         </div>
