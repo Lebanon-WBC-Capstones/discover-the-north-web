@@ -10,11 +10,19 @@
 }
 .hire-me-divs {
   margin-top: 2ch;
-  height: 70ch;
-  width: 90%;
+  height: 55ch;
+  width: 80%;
   box-shadow: 0 30px 20px #f1f3f4;
   -webkit-box-shadow: 0 30px 20px #f1f3f4;
   -moz-box-shadow: 0 30px 20px #f1f3f4;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+.hire-me-divs-child {
+  justify-self: center;
+  align-self: center;
 }
 .pageHead {
   margin: auto;
