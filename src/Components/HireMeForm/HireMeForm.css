@@ -1,52 +1,88 @@
 .hiremeform {
-  padding: 20px;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+  width: 60vw;
+  height: 55ch;
 }
 .hireMe-div {
   display: grid;
-  grid-template-columns: 30% 30%;
-  grid-gap: 50px;
+  grid-template-columns: 40% 60%;
   width: 100%;
+  height: 100%;
   justify-content: center;
 }
-.site-config-provider-calendar-wrapper {
-  border: solid 1px whitesmoke;
-  width: 100%;
+
+.left-div-p {
+  background: #000428;
+  background: -webkit-linear-gradient(to bottom, #000428, #004e92, #0091ea);
+  background: linear-gradient(to bottom, #000428, #004e92, #0091ea);
+  height: 55ch;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+.left-div-text {
+  color: white;
+  align-self: center;
+  font-size: 25px;
+}
+.left-div-img {
+  width: 50px;
 }
 
-.ant-picker-panel {
+.form-div {
+  height: 100%;
+}
+/* .site-config-provider-calendar-wrapper {
+  border: solid 1px whitesmoke;
   width: 100%;
 }
 .ant-picker-calendar .ant-picker-calendar-mini {
   margin: auto;
-  width: 100%;
 }
 .ant-form-item .ant-select,
 .ant-form-item .ant-cascader-picker {
   width: 0px;
+} */
+.email-name-mess-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 10px 0 0;
+  height: 50ch;
 }
-.cities_select {
-  color: black;
-  width: 70% !important;
+.checkbox-headline {
+  display: flex;
 }
-.ant-select-selection-item {
-  color: black;
+.checkbox-cont {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-left: 40px;
+}
+.checkbox-single-value {
+  padding-left: 20px;
 }
 .ant-form-item-required,
 .ant-form-item-label > label {
-  width: 110px !important;
+  width: 100px !important;
+}
+.ant-form-item {
+  width: 100%;
+  display: flex;
 }
 .send-btn {
   align-self: center;
   margin: 0px;
-  padding: 0px;
-  font-size: 15px;
+  padding: 5px 25px;
+  font-size: 16px;
   height: auto;
-  border-radius: 10px !important;
+  border-radius: 10px;
 }
+.btn-submit-send {
+  margin: 50px 0 0 230px;
+}
+
 @media only screen and (max-width: 1020px) {
   .hireMe-div {
     display: grid;
