@@ -31,55 +31,25 @@ export const gems = [
     name: 'Tripoli - Old Souks',
     imgSrc:
       'https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2019/05/17/1586651-2067772589.jpg?itok=lYkxwC8F',
-    id: '1',
+    id: 22,
   },
   {
     name: 'Danniye - Bridge',
     imgSrc:
       'https://blogbaladi.com/wp-content/uploads/2019/07/donnieh1-973x1200.jpg',
-    id: '2',
+    id: 142,
   },
   {
     name: 'Batroun - Nabu Museum',
     imgSrc:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCaR3f1pqBRs_61t3ePZnzSyzYrEdlfk1NlGtbP-gUkrrV60S_NDHMSz8o_d47ghSEzo&usqp=CAU',
-    id: '3',
+    id: 231,
   },
   {
     name: 'Qammouaa - Ezer Forest',
     imgSrc:
       'https://images-lebtivity.s3.amazonaws.com/content/versions/68819/960-640-0-0/hiking_at_qammouaa_valley_ezer_forest_akkar_district.jpg',
-    id: '4',
-  },
-  {
-    id: 101,
-    name: 'Horsh Ehden',
-    imgSrc:
-      'https://media-cdn.tripadvisor.com/media/photo-s/0b/c0/3b/55/screenshot-20160626-165837.jpg',
-  },
-  {
-    id: 21,
-    name: 'Mina',
-    imgSrc:
-      'http://lebanonuntravelled.com/wp/wp-content/uploads/2016/02/20160229_164645-2.jpg',
-  },
-  {
-    id: 227,
-    name: 'Hamat',
-    imgSrc:
-      'https://i.pinimg.com/originals/32/16/1c/32161c354ff2251a9cb97382f2c81d37.jpg',
-  },
-  {
-    id: 266,
-    name: 'Hasroun',
-    imgSrc:
-      'https://www.the961.com/wp-content/uploads/2020/06/ef97dbe3add03a80b489b8d7db20af74-1.jpg',
-  },
-  {
-    id: 221,
-    name: 'Msailha',
-    imgSrc:
-      'https://www.lebanoninapicture.com/Prv/Images/Pages/Page_101911/love-instagood-photooftheday-top-tags-tbt-cute--3-26-2017-8-46-22-pm-l.jpg',
+    id: 181,
   },
 ];
 
@@ -96,7 +66,7 @@ export const activities = [
     id: 264,
     name: 'Skiing',
     image:
-      'https://img.redbull.com/images/c_crop,x_0,y_0,h_3840,w_4800/c_fill,w_650,h_520/q_auto,f_auto/redbullcom/2020/4/29/ereaaopn5xjdzt3nsgdr/kenny-belaey-discovers-the-lebanon-mountain-trail-from-border-to-border',
+      'https://img.freepik.com/free-photo/cedar-forest-mountains-lebanon_134785-1958.jpg?size=626&ext=jpg',
     width: '100%',
     height: '280px',
   },
@@ -104,13 +74,13 @@ export const activities = [
     id: 222,
     name: 'Mountain Biking',
     image:
-      'https://img.freepik.com/free-photo/cedar-forest-mountains-lebanon_134785-1958.jpg?size=626&ext=jpg',
+      'https://img.redbull.com/images/c_crop,x_0,y_0,h_3840,w_4800/c_fill,w_650,h_520/q_auto,f_auto/redbullcom/2020/4/29/ereaaopn5xjdzt3nsgdr/kenny-belaey-discovers-the-lebanon-mountain-trail-from-border-to-border',
     width: '100%',
     height: '280px',
   },
   {
-    id: 104,
-    name: 'ATV & Buggy',
+    id: 221,
+    name: 'Beach',
     image:
       'https://www.lebanoninapicture.com/Prv/Images/Pages/Page_121594/walking-along-the-beach-palmisland-palmislands--7-7-2017-8-58-59-am-l.jpg',
     width: '100%',
