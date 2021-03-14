@@ -30,7 +30,7 @@
 }
 
 .form-div {
-  height: 91%;
+  height: 100%;
 }
 /* .site-config-provider-calendar-wrapper {
   border: solid 1px whitesmoke;
@@ -54,13 +54,14 @@
   display: flex;
 }
 .checkbox-cont {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 350px;
-  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-left: 40px;
 }
 .checkbox-single-value {
-  padding-right: 50px;
+  padding-left: 20px;
 }
 .ant-form-item-required,
 .ant-form-item-label > label {
@@ -73,15 +74,13 @@
 .send-btn {
   align-self: center;
   margin: 0px;
-  padding: 4px 20px;
+  padding: 5px 25px;
   font-size: 16px;
   height: auto;
   border-radius: 10px;
 }
 .btn-submit-send {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  margin: 50px 0 0 230px;
 }
 
 @media only screen and (max-width: 1020px) {

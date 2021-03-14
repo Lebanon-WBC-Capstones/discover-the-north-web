@@ -4,7 +4,7 @@ import {
   Button,
   Form,
   Input,
-  Calendar,
+  // Calendar,
   message,
   Checkbox,
   DatePicker,
@@ -69,6 +69,7 @@ export default function ContactUs({
             <h1 className="left-div-text">
               {' '}
               <img
+                alt="left side background"
                 className="left-div-img"
                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48bGluayB0eXBlPSJ0ZXh0L2NzcyIgcmVsPSJzdHlsZXNoZWV0IiBpZD0iZGFyay1tb2RlLWN1c3RvbS1saW5rIj48L2xpbms+PGxpbmsgdHlwZT0idGV4dC9jc3MiIHJlbD0ic3R5bGVzaGVldCIgaWQ9ImRhcmstbW9kZS1nZW5lcmFsLWxpbmsiPjwvbGluaz48c3R5bGUgbGFuZz0iZW4iIHR5cGU9InRleHQvY3NzIiBpZD0iZGFyay1tb2RlLWN1c3RvbS1zdHlsZSI+PC9zdHlsZT48c3R5bGUgbGFuZz0iZW4iIHR5cGU9InRleHQvY3NzIiBpZD0iZGFyay1tb2RlLW5hdGl2ZS1zdHlsZSI+PC9zdHlsZT48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im04Ljc1IDE3LjYxMnY0LjYzOGMwIC4zMjQuMjA4LjYxMS41MTYuNzEzLjA3Ny4wMjUuMTU2LjAzNy4yMzQuMDM3LjIzNCAwIC40Ni0uMTEuNjA0LS4zMDZsMi43MTMtMy42OTJ6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMjMuNjg1LjEzOWMtLjIzLS4xNjMtLjUzMi0uMTg1LS43ODItLjA1NGwtMjIuNSAxMS43NWMtLjI2Ni4xMzktLjQyMy40MjMtLjQwMS43MjIuMDIzLjMuMjIyLjU1Ni41MDUuNjUzbDYuMjU1IDIuMTM4IDEzLjMyMS0xMS4zOS0xMC4zMDggMTIuNDE5IDEwLjQ4MyAzLjU4M2MuMDc4LjAyNi4xNi4wNC4yNDIuMDQuMTM2IDAgLjI3MS0uMDM3LjM5LS4xMDkuMTktLjExNi4zMTktLjMxMS4zNTItLjUzbDIuNzUtMTguNWMuMDQxLS4yOC0uMDc3LS41NTgtLjMwNy0uNzIyeiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L3N2Zz4="
               />{' '}
@@ -161,7 +162,6 @@ export default function ContactUs({
                           }}
                           key={index}
                           value={item.name}
-                          name="city"
                           className="checkbox-single-value"
                         >
                           {item.name}

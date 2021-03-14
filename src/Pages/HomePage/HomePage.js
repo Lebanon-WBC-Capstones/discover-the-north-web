@@ -63,7 +63,6 @@ const HomePage = () => {
           <HomeCitiesCards />
         </div>
 
-        {/* <div data-aos="fade-up"> */}
         <div className="teamCarousel" style={{ padding: '5% 0 5% 0' }}>
           <Carousel autoplay effect="fade" dots={false} infinite>
             {TourGuideData.map((item, index) => {
@@ -73,7 +72,6 @@ const HomePage = () => {
             })}
           </Carousel>
         </div>
-        {/* </div> */}
       </div>
     </div>
   );
