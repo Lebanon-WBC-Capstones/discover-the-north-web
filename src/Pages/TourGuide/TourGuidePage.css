@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: column;
 }
+h1 {
+  color: #001c84;
+}
+p {
+}
 .tour-guide-page-header {
   display: flex;
   justify-content: space-between;

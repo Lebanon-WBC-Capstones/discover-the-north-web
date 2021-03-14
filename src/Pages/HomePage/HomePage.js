@@ -5,13 +5,11 @@ import NeedATourGuide from '../../Components/NeedATourGuide/NeedATourGuide';
 import WhatWeDo from '../../Components/WhatWeDo/WhatWeDo';
 import CityCard from '../../Components/Card/CityCard/CityCard';
 import JoinOurTeam from '../../Components/Card/JoinOurTeam/JoinOurTeam.js';
-import ActivityCard from '../../Components/Card/ActivityCard/ActivityCard';
-import { gems, TourGuideData, responsive_data } from '../../MockData/data';
-import cities from '../../MockData/cities.json';
+import { gems, TourGuideData } from '../../MockData/data';
 import { Carousel } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next/';
+import HomeCitiesCards from '../../Components/HomeCitiesCards/HomeCitiesCards';
 
 const HomePage = () => {
   const settings = {
@@ -42,40 +40,28 @@ const HomePage = () => {
         </h1>
 
         <div className="cityCarousel">
-          <Carousel {...settings}>
-            {gems.map((gem) => (
-              <div className="gemCards">
-                <CityCard city={gem} />
-              </div>
-            ))}
-          </Carousel>
+          <div data-aos="fade-up">
+            <Carousel {...settings}>
+              {gems.map((gem) => (
+                <div className="gemCards">
+                  <CityCard city={gem} />
+                </div>
+              ))}
+            </Carousel>
+          </div>
         </div>
 
         <div className="act" style={{ padding: '40px 0' }}>
-          <ActivitiesNorthLebanon />
+          <div data-aos="fade-up">
+            <ActivitiesNorthLebanon />
+          </div>
+        </div>
+        <div data-aos="fade-up">
+          <NeedATourGuide />
         </div>
 
-        <NeedATourGuide />
-
-        <div className="cities" style={{ paddingTop: '30px' }}>
-          <div className="cityHeader">
-            <h1 className="home-header-size">{t('homePage.city')}</h1>
-            <Link to="/cities">
-              <span className="seemore">{t('homePage.seeMoreCity')}</span>
-            </Link>
-          </div>
-          <div className="citysCard">
-            {cities.map((city, index) => {
-              return index < 4 ? (
-                <ActivityCard activity={city} paths="cities" spec={city.id} />
-              ) : null;
-            })}
-          </div>
-
-          <div className="citysCard-responsive-600">
-            <ActivityCard activity={responsive_data[2]} />
-            <button className="see-more-btn-resp ">See more</button>
-          </div>
+        <div data-aos="fade-up">
+          <HomeCitiesCards />
         </div>
 
         <div className="teamCarousel" style={{ padding: '5% 0 5% 0' }}>

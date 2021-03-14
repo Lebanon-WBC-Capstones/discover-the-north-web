@@ -1,5 +1,6 @@
 import './TourGuideModal.css';
 import { Modal } from 'antd';
+
 const imgStyle = {
   height: '500px',
   width: '400px',
@@ -9,6 +10,9 @@ const overrideStyle = {
   display: 'flex',
 };
 const TourGuideModal = ({ guide, visible, handleCancel }) => {
+  const handleOk = () => {
+    window.location.href = `/hire-me/${guide.name}`;
+  };
   return (
     <Modal
       className="tour-guider-modal"
@@ -16,6 +20,7 @@ const TourGuideModal = ({ guide, visible, handleCancel }) => {
       visible={visible}
       onCancel={handleCancel}
       destroyOnClose={true}
+      onOk={handleOk}
       okText="Hire Me!"
       bodyStyle={overrideStyle}
     >

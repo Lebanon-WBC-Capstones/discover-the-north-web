@@ -31,6 +31,9 @@
 .feedback-form-col-1 {
   grid-area: col1;
 }
+.feedback-form-col-1 h2 + .feedback-form-col-1 h5 {
+  color: #001c84;
+}
 .feedback-form-col-2 {
   display: flex;
   flex-direction: column;

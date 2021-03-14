@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './tourGuideCard.css';
-import Button from '../Button/Button';
 import { Card, Row, Col, Tooltip, Tag, Skeleton } from 'antd';
 import { EllipsisOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
@@ -9,10 +8,21 @@ import TourGuideModal from '../TourGuideModal/TourGuideModal';
 function TourGuideCard(tourGuide) {
   const [modal, setModal] = useState(false);
   const handleCancel = () => setModal(false);
+
+  const imgstyle = {
+    borderRadius: '10px',
+  };
   return (
     <Card
       className="tour-guide-card"
-      cover={<img className="imgProp" src={tourGuide.imgsrc} alt="Guider" />}
+      cover={
+        <img
+          className="imgProp"
+          style={imgstyle}
+          src={tourGuide.imgsrc}
+          alt="Guider"
+        />
+      }
     >
       <Row className="rowheight">
         <Col span={20}>
@@ -66,9 +76,13 @@ function TourGuideCard(tourGuide) {
           </Row>
           <Row justify="end">
             <Link to={`/hire-me/${tourGuide.name}`}>
-              <Button text="Hire me" type="primary">
+              <button
+                className="hire-me-card-btn"
+                text="Hire me"
+                type="primary"
+              >
                 Hire me
-              </Button>
+              </button>
             </Link>
           </Row>
         </Col>

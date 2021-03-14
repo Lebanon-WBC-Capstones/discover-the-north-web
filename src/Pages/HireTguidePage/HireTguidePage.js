@@ -16,16 +16,22 @@ export default function HireTguidePage({
         onBack={() => window.history.back()}
         title="Back"
       />
-      <div className="hire-me-divs">
-        <h1 className="pageHead">
-          {' '}
-          Fill the following form please to reach out the tour guide.{' '}
-        </h1>
-        <HireMeForm
-          citiesArray={citiesData}
-          Tguide_email={Tguide_email}
-          Tguide_name={name}
-        />
+      <div
+        data-aos="fade-down"
+        className="info"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
+        <div className="hire-me-divs">
+          <div className="hire-me-divs-child">
+            <HireMeForm
+              citiesArray={citiesData}
+              Tguide_email={Tguide_email}
+              Tguide_name={name}
+              name={name}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

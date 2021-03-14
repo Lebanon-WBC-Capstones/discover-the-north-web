@@ -17,13 +17,14 @@
 }
 .info {
   margin-top: 0;
-  margin-left: 80px;
+  margin-left: 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   grid-area: info;
+  width: 90%;
 }
 .title {
   text-align: left;
