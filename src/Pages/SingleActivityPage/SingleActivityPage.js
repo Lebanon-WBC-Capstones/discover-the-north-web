@@ -43,7 +43,6 @@ export default function SingleActivityPage(props) {
                   <div className="single-act-left-grid-tour-guide">
                     <div className="single-act-info-hire-box">
                       <h1 className="single-act-info-icon-text home-header-size">
-                        {' '}
                         <img
                           src={tourguideimg}
                           className="single-act-info-icon-style"
