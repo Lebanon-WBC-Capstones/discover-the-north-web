@@ -40,7 +40,6 @@ export default function ActivitiesCardList(props) {
         <div className="loading-spinner-layout">
           {[1, 2, 3].map((e) => (
             <>
-              {' '}
               <Skeleton.Input
                 style={{
                   width: '100%',
@@ -49,7 +48,7 @@ export default function ActivitiesCardList(props) {
                   marginLeft: '-76px',
                 }}
                 active
-              />{' '}
+              />
               <br />
             </>
           ))}

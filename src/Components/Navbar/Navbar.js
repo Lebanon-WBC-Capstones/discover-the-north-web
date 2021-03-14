@@ -59,12 +59,12 @@ export default function Navbar() {
           <Menu className="headerStyleCenter" mode="horizontal">
             <Menu.Item key="1">
               <Link to="/">
-                <span className="navbar-items">{t('navbar.home')}</span>{' '}
+                <span className="navbar-items">{t('navbar.home')}</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="2">
               <Link to="/activities">
-                <span className="navbar-items">{t('navbar.activities')}</span>{' '}
+                <span className="navbar-items">{t('navbar.activities')}</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="3">

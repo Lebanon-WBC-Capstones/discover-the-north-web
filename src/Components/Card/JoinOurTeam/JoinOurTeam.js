@@ -1,7 +1,6 @@
 import { Card, Button } from 'antd';
 import './JoinOurTeam.css';
 import { Link } from 'react-router-dom';
-// import ButtonComponont from '../../Button/Button';
 import EmailModal from '../../EmailModal/EmailModal';
 import { useState } from 'react';
 
