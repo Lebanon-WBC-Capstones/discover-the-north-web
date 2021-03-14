@@ -40,8 +40,12 @@ function FeedbackFormComponent({ DTN_email = 'gtour180@gmail.com' }) {
       <Form form={form} onFinish={handleSubmit} className="feedbackForm">
         <div className="feedback-cp-form-ct">
           <div className="feedback-form-col-1">
-            <Title level={2}>{t('aboutUsPage.footerTitle')}</Title>
-            <Title level={5}>{t('aboutUsPage.footerDesc')}</Title>
+            <Title level={2}>
+              <span className="color">{t('aboutUsPage.footerTitle')}</span>
+            </Title>
+            <Title level={5}>
+              <span className="color">{t('aboutUsPage.footerDesc')}</span>
+            </Title>
           </div>
 
           <hr className="hr-vertical" />
