@@ -1,18 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import {
-  Button,
-  Form,
-  Input,
-  // Calendar,
-  message,
-  Checkbox,
-  DatePicker,
-} from 'antd';
+import { Button, Form, Input, message, Radio, DatePicker } from 'antd';
 import './HireMeForm.css';
-
 const key = 'updatable';
-
 export default function ContactUs({
   citiesArray,
   Tguide_email = 'gtour180@gmail.com',
@@ -22,7 +12,6 @@ export default function ContactUs({
   const [form] = Form.useForm();
   const [selecteditem, setSelecteditem] = useState('');
   const [selectedDate, setSelectedDate] = useState('');
-
   function sendEmail() {
     emailjs
       .sendForm(
@@ -55,12 +44,9 @@ export default function ContactUs({
       );
     form.resetFields();
   }
-
   const handleSubmit = (values) => {
     sendEmail();
-    console.log('Success:', values);
   };
-
   return (
     <div>
       <Form form={form} onFinish={handleSubmit} className="hiremeform ">
@@ -78,13 +64,11 @@ export default function ContactUs({
               <span>'{name}'</span>
             </h1>
           </div>
-
           <div className="form-div">
             <div className="calendar-div">
               <div className="email-name-mess-c">
                 <Input type="hidden" name="Tguide_email" value={Tguide_email} />
                 <Input type="hidden" name="Tguide_name" value={Tguide_name} />
-
                 <Form.Item
                   label="Full Name"
                   name="user_name"
@@ -113,7 +97,6 @@ export default function ContactUs({
                     className="input_email"
                   />
                 </Form.Item>
-
                 <Form.Item
                   label="Message"
                   name="message"
@@ -143,7 +126,6 @@ export default function ContactUs({
                     }}
                     name="date"
                   />
-
                   <Input
                     type="hidden"
                     name="date"
@@ -155,50 +137,22 @@ export default function ContactUs({
                   <div className="checkbox-headline">
                     <div className="checkbox-cont">
                       {citiesArray.map((item, index) => (
-                        <Checkbox
+                        <Radio
                           name="city"
-                          onChange={(value) => {
-                            setSelecteditem(value);
+                          onChange={(v) => {
+                            setSelecteditem(v.target.value);
                           }}
                           key={index}
                           value={item.name}
                           className="checkbox-single-value"
                         >
                           {item.name}
-                        </Checkbox>
+                        </Radio>
                       ))}
                     </div>
                   </div>
-                  <Input
-                    type="hidden"
-                    name="city"
-                    className="input_city"
-                    value={selecteditem}
-                  />
                 </Form.Item>
-                {/* <div> */}
 
-                {/* <Form.Item
-                  className="site-config-provider-calendar-wrapper"
-                  rules={[
-                    {
-                      required: true,
-                      message: 'Please input the date!',
-                    },
-                  ]}
-                >
-                  <Calendar
-                    fullscreen={false}
-                    onChange={(value) => {
-                      setSelectedDate(
-                        value._d.toString().split(' ').slice(0, 4).join(' ')
-                      );
-                    }}
-                    name="date"
-                  /> */}
-
-                {/* </Form.Item> */}
-                {/* <div> */}
                 <div className="btn-submit-send">
                   <Form.Item>
                     <Button
@@ -210,7 +164,6 @@ export default function ContactUs({
                     </Button>
                   </Form.Item>
                 </div>
-                {/* </div> */}
               </div>
             </div>
           </div>
