@@ -500,6 +500,40 @@
     ]
   },
   {
+    "id": 142,
+    "city": "Danniye",
+    "code": "dan7",
+    "type": "Outdoor Activity",
+    "genre": "adventure",
+    "name": "Hanging Bridge",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNdqQ5zKeBbwlGLYmEmu3Bd3pCSfLrpJWyGLHxW=w426-h240-k-no",
+    "images": [
+      "http://www.mumsinbeirut.com/wp-content/uploads/2020/07/image6-1.jpeg", 
+      "https://instagram.fkye4-1.fna.fbcdn.net/v/t51.2885-15/e35/153059506_121752693207650_170040163883871792_n.jpg?tp=1&_nc_ht=instagram.fkye4-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=W3WZbLRpTgAAX8BbjA3&oh=f71fa1dde987bad4f0dcffc4a0280082&oe=607636CE",
+      "https://blogbaladi.com/wp-content/uploads/2019/07/donnieh1-973x1200.jpg", 
+      "https://theworldin.pictures/Prv/Images/Pages/Page_98844/theglobejumpers-keepjumping-zahlan-grotto-3-11-2017-8-48-02-pm-l.jpg",
+      "http://www.mumsinbeirut.com/wp-content/uploads/2020/07/image5-300x225.jpeg"
+
+    ],
+    "address": "Sir El Danniye",
+    "address_coordinates": [34.38779600566557, 36.0294445594675],
+    "icon": "",
+    "description": "This breathtaking bridge and swing are located in the Northern District of Minieh-Dennieh; a region of 409 KM2. This striking, out-of-this-world experience has been built on the top of Jabal Al Arba’in measuring around 1400 meters above sea level",
+    "related_tags": ["nature", "hiking", "wildlife"],
+    "price": "FREE",
+    "rating": 3.8,
+    "tour_guides": [
+      {
+        "id": 162,
+        "image": "https://www.headshotsprague.com/wp-content/uploads/2019/07/Headshots_Prague-emotional-portrait-of-a-smiling-entrepreneur-1.jpg",
+        "name": "Sam Atallah",
+        "email": "discover.north.lebanon@gmail.com",
+        "summary": "Enthusiastic and experienced Tour Guide, eager to help make all of your travel dreams come true! Adept in planning all aspects of travel and stay, and wholly committed to achieving 100% client satisfaction. Multilingual and culturally enriched, with a proven track record of communicating well in foreign locations. Bringing forth the ability to research and plan memorable and organized trips, perfectly tailored to meet the needs and desires of clients",
+        "speciality_tags": ["Rock Climber", "Hiker", "Runner"]
+      }
+    ]
+  },
+  {
     "id": 181,
     "city": "Qammoua",
     "code": "qam7",
@@ -780,6 +814,39 @@
         "email": "discover.north.lebanon@gmail.com",
         "summary": "A highly motivated Tour Guide who is a natural communicator and able to provide an entertaining and informative excursion to her customers. Maxine has a flair for talking to groups of people along with a good memory for facts and figures. She has always been a fantastic storyteller with an infectious sense of humour and is an expert at thinking quickly on her feet. In her current role, she provides tourist with a unique, unforgettable experience that encourages them to fully participate with what is going on around them. Through her career she has learnt how to lead visitors through sites of historical and cultural interest. As a true professional she always displays a true passion for what she does. Right now, she is looking for a suitable position with a company that wants to employ hardworking individuals who get results.",
         "speciality_tags": ["Swimmer", "Life guard", "Waterboarding"]
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "city": "Batroun",
+    "code": "bat7",
+    "type": "Diving",
+    "genre": "beach",
+    "name": "Nabu Museum",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipM_ly3_xSocNc1TG26Cb7zDuO2iALyq6WWhOb-a=w408-h341-k-no",
+    "images": [
+      "https://www.lebanontraveler.com/wp-content/uploads/2018/10/Nabu-Museum-1.jpg", 
+      "https://www.lebanontraveler.com/wp-content/uploads/2018/10/Nabu-Museum-6.jpg", 
+      "https://architects77.com/wp-content/uploads/2020/04/Nabu-Museum-10.jpg", 
+      "https://images.squarespace-cdn.com/content/v1/5b4605dc55b02c82eea6d098/1551277030873-O60L3UOMS9D618QK3YX6/ke17ZwdGBToddI8pDm48kG87Sfbgg29A4BYEDq3OXvgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcf4OxbJOyh_wHUnyc4kQLQ6SBshRGOku7c30Y_IRDNPta8R2IY5BHMaEj1zOWoDTZ/_ARO2152.jpg?format=1500w"
+    ],
+    "address": "",
+    "address_coordinates": [34.311620106766995, 35.69524324568596],
+    "icon": "",
+    "description": "The Nabu Museum is a museum in El-Heri, in Ras Al Shaqa’, Lebanon. It opened in 2018, having been built in just eight months by businessman Jawad Adra to house his collection of about 2,000 items including both contemporary works of art and antiquities.",
+    "related_tags": ["Museum", "Sightseeing"],
+    "price": "10",
+    "rating": 4.0,
+    "tour_guides": [
+      {
+        "id": 251,
+        "image": "https://static.wixstatic.com/media/7fa9fc_31c59cea7f1c4606a84e6833da6142df~mv2.jpg/v1/fill/w_387,h_580,al_c,q_85/7fa9fc_31c59cea7f1c4606a84e6833da6142df~mv2.jpg",
+        "name": "Ella Saad",
+        "email": "discover.north.lebanon@gmail.com",
+        "summary": "Physically fit and able to lead the Tours on long trips. Comfortable with interacting and meeting with people from diverse backgrounds.Empathetic and highly sensitive to people’s backgrounds, cultures, and differences.",
+
+        "speciality_tags": ["Tour Guide", "Museum", "Life guard"]
       }
     ]
   },
