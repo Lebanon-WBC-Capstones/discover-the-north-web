@@ -171,7 +171,7 @@ export default function SingleCityPage() {
                     data={cities}
                     long={city.lng}
                     lat={city.lat}
-                    zoomNb={12}
+                    zoomNb={11}
                     infoType={0}
                   />
                 </Card>

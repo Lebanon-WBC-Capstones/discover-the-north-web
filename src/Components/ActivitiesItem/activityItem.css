@@ -3,6 +3,9 @@
   width: 90%;
   border-radius: 10px;
 }
+.tagsFontColor {
+  color: gray;
+}
 .rating-act-size {
   font-size: 14px;
 }
